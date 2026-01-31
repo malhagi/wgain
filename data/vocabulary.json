@@ -1,0 +1,2767 @@
+[
+  {
+    "id": "voc_001",
+    "characters": "你好",
+    "pinyin": "nǐ hǎo",
+    "meaning": "Hello",
+    "example": "你好，我是小明。"
+  },
+  {
+    "id": "voc_002",
+    "characters": "谢谢",
+    "pinyin": "xiè xie",
+    "meaning": "Thank you",
+    "example": "谢谢你帮助我。"
+  },
+  {
+    "id": "voc_003",
+    "characters": "不客气",
+    "pinyin": "bú kè qì",
+    "meaning": "You're welcome",
+    "example": "不客气，这是我应该做的。"
+  },
+  {
+    "id": "voc_004",
+    "characters": "请",
+    "pinyin": "qǐng",
+    "meaning": "Please",
+    "example": "请坐。"
+  },
+  {
+    "id": "voc_005",
+    "characters": "对不起",
+    "pinyin": "duì bu qǐ",
+    "meaning": "Sorry",
+    "example": "对不起，我迟到了。"
+  },
+  {
+    "id": "voc_006",
+    "characters": "没关系",
+    "pinyin": "méi guān xi",
+    "meaning": "It's okay / No problem",
+    "example": "没关系，我不介意。"
+  },
+  {
+    "id": "voc_007",
+    "characters": "再见",
+    "pinyin": "zài jiàn",
+    "meaning": "Goodbye",
+    "example": "再见，明天见！"
+  },
+  {
+    "id": "voc_008",
+    "characters": "早上",
+    "pinyin": "zǎo shang",
+    "meaning": "Morning",
+    "example": "早上好！"
+  },
+  {
+    "id": "voc_009",
+    "characters": "中午",
+    "pinyin": "zhōng wǔ",
+    "meaning": "Noon",
+    "example": "中午我们一起吃饭吧。"
+  },
+  {
+    "id": "voc_010",
+    "characters": "晚上",
+    "pinyin": "wǎn shang",
+    "meaning": "Evening",
+    "example": "晚上我要去图书馆。"
+  },
+  {
+    "id": "voc_011",
+    "characters": "今天",
+    "pinyin": "jīn tiān",
+    "meaning": "Today",
+    "example": "今天天气很好。"
+  },
+  {
+    "id": "voc_012",
+    "characters": "明天",
+    "pinyin": "míng tiān",
+    "meaning": "Tomorrow",
+    "example": "明天我要去北京。"
+  },
+  {
+    "id": "voc_013",
+    "characters": "昨天",
+    "pinyin": "zuó tiān",
+    "meaning": "Yesterday",
+    "example": "昨天我看了电影。"
+  },
+  {
+    "id": "voc_014",
+    "characters": "现在",
+    "pinyin": "xiàn zài",
+    "meaning": "Now",
+    "example": "现在几点了？"
+  },
+  {
+    "id": "voc_015",
+    "characters": "小时",
+    "pinyin": "xiǎo shí",
+    "meaning": "Hour",
+    "example": "我每天学习三个小时。"
+  },
+  {
+    "id": "voc_016",
+    "characters": "分钟",
+    "pinyin": "fēn zhōng",
+    "meaning": "Minute",
+    "example": "还有五分钟就上课了。"
+  },
+  {
+    "id": "voc_017",
+    "characters": "年",
+    "pinyin": "nián",
+    "meaning": "Year",
+    "example": "今年是2024年。"
+  },
+  {
+    "id": "voc_018",
+    "characters": "月",
+    "pinyin": "yuè",
+    "meaning": "Month",
+    "example": "这个月我很忙。"
+  },
+  {
+    "id": "voc_019",
+    "characters": "日",
+    "pinyin": "rì",
+    "meaning": "Day",
+    "example": "今天是几月几日？"
+  },
+  {
+    "id": "voc_020",
+    "characters": "星期",
+    "pinyin": "xīng qī",
+    "meaning": "Week",
+    "example": "这个星期我要考试。"
+  },
+  {
+    "id": "voc_021",
+    "characters": "学习",
+    "pinyin": "xué xí",
+    "meaning": "Study / Learn",
+    "example": "我在学习中文。"
+  },
+  {
+    "id": "voc_022",
+    "characters": "工作",
+    "pinyin": "gōng zuò",
+    "meaning": "Work",
+    "example": "我在一家公司工作。"
+  },
+  {
+    "id": "voc_023",
+    "characters": "吃",
+    "pinyin": "chī",
+    "meaning": "Eat",
+    "example": "我们一起吃饭吧。"
+  },
+  {
+    "id": "voc_024",
+    "characters": "喝",
+    "pinyin": "hē",
+    "meaning": "Drink",
+    "example": "我想喝咖啡。"
+  },
+  {
+    "id": "voc_025",
+    "characters": "去",
+    "pinyin": "qù",
+    "meaning": "Go",
+    "example": "我要去学校。"
+  },
+  {
+    "id": "voc_026",
+    "characters": "来",
+    "pinyin": "lái",
+    "meaning": "Come",
+    "example": "他明天来我家。"
+  },
+  {
+    "id": "voc_027",
+    "characters": "看",
+    "pinyin": "kàn",
+    "meaning": "Look / See / Watch",
+    "example": "我喜欢看电影。"
+  },
+  {
+    "id": "voc_028",
+    "characters": "听",
+    "pinyin": "tīng",
+    "meaning": "Listen",
+    "example": "我在听音乐。"
+  },
+  {
+    "id": "voc_029",
+    "characters": "说",
+    "pinyin": "shuō",
+    "meaning": "Speak / Say",
+    "example": "我会说中文。"
+  },
+  {
+    "id": "voc_030",
+    "characters": "做",
+    "pinyin": "zuò",
+    "meaning": "Do / Make",
+    "example": "你在做什么？"
+  },
+  {
+    "id": "voc_031",
+    "characters": "买",
+    "pinyin": "mǎi",
+    "meaning": "Buy",
+    "example": "我要买一本书。"
+  },
+  {
+    "id": "voc_032",
+    "characters": "卖",
+    "pinyin": "mài",
+    "meaning": "Sell",
+    "example": "这家店卖很多书。"
+  },
+  {
+    "id": "voc_033",
+    "characters": "喜欢",
+    "pinyin": "xǐ huān",
+    "meaning": "Like",
+    "example": "我喜欢中文。"
+  },
+  {
+    "id": "voc_034",
+    "characters": "爱",
+    "pinyin": "ài",
+    "meaning": "Love",
+    "example": "我爱我的家人。"
+  },
+  {
+    "id": "voc_035",
+    "characters": "想",
+    "pinyin": "xiǎng",
+    "meaning": "Want / Think",
+    "example": "我想去中国。"
+  },
+  {
+    "id": "voc_036",
+    "characters": "知道",
+    "pinyin": "zhī dào",
+    "meaning": "Know",
+    "example": "我知道这件事。"
+  },
+  {
+    "id": "voc_037",
+    "characters": "认识",
+    "pinyin": "rèn shi",
+    "meaning": "Recognize",
+    "example": "我认识他。"
+  },
+  {
+    "id": "voc_038",
+    "characters": "会",
+    "pinyin": "huì",
+    "meaning": "Can / Be able to",
+    "example": "我会说中文。"
+  },
+  {
+    "id": "voc_039",
+    "characters": "能",
+    "pinyin": "néng",
+    "meaning": "Can / Be able to",
+    "example": "你能帮我吗？"
+  },
+  {
+    "id": "voc_040",
+    "characters": "可以",
+    "pinyin": "kě yǐ",
+    "meaning": "Can / May",
+    "example": "我可以进来吗？"
+  },
+  {
+    "id": "voc_041",
+    "characters": "要",
+    "pinyin": "yào",
+    "meaning": "Want / Need",
+    "example": "我要去学校。"
+  },
+  {
+    "id": "voc_042",
+    "characters": "应该",
+    "pinyin": "yīng gāi",
+    "meaning": "Should",
+    "example": "你应该好好学习。"
+  },
+  {
+    "id": "voc_043",
+    "characters": "有",
+    "pinyin": "yǒu",
+    "meaning": "Have",
+    "example": "我有很多书。"
+  },
+  {
+    "id": "voc_044",
+    "characters": "没有",
+    "pinyin": "méi yǒu",
+    "meaning": "Don't have",
+    "example": "我没有时间。"
+  },
+  {
+    "id": "voc_045",
+    "characters": "是",
+    "pinyin": "shì",
+    "meaning": "Be / Is",
+    "example": "我是学生。"
+  },
+  {
+    "id": "voc_046",
+    "characters": "在",
+    "pinyin": "zài",
+    "meaning": "At / In",
+    "example": "我在家。"
+  },
+  {
+    "id": "voc_047",
+    "characters": "有",
+    "pinyin": "yǒu",
+    "meaning": "Have",
+    "example": "桌子上有一本书。"
+  },
+  {
+    "id": "voc_048",
+    "characters": "好",
+    "pinyin": "hǎo",
+    "meaning": "Good",
+    "example": "今天天气很好。"
+  },
+  {
+    "id": "voc_049",
+    "characters": "大",
+    "pinyin": "dà",
+    "meaning": "Big / Large",
+    "example": "这个房间很大。"
+  },
+  {
+    "id": "voc_050",
+    "characters": "小",
+    "pinyin": "xiǎo",
+    "meaning": "Small / Little",
+    "example": "这个包很小。"
+  },
+  {
+    "id": "voc_051",
+    "characters": "多",
+    "pinyin": "duō",
+    "meaning": "Many / Much",
+    "example": "这里有很多人。"
+  },
+  {
+    "id": "voc_052",
+    "characters": "少",
+    "pinyin": "shǎo",
+    "meaning": "Few / Little",
+    "example": "今天人很少。"
+  },
+  {
+    "id": "voc_053",
+    "characters": "新",
+    "pinyin": "xīn",
+    "meaning": "New",
+    "example": "这是一本新书。"
+  },
+  {
+    "id": "voc_054",
+    "characters": "旧",
+    "pinyin": "jiù",
+    "meaning": "Old",
+    "example": "这是旧房子。"
+  },
+  {
+    "id": "voc_055",
+    "characters": "高",
+    "pinyin": "gāo",
+    "meaning": "Tall / High",
+    "example": "这座山很高。"
+  },
+  {
+    "id": "voc_056",
+    "characters": "低",
+    "pinyin": "dī",
+    "meaning": "Low",
+    "example": "价格很低。"
+  },
+  {
+    "id": "voc_057",
+    "characters": "长",
+    "pinyin": "cháng",
+    "meaning": "Long",
+    "example": "这条路很长。"
+  },
+  {
+    "id": "voc_058",
+    "characters": "短",
+    "pinyin": "duǎn",
+    "meaning": "Short",
+    "example": "这篇文章很短。"
+  },
+  {
+    "id": "voc_059",
+    "characters": "快",
+    "pinyin": "kuài",
+    "meaning": "Fast",
+    "example": "他跑得很快。"
+  },
+  {
+    "id": "voc_060",
+    "characters": "慢",
+    "pinyin": "màn",
+    "meaning": "Slow",
+    "example": "这辆车很慢。"
+  },
+  {
+    "id": "voc_061",
+    "characters": "热",
+    "pinyin": "rè",
+    "meaning": "Hot",
+    "example": "今天很热。"
+  },
+  {
+    "id": "voc_062",
+    "characters": "冷",
+    "pinyin": "lěng",
+    "meaning": "Cold",
+    "example": "冬天很冷。"
+  },
+  {
+    "id": "voc_063",
+    "characters": "我",
+    "pinyin": "wǒ",
+    "meaning": "I / Me",
+    "example": "我是学生。"
+  },
+  {
+    "id": "voc_064",
+    "characters": "你",
+    "pinyin": "nǐ",
+    "meaning": "You",
+    "example": "你好吗？"
+  },
+  {
+    "id": "voc_065",
+    "characters": "他",
+    "pinyin": "tā",
+    "meaning": "He / Him",
+    "example": "他是我的朋友。"
+  },
+  {
+    "id": "voc_066",
+    "characters": "她",
+    "pinyin": "tā",
+    "meaning": "She / Her",
+    "example": "她是我的老师。"
+  },
+  {
+    "id": "voc_067",
+    "characters": "我们",
+    "pinyin": "wǒ men",
+    "meaning": "We / Us",
+    "example": "我们是同学。"
+  },
+  {
+    "id": "voc_068",
+    "characters": "你们",
+    "pinyin": "nǐ men",
+    "meaning": "You (plural)",
+    "example": "你们好！"
+  },
+  {
+    "id": "voc_069",
+    "characters": "他们",
+    "pinyin": "tā men",
+    "meaning": "They / Them",
+    "example": "他们是我的朋友。"
+  },
+  {
+    "id": "voc_070",
+    "characters": "这",
+    "pinyin": "zhè",
+    "meaning": "This",
+    "example": "这是什么？"
+  },
+  {
+    "id": "voc_071",
+    "characters": "那",
+    "pinyin": "nà",
+    "meaning": "That",
+    "example": "那是什么？"
+  },
+  {
+    "id": "voc_072",
+    "characters": "什么",
+    "pinyin": "shén me",
+    "meaning": "What",
+    "example": "你在做什么？"
+  },
+  {
+    "id": "voc_073",
+    "characters": "谁",
+    "pinyin": "shéi",
+    "meaning": "Who",
+    "example": "你是谁？"
+  },
+  {
+    "id": "voc_074",
+    "characters": "哪里",
+    "pinyin": "nǎ lǐ",
+    "meaning": "Where",
+    "example": "你去哪里？"
+  },
+  {
+    "id": "voc_075",
+    "characters": "怎么",
+    "pinyin": "zěn me",
+    "meaning": "How",
+    "example": "你怎么去学校？"
+  },
+  {
+    "id": "voc_076",
+    "characters": "为什么",
+    "pinyin": "wèi shén me",
+    "meaning": "Why",
+    "example": "你为什么迟到？"
+  },
+  {
+    "id": "voc_077",
+    "characters": "多少",
+    "pinyin": "duō shao",
+    "meaning": "How much / How many",
+    "example": "这个多少钱？"
+  },
+  {
+    "id": "voc_078",
+    "characters": "几",
+    "pinyin": "jǐ",
+    "meaning": "How many / Several",
+    "example": "现在几点了？"
+  },
+  {
+    "id": "voc_079",
+    "characters": "一",
+    "pinyin": "yī",
+    "meaning": "One",
+    "example": "我有一个朋友。"
+  },
+  {
+    "id": "voc_080",
+    "characters": "二",
+    "pinyin": "èr",
+    "meaning": "Two",
+    "example": "我有两个苹果。"
+  },
+  {
+    "id": "voc_081",
+    "characters": "三",
+    "pinyin": "sān",
+    "meaning": "Three",
+    "example": "三个人"
+  },
+  {
+    "id": "voc_082",
+    "characters": "四",
+    "pinyin": "sì",
+    "meaning": "Four",
+    "example": "四个苹果"
+  },
+  {
+    "id": "voc_083",
+    "characters": "五",
+    "pinyin": "wǔ",
+    "meaning": "Five",
+    "example": "五个人"
+  },
+  {
+    "id": "voc_084",
+    "characters": "六",
+    "pinyin": "liù",
+    "meaning": "Six",
+    "example": "六本书"
+  },
+  {
+    "id": "voc_085",
+    "characters": "七",
+    "pinyin": "qī",
+    "meaning": "Seven",
+    "example": "七点"
+  },
+  {
+    "id": "voc_086",
+    "characters": "八",
+    "pinyin": "bā",
+    "meaning": "Eight",
+    "example": "八个人"
+  },
+  {
+    "id": "voc_087",
+    "characters": "九",
+    "pinyin": "jiǔ",
+    "meaning": "Nine",
+    "example": "九点"
+  },
+  {
+    "id": "voc_088",
+    "characters": "十",
+    "pinyin": "shí",
+    "meaning": "Ten",
+    "example": "十个人"
+  },
+  {
+    "id": "voc_089",
+    "characters": "学校",
+    "pinyin": "xué xiào",
+    "meaning": "School",
+    "example": "我在学校学习。"
+  },
+  {
+    "id": "voc_090",
+    "characters": "老师",
+    "pinyin": "lǎo shī",
+    "meaning": "Teacher",
+    "example": "我的老师很好。"
+  },
+  {
+    "id": "voc_091",
+    "characters": "学生",
+    "pinyin": "xué sheng",
+    "meaning": "Student",
+    "example": "我是学生。"
+  },
+  {
+    "id": "voc_092",
+    "characters": "朋友",
+    "pinyin": "péng you",
+    "meaning": "Friend",
+    "example": "他是我的好朋友。"
+  },
+  {
+    "id": "voc_093",
+    "characters": "家",
+    "pinyin": "jiā",
+    "meaning": "Home / Family",
+    "example": "我在家。"
+  },
+  {
+    "id": "voc_094",
+    "characters": "房间",
+    "pinyin": "fáng jiān",
+    "meaning": "Room",
+    "example": "这个房间很大。"
+  },
+  {
+    "id": "voc_095",
+    "characters": "书",
+    "pinyin": "shū",
+    "meaning": "Book",
+    "example": "我有很多书。"
+  },
+  {
+    "id": "voc_096",
+    "characters": "本",
+    "pinyin": "běn",
+    "meaning": "Measure word for books",
+    "example": "一本书"
+  },
+  {
+    "id": "voc_097",
+    "characters": "个",
+    "pinyin": "gè",
+    "meaning": "Measure word (general)",
+    "example": "一个人"
+  },
+  {
+    "id": "voc_098",
+    "characters": "张",
+    "pinyin": "zhāng",
+    "meaning": "Measure word for paper, tables",
+    "example": "一张纸"
+  },
+  {
+    "id": "voc_099",
+    "characters": "件",
+    "pinyin": "jiàn",
+    "meaning": "Measure word for clothes",
+    "example": "一件衣服"
+  },
+  {
+    "id": "voc_100",
+    "characters": "块",
+    "pinyin": "kuài",
+    "meaning": "Measure word for money, pieces",
+    "example": "一块钱"
+  },
+  {
+    "id": "hsk3_001",
+    "characters": "欢迎",
+    "pinyin": "huān yíng",
+    "meaning": "Welcome",
+    "example": "欢迎你来我家。"
+  },
+  {
+    "id": "hsk3_002",
+    "characters": "换",
+    "pinyin": "huàn",
+    "meaning": "Change",
+    "example": "我要换一件衣服。"
+  },
+  {
+    "id": "hsk3_003",
+    "characters": "回答",
+    "pinyin": "huí dá",
+    "meaning": "Answer",
+    "example": "请回答这个问题。"
+  },
+  {
+    "id": "hsk3_004",
+    "characters": "记得",
+    "pinyin": "ji de",
+    "meaning": "Remember",
+    "example": "我记得这件事。"
+  },
+  {
+    "id": "hsk3_005",
+    "characters": "检查",
+    "pinyin": "jiǎn chá",
+    "meaning": "Inspect",
+    "example": "医生检查了我的身体。"
+  },
+  {
+    "id": "hsk3_006",
+    "characters": "见面",
+    "pinyin": "jiàn miàn",
+    "meaning": "Meet",
+    "example": "我们明天见面吧。"
+  },
+  {
+    "id": "hsk3_007",
+    "characters": "讲",
+    "pinyin": "jiăng",
+    "meaning": "Speak",
+    "example": "他讲得很好。"
+  },
+  {
+    "id": "hsk3_008",
+    "characters": "教",
+    "pinyin": "jiāo",
+    "meaning": "Teach",
+    "example": "老师教我们中文。"
+  },
+  {
+    "id": "hsk3_009",
+    "characters": "帮忙",
+    "pinyin": "bāng máng",
+    "meaning": "Help",
+    "example": "这是帮忙。"
+  },
+  {
+    "id": "hsk3_010",
+    "characters": "接",
+    "pinyin": "jiē",
+    "meaning": "Pick, Get",
+    "example": "我去接你。"
+  },
+  {
+    "id": "hsk3_011",
+    "characters": "结婚",
+    "pinyin": "jié hūn",
+    "meaning": "Marry",
+    "example": "他们结婚了。"
+  },
+  {
+    "id": "hsk3_012",
+    "characters": "结束",
+    "pinyin": "jié shù",
+    "meaning": "End",
+    "example": "会议结束了。"
+  },
+  {
+    "id": "hsk3_013",
+    "characters": "解决",
+    "pinyin": "jiě jué",
+    "meaning": "Solve",
+    "example": "我们解决了这个问题。"
+  },
+  {
+    "id": "hsk3_014",
+    "characters": "借",
+    "pinyin": "jiè",
+    "meaning": "Borrow",
+    "example": "我可以借你的书吗？"
+  },
+  {
+    "id": "hsk3_015",
+    "characters": "经过",
+    "pinyin": "jīng guò",
+    "meaning": "After, Through",
+    "example": "我经过学校。"
+  },
+  {
+    "id": "hsk3_016",
+    "characters": "决定",
+    "pinyin": "jué ding",
+    "meaning": "Decision",
+    "example": "我决定去北京。"
+  },
+  {
+    "id": "hsk3_017",
+    "characters": "离开",
+    "pinyin": "lí kāi",
+    "meaning": "Leave",
+    "example": "他离开了。"
+  },
+  {
+    "id": "hsk3_018",
+    "characters": "聊天",
+    "pinyin": "liáo tiān",
+    "meaning": "Chat",
+    "example": "我们一起聊天吧。"
+  },
+  {
+    "id": "hsk3_019",
+    "characters": "练习",
+    "pinyin": "liàn xí",
+    "meaning": "Practice",
+    "example": "我每天练习中文。"
+  },
+  {
+    "id": "hsk3_020",
+    "characters": "了解",
+    "pinyin": "liǎo jiě",
+    "meaning": "Understand",
+    "example": "我了解你的意思。"
+  },
+  {
+    "id": "hsk3_021",
+    "characters": "留学",
+    "pinyin": "liú xué",
+    "meaning": "Overseas Study",
+    "example": "我想去中国留学。"
+  },
+  {
+    "id": "hsk3_022",
+    "characters": "满意",
+    "pinyin": "mănyì",
+    "meaning": "Satisfied",
+    "example": "我很满意。"
+  },
+  {
+    "id": "hsk3_023",
+    "characters": "拿",
+    "pinyin": "ná",
+    "meaning": "Take",
+    "example": "请拿一本书。"
+  },
+  {
+    "id": "hsk3_024",
+    "characters": "努力",
+    "pinyin": "nŭli",
+    "meaning": "Strive",
+    "example": "我要努力学习。"
+  },
+  {
+    "id": "hsk3_025",
+    "characters": "爬山",
+    "pinyin": "pá shān",
+    "meaning": "Mountain climbing",
+    "example": "我喜欢爬山。"
+  },
+  {
+    "id": "hsk3_026",
+    "characters": "比较",
+    "pinyin": "bi jiào",
+    "meaning": "Compare",
+    "example": "这是比较。"
+  },
+  {
+    "id": "hsk3_027",
+    "characters": "骑",
+    "pinyin": "qi",
+    "meaning": "Ride",
+    "example": "我骑自行车。"
+  },
+  {
+    "id": "hsk3_028",
+    "characters": "起来",
+    "pinyin": "qi lái",
+    "meaning": "Get up",
+    "example": "请站起来。"
+  },
+  {
+    "id": "hsk3_029",
+    "characters": "起飞",
+    "pinyin": "qi fēi",
+    "meaning": "Take off",
+    "example": "飞机起飞了。"
+  },
+  {
+    "id": "hsk3_030",
+    "characters": "请假",
+    "pinyin": "qing jià",
+    "meaning": "Ask for leave",
+    "example": "我要请假。"
+  },
+  {
+    "id": "hsk3_031",
+    "characters": "比赛",
+    "pinyin": "bī sài",
+    "meaning": "Match",
+    "example": "这是比赛。"
+  },
+  {
+    "id": "hsk3_032",
+    "characters": "认为",
+    "pinyin": "rèn wéi",
+    "meaning": "Think",
+    "example": "我认为这是对的。"
+  },
+  {
+    "id": "hsk3_033",
+    "characters": "上网",
+    "pinyin": "shà ngwăng",
+    "meaning": "Surf the Internet",
+    "example": "我喜欢上网。"
+  },
+  {
+    "id": "hsk3_034",
+    "characters": "生气",
+    "pinyin": "shēng qì",
+    "meaning": "Get angry",
+    "example": "他生气了。"
+  },
+  {
+    "id": "hsk3_035",
+    "characters": "试",
+    "pinyin": "shì",
+    "meaning": "Try",
+    "example": "让我试试。"
+  },
+  {
+    "id": "hsk3_036",
+    "characters": "刷牙",
+    "pinyin": "shuā yá",
+    "meaning": "Brush one's teeth",
+    "example": "我每天刷牙。"
+  },
+  {
+    "id": "hsk3_037",
+    "characters": "提高",
+    "pinyin": "tí gão",
+    "meaning": "Increase",
+    "example": "我要提高中文水平。"
+  },
+  {
+    "id": "hsk3_038",
+    "characters": "变化",
+    "pinyin": "biàn huà",
+    "meaning": "Change",
+    "example": "这是变化。"
+  },
+  {
+    "id": "hsk3_039",
+    "characters": "同意",
+    "pinyin": "tóng yì",
+    "meaning": "Agree",
+    "example": "我同意你的意见。"
+  },
+  {
+    "id": "hsk3_040",
+    "characters": "完成",
+    "pinyin": "wán chéng",
+    "meaning": "Complete",
+    "example": "我完成了作业。"
+  },
+  {
+    "id": "hsk3_041",
+    "characters": "忘记",
+    "pinyin": "wàng jì",
+    "meaning": "Forget",
+    "example": "我忘记了。"
+  },
+  {
+    "id": "hsk3_042",
+    "characters": "习惯",
+    "pinyin": "xí guàn",
+    "meaning": "Habit",
+    "example": "这是我的习惯。"
+  },
+  {
+    "id": "hsk3_043",
+    "characters": "洗澡",
+    "pinyin": "xi zão",
+    "meaning": "Take a shower",
+    "example": "我要洗澡了。"
+  },
+  {
+    "id": "hsk3_044",
+    "characters": "相信",
+    "pinyin": "xiāng xìn",
+    "meaning": "Believe",
+    "example": "我相信你。"
+  },
+  {
+    "id": "hsk3_045",
+    "characters": "像",
+    "pinyin": "xiàng",
+    "meaning": "Image",
+    "example": "他很像他爸爸。"
+  },
+  {
+    "id": "hsk3_046",
+    "characters": "小心",
+    "pinyin": "xiǎo xīn",
+    "meaning": "Watch out",
+    "example": "请小心。"
+  },
+  {
+    "id": "hsk3_047",
+    "characters": "选择",
+    "pinyin": "xuǎn zé",
+    "meaning": "Choice",
+    "example": "我选择了这个。"
+  },
+  {
+    "id": "hsk3_048",
+    "characters": "要求",
+    "pinyin": "yāo qiú",
+    "meaning": "Requirement",
+    "example": "这是我的要求。"
+  },
+  {
+    "id": "hsk3_049",
+    "characters": "参加",
+    "pinyin": "cān jiā",
+    "meaning": "Participate in",
+    "example": "这是参加。"
+  },
+  {
+    "id": "hsk3_050",
+    "characters": "应该",
+    "pinyin": "yīng i",
+    "meaning": "Should",
+    "example": "你应该好好学习。"
+  },
+  {
+    "id": "hsk3_051",
+    "characters": "影响",
+    "pinyin": "yi ngxiăng",
+    "meaning": "Influence",
+    "example": "这影响了我。"
+  },
+  {
+    "id": "hsk3_052",
+    "characters": "用",
+    "pinyin": "yòng",
+    "meaning": "Use",
+    "example": "我用电脑工作。"
+  },
+  {
+    "id": "hsk3_053",
+    "characters": "遇到",
+    "pinyin": "yù dào",
+    "meaning": "Encounter",
+    "example": "我遇到了朋友。"
+  },
+  {
+    "id": "hsk3_054",
+    "characters": "愿意",
+    "pinyin": "yuàn yì",
+    "meaning": "Be willing",
+    "example": "我愿意帮助你。"
+  },
+  {
+    "id": "hsk3_055",
+    "characters": "照顾",
+    "pinyin": "zhào gù",
+    "meaning": "Look after",
+    "example": "请照顾孩子。"
+  },
+  {
+    "id": "hsk3_056",
+    "characters": "注意",
+    "pinyin": "zhù yì",
+    "meaning": "Be careful",
+    "example": "请注意安全。"
+  },
+  {
+    "id": "hsk3_057",
+    "characters": "迟到",
+    "pinyin": "chí dào",
+    "meaning": "Late",
+    "example": "我迟到了。"
+  },
+  {
+    "id": "hsk3_058",
+    "characters": "打扫",
+    "pinyin": "dăsão",
+    "meaning": "Clean",
+    "example": "我要打扫房间。"
+  },
+  {
+    "id": "hsk3_059",
+    "characters": "打算",
+    "pinyin": "dăsuà n",
+    "meaning": "Plan",
+    "example": "我打算去北京。"
+  },
+  {
+    "id": "hsk3_060",
+    "characters": "担心",
+    "pinyin": "dān xīn",
+    "meaning": "Worry",
+    "example": "我很担心。"
+  },
+  {
+    "id": "hsk3_061",
+    "characters": "锻炼",
+    "pinyin": "duàn liàn",
+    "meaning": "Physical exercise",
+    "example": "我每天锻炼身体。"
+  },
+  {
+    "id": "hsk3_062",
+    "characters": "发",
+    "pinyin": "fa",
+    "meaning": "Send out",
+    "example": "我发了一封邮件。"
+  },
+  {
+    "id": "hsk3_063",
+    "characters": "发烧",
+    "pinyin": "fā shāo",
+    "meaning": "Have a fever",
+    "example": "我发烧了。"
+  },
+  {
+    "id": "hsk3_064",
+    "characters": "发现",
+    "pinyin": "fā xiàn",
+    "meaning": "Find, Discover",
+    "example": "我发现了问题。"
+  },
+  {
+    "id": "hsk3_065",
+    "characters": "复习",
+    "pinyin": "fù xí",
+    "meaning": "Review",
+    "example": "我要复习功课。"
+  },
+  {
+    "id": "hsk3_066",
+    "characters": "感兴趣",
+    "pinyin": "gănxì ngqù",
+    "meaning": "Be intretested in",
+    "example": "我对中文感兴趣。"
+  },
+  {
+    "id": "hsk3_067",
+    "characters": "搬",
+    "pinyin": "bān",
+    "meaning": "Move",
+    "example": "我要搬家。"
+  },
+  {
+    "id": "hsk3_068",
+    "characters": "刮风",
+    "pinyin": "guā fēng",
+    "meaning": "Windy",
+    "example": "今天刮风了。"
+  },
+  {
+    "id": "hsk3_069",
+    "characters": "关",
+    "pinyin": "guān",
+    "meaning": "Shut",
+    "example": "请关门。"
+  },
+  {
+    "id": "hsk3_070",
+    "characters": "简单",
+    "pinyin": "jiǎn dān",
+    "meaning": "Simple",
+    "example": "我很简单。"
+  },
+  {
+    "id": "hsk3_071",
+    "characters": "旧",
+    "pinyin": "jiù",
+    "meaning": "Old, Used",
+    "example": "这是旧。"
+  },
+  {
+    "id": "hsk3_072",
+    "characters": "饱",
+    "pinyin": "bão",
+    "meaning": "Full",
+    "example": "这是饱。"
+  },
+  {
+    "id": "hsk3_073",
+    "characters": "明白",
+    "pinyin": "míng bai",
+    "meaning": "Clear",
+    "example": "我很明白。"
+  },
+  {
+    "id": "hsk3_074",
+    "characters": "难",
+    "pinyin": "nán",
+    "meaning": "Difficult",
+    "example": "这是难。"
+  },
+  {
+    "id": "hsk3_075",
+    "characters": "难过",
+    "pinyin": "náng uò",
+    "meaning": "Sad",
+    "example": "我很难过。"
+  },
+  {
+    "id": "hsk3_076",
+    "characters": "胖",
+    "pinyin": "pàng",
+    "meaning": "Fat",
+    "example": "这是胖。"
+  },
+  {
+    "id": "hsk3_077",
+    "characters": "清楚",
+    "pinyin": "qīng chu",
+    "meaning": "Clear",
+    "example": "我很清楚。"
+  },
+  {
+    "id": "hsk3_078",
+    "characters": "容易",
+    "pinyin": "róng yì",
+    "meaning": "Easily",
+    "example": "我很容易。"
+  },
+  {
+    "id": "hsk3_079",
+    "characters": "瘦",
+    "pinyin": "shòu",
+    "meaning": "Thin",
+    "example": "这是瘦。"
+  },
+  {
+    "id": "hsk3_080",
+    "characters": "舒服",
+    "pinyin": "shū fu",
+    "meaning": "Comfortable",
+    "example": "这是舒服。"
+  },
+  {
+    "id": "hsk3_081",
+    "characters": "新鲜",
+    "pinyin": "xīn xiān",
+    "meaning": "Fresh",
+    "example": "这是新鲜。"
+  },
+  {
+    "id": "hsk3_082",
+    "characters": "以前",
+    "pinyin": "yī qián",
+    "meaning": "Before",
+    "example": "这是以前。"
+  },
+  {
+    "id": "hsk3_083",
+    "characters": "着急",
+    "pinyin": "zháo jí",
+    "meaning": "Worry",
+    "example": "这是着急。"
+  },
+  {
+    "id": "hsk3_084",
+    "characters": "矮",
+    "pinyin": "ǎi",
+    "meaning": "Short",
+    "example": "这是矮。"
+  },
+  {
+    "id": "hsk3_085",
+    "characters": "饿",
+    "pinyin": "è",
+    "meaning": "Hungry",
+    "example": "这是饿。"
+  },
+  {
+    "id": "hsk3_086",
+    "characters": "放心",
+    "pinyin": "fàng xīn",
+    "meaning": "Don't worry",
+    "example": "这是放心。"
+  },
+  {
+    "id": "hsk3_087",
+    "characters": "坏",
+    "pinyin": "huài",
+    "meaning": "Bad",
+    "example": "这个很坏。"
+  },
+  {
+    "id": "hsk3_088",
+    "characters": "北方",
+    "pinyin": "běi fāng",
+    "meaning": "North",
+    "example": "这是北方。"
+  },
+  {
+    "id": "hsk3_089",
+    "characters": "南",
+    "pinyin": "nán",
+    "meaning": "South",
+    "example": "这是南。"
+  },
+  {
+    "id": "hsk3_090",
+    "characters": "秋",
+    "pinyin": "qiū",
+    "meaning": "Autumn",
+    "example": "这是秋。"
+  },
+  {
+    "id": "hsk3_091",
+    "characters": "西",
+    "pinyin": "XI",
+    "meaning": "West",
+    "example": "这是西。"
+  },
+  {
+    "id": "hsk3_092",
+    "characters": "夏",
+    "pinyin": "xià",
+    "meaning": "Summer",
+    "example": "这是夏。"
+  },
+  {
+    "id": "hsk3_093",
+    "characters": "春",
+    "pinyin": "chūn",
+    "meaning": "Spring",
+    "example": "这是春。"
+  },
+  {
+    "id": "hsk3_094",
+    "characters": "东",
+    "pinyin": "dōng",
+    "meaning": "East",
+    "example": "这是东。"
+  },
+  {
+    "id": "hsk3_095",
+    "characters": "冬",
+    "pinyin": "dōng",
+    "meaning": "Winter",
+    "example": "这是冬。"
+  },
+  {
+    "id": "hsk3_096",
+    "characters": "辆",
+    "pinyin": "liàng",
+    "meaning": "Car",
+    "example": "这是辆。"
+  },
+  {
+    "id": "hsk3_097",
+    "characters": "双",
+    "pinyin": "shuāng",
+    "meaning": "Double, Pair",
+    "example": "这是双。"
+  },
+  {
+    "id": "hsk3_098",
+    "characters": "条",
+    "pinyin": "tiáo",
+    "meaning": "Strip",
+    "example": "这是条。"
+  },
+  {
+    "id": "hsk3_099",
+    "characters": "位",
+    "pinyin": "wèi",
+    "meaning": "Position",
+    "example": "这是位。"
+  },
+  {
+    "id": "hsk3_100",
+    "characters": "张",
+    "pinyin": "zhāng",
+    "meaning": "Zhang (surname)",
+    "example": "这是张。"
+  },
+  {
+    "id": "hsk3_101",
+    "characters": "层",
+    "pinyin": "céng",
+    "meaning": "Layer",
+    "example": "这是层。"
+  },
+  {
+    "id": "hsk3_102",
+    "characters": "种",
+    "pinyin": "zhōng",
+    "meaning": "Species",
+    "example": "这是种。"
+  },
+  {
+    "id": "hsk3_103",
+    "characters": "段",
+    "pinyin": "duàn",
+    "meaning": "Paragraph",
+    "example": "这是段。"
+  },
+  {
+    "id": "hsk3_104",
+    "characters": "把",
+    "pinyin": "bă",
+    "meaning": "Hold",
+    "example": "这是把。"
+  },
+  {
+    "id": "hsk3_105",
+    "characters": "公斤",
+    "pinyin": "gō ngjĩn",
+    "meaning": "Kg.",
+    "example": "这是公斤。"
+  },
+  {
+    "id": "hsk3_106",
+    "characters": "阿姨",
+    "pinyin": "ā yí",
+    "meaning": "Aunt",
+    "example": "这是阿姨。"
+  },
+  {
+    "id": "hsk3_107",
+    "characters": "办法",
+    "pinyin": "bàn fǎ",
+    "meaning": "Way",
+    "example": "这是办法。"
+  },
+  {
+    "id": "hsk3_108",
+    "characters": "还(动词)",
+    "pinyin": "huán",
+    "meaning": "Return",
+    "example": "我喜欢还(动词)。"
+  },
+  {
+    "id": "hsk3_109",
+    "characters": "环境",
+    "pinyin": "huán jìng",
+    "meaning": "Environment",
+    "example": "这是环境。"
+  },
+  {
+    "id": "hsk3_110",
+    "characters": "黄河",
+    "pinyin": "huáng hé",
+    "meaning": "Yellow River",
+    "example": "这是黄河。"
+  },
+  {
+    "id": "hsk3_111",
+    "characters": "会议",
+    "pinyin": "huì yì",
+    "meaning": "Meeting",
+    "example": "这是会议。"
+  },
+  {
+    "id": "hsk3_112",
+    "characters": "或者",
+    "pinyin": "huò zhě",
+    "meaning": "Perhaps",
+    "example": "这是或者。"
+  },
+  {
+    "id": "hsk3_113",
+    "characters": "几乎",
+    "pinyin": "jī hū",
+    "meaning": "Almost",
+    "example": "这是几乎。"
+  },
+  {
+    "id": "hsk3_114",
+    "characters": "机会",
+    "pinyin": "jī huì",
+    "meaning": "Opportunity",
+    "example": "这是机会。"
+  },
+  {
+    "id": "hsk3_115",
+    "characters": "办公室",
+    "pinyin": "bàng ōng shì",
+    "meaning": "Office",
+    "example": "我喜欢办公室。"
+  },
+  {
+    "id": "hsk3_116",
+    "characters": "极",
+    "pinyin": "ji",
+    "meaning": "Extremely",
+    "example": "这是极。"
+  },
+  {
+    "id": "hsk3_117",
+    "characters": "季节",
+    "pinyin": "ji jié",
+    "meaning": "Season",
+    "example": "这是季节。"
+  },
+  {
+    "id": "hsk3_118",
+    "characters": "健康",
+    "pinyin": "jiàn kāng",
+    "meaning": "Healthy",
+    "example": "这是健康。"
+  },
+  {
+    "id": "hsk3_119",
+    "characters": "角",
+    "pinyin": "jiǎo",
+    "meaning": "Horn",
+    "example": "这是角。"
+  },
+  {
+    "id": "hsk3_120",
+    "characters": "脚",
+    "pinyin": "jiǎo",
+    "meaning": "Foot",
+    "example": "这是脚。"
+  },
+  {
+    "id": "hsk3_121",
+    "characters": "街道",
+    "pinyin": "jiē dào",
+    "meaning": "Street",
+    "example": "这是街道。"
+  },
+  {
+    "id": "hsk3_122",
+    "characters": "节目",
+    "pinyin": "jié mù",
+    "meaning": "Program",
+    "example": "这是节目。"
+  },
+  {
+    "id": "hsk3_123",
+    "characters": "节日",
+    "pinyin": "jiér ì",
+    "meaning": "Festival",
+    "example": "这是节日。"
+  },
+  {
+    "id": "hsk3_124",
+    "characters": "经常",
+    "pinyin": "jīng cháng",
+    "meaning": "Often",
+    "example": "这是经常。"
+  },
+  {
+    "id": "hsk3_125",
+    "characters": "包",
+    "pinyin": "bão",
+    "meaning": "Package",
+    "example": "这是包。"
+  },
+  {
+    "id": "hsk3_126",
+    "characters": "经理",
+    "pinyin": "jīng li",
+    "meaning": "Manager",
+    "example": "这是经理。"
+  },
+  {
+    "id": "hsk3_127",
+    "characters": "久",
+    "pinyin": "jiŭ",
+    "meaning": "Long",
+    "example": "这是久。"
+  },
+  {
+    "id": "hsk3_128",
+    "characters": "句子",
+    "pinyin": "jù zi",
+    "meaning": "Sentence",
+    "example": "这是句子。"
+  },
+  {
+    "id": "hsk3_129",
+    "characters": "渴",
+    "pinyin": "kě",
+    "meaning": "Thirsty",
+    "example": "这是渴。"
+  },
+  {
+    "id": "hsk3_130",
+    "characters": "可爱",
+    "pinyin": "kě ài",
+    "meaning": "Lovely",
+    "example": "这是可爱。"
+  },
+  {
+    "id": "hsk3_131",
+    "characters": "刻",
+    "pinyin": "kè",
+    "meaning": "Moment",
+    "example": "这是刻。"
+  },
+  {
+    "id": "hsk3_132",
+    "characters": "客人",
+    "pinyin": "kèr én",
+    "meaning": "Guest",
+    "example": "这是客人。"
+  },
+  {
+    "id": "hsk3_133",
+    "characters": "空调",
+    "pinyin": "kōng tiáo",
+    "meaning": "Air conditioner",
+    "example": "这是空调。"
+  },
+  {
+    "id": "hsk3_134",
+    "characters": "Π",
+    "pinyin": "kõu",
+    "meaning": "Mouth",
+    "example": "这是Π。"
+  },
+  {
+    "id": "hsk3_135",
+    "characters": "哭",
+    "pinyin": "kū",
+    "meaning": "Cry",
+    "example": "这是哭。"
+  },
+  {
+    "id": "hsk3_136",
+    "characters": "裤子",
+    "pinyin": "ku zi",
+    "meaning": "Trousers",
+    "example": "这是裤子。"
+  },
+  {
+    "id": "hsk3_137",
+    "characters": "筷子",
+    "pinyin": "kuài zi",
+    "meaning": "Chopsticks",
+    "example": "这是筷子。"
+  },
+  {
+    "id": "hsk3_138",
+    "characters": "蓝",
+    "pinyin": "lán",
+    "meaning": "Blue",
+    "example": "这是蓝。"
+  },
+  {
+    "id": "hsk3_139",
+    "characters": "老",
+    "pinyin": "lão",
+    "meaning": "Old",
+    "example": "这是老。"
+  },
+  {
+    "id": "hsk3_140",
+    "characters": "礼物",
+    "pinyin": "lī wù",
+    "meaning": "Gift",
+    "example": "这是礼物。"
+  },
+  {
+    "id": "hsk3_141",
+    "characters": "历史",
+    "pinyin": "li shi",
+    "meaning": "History",
+    "example": "这是历史。"
+  },
+  {
+    "id": "hsk3_142",
+    "characters": "脸",
+    "pinyin": "liăn",
+    "meaning": "Face",
+    "example": "这是脸。"
+  },
+  {
+    "id": "hsk3_143",
+    "characters": "邻居",
+    "pinyin": "lín jū",
+    "meaning": "Neighbor",
+    "example": "这是邻居。"
+  },
+  {
+    "id": "hsk3_144",
+    "characters": "楼",
+    "pinyin": "lóu",
+    "meaning": "Floor",
+    "example": "这是楼。"
+  },
+  {
+    "id": "hsk3_145",
+    "characters": "绿",
+    "pinyin": "lù",
+    "meaning": "Green",
+    "example": "这是绿。"
+  },
+  {
+    "id": "hsk3_146",
+    "characters": "马",
+    "pinyin": "mă",
+    "meaning": "Horse",
+    "example": "这是马。"
+  },
+  {
+    "id": "hsk3_147",
+    "characters": "被",
+    "pinyin": "bèi",
+    "meaning": "Cover",
+    "example": "这是被。"
+  },
+  {
+    "id": "hsk3_148",
+    "characters": "马上",
+    "pinyin": "shàng",
+    "meaning": "Right off",
+    "example": "这是马上。"
+  },
+  {
+    "id": "hsk3_149",
+    "characters": "帽子",
+    "pinyin": "mào zi",
+    "meaning": "Hat",
+    "example": "这是帽子。"
+  },
+  {
+    "id": "hsk3_150",
+    "characters": "米",
+    "pinyin": "mi",
+    "meaning": "Rice",
+    "example": "这是米。"
+  },
+  {
+    "id": "hsk3_151",
+    "characters": "面包",
+    "pinyin": "miàn o",
+    "meaning": "Bread",
+    "example": "这是面包。"
+  },
+  {
+    "id": "hsk3_152",
+    "characters": "奶奶",
+    "pinyin": "năi nai",
+    "meaning": "Grandma",
+    "example": "这是奶奶。"
+  },
+  {
+    "id": "hsk3_153",
+    "characters": "鼻子",
+    "pinyin": "bí zi",
+    "meaning": "Nose",
+    "example": "这是鼻子。"
+  },
+  {
+    "id": "hsk3_154",
+    "characters": "年级",
+    "pinyin": "nián jí",
+    "meaning": "Grade",
+    "example": "这是年级。"
+  },
+  {
+    "id": "hsk3_155",
+    "characters": "年轻",
+    "pinyin": "nián qīng",
+    "meaning": "Young",
+    "example": "这是年轻。"
+  },
+  {
+    "id": "hsk3_156",
+    "characters": "鸟",
+    "pinyin": "ni o",
+    "meaning": "Bird",
+    "example": "这是鸟。"
+  },
+  {
+    "id": "hsk3_157",
+    "characters": "盘子",
+    "pinyin": "pán zi",
+    "meaning": "Plate",
+    "example": "这是盘子。"
+  },
+  {
+    "id": "hsk3_158",
+    "characters": "啤酒",
+    "pinyin": "pí ji",
+    "meaning": "Beer",
+    "example": "这是啤酒。"
+  },
+  {
+    "id": "hsk3_159",
+    "characters": "皮鞋",
+    "pinyin": "pí xié",
+    "meaning": "Leather shoes",
+    "example": "这是皮鞋。"
+  },
+  {
+    "id": "hsk3_160",
+    "characters": "瓶子",
+    "pinyin": "píng zi",
+    "meaning": "Bottle",
+    "example": "这是瓶子。"
+  },
+  {
+    "id": "hsk3_161",
+    "characters": "其实",
+    "pinyin": "qi shí",
+    "meaning": "Actually",
+    "example": "这是其实。"
+  },
+  {
+    "id": "hsk3_162",
+    "characters": "其他",
+    "pinyin": "qí tā",
+    "meaning": "Other",
+    "example": "这是其他。"
+  },
+  {
+    "id": "hsk3_163",
+    "characters": "奇怪",
+    "pinyin": "qí guài",
+    "meaning": "Strange",
+    "example": "这是奇怪。"
+  },
+  {
+    "id": "hsk3_164",
+    "characters": "裙子",
+    "pinyin": "qún zi",
+    "meaning": "Skirt",
+    "example": "这是裙子。"
+  },
+  {
+    "id": "hsk3_165",
+    "characters": "然后",
+    "pinyin": "rán hòu",
+    "meaning": "Then",
+    "example": "这是然后。"
+  },
+  {
+    "id": "hsk3_166",
+    "characters": "热情",
+    "pinyin": "rè qíng",
+    "meaning": "Enthusiasm",
+    "example": "我很热情。"
+  },
+  {
+    "id": "hsk3_167",
+    "characters": "认真",
+    "pinyin": "rèn zhēn",
+    "meaning": "Earnest",
+    "example": "这是认真。"
+  },
+  {
+    "id": "hsk3_168",
+    "characters": "如果",
+    "pinyin": "rú guǒ",
+    "meaning": "If",
+    "example": "这是如果。"
+  },
+  {
+    "id": "hsk3_169",
+    "characters": "伞",
+    "pinyin": "săn",
+    "meaning": "Umbrella",
+    "example": "这是伞。"
+  },
+  {
+    "id": "hsk3_170",
+    "characters": "啊",
+    "pinyin": "a",
+    "meaning": "Ah",
+    "example": "这是啊。"
+  },
+  {
+    "id": "hsk3_171",
+    "characters": "笔记本",
+    "pinyin": "bī ji běn",
+    "meaning": "Notebook",
+    "example": "我喜欢笔记本。"
+  },
+  {
+    "id": "hsk3_172",
+    "characters": "声音",
+    "pinyin": "shēng yīn",
+    "meaning": "Voice",
+    "example": "这是声音。"
+  },
+  {
+    "id": "hsk3_173",
+    "characters": "世界",
+    "pinyin": "shì jiè",
+    "meaning": "World",
+    "example": "这是世界。"
+  },
+  {
+    "id": "hsk3_174",
+    "characters": "叔叔",
+    "pinyin": "shū shu",
+    "meaning": "Uncle",
+    "example": "这是叔叔。"
+  },
+  {
+    "id": "hsk3_175",
+    "characters": "树",
+    "pinyin": "shù",
+    "meaning": "Tree",
+    "example": "这是树。"
+  },
+  {
+    "id": "hsk3_176",
+    "characters": "数学",
+    "pinyin": "shù xué",
+    "meaning": "Mathematics",
+    "example": "这是数学。"
+  },
+  {
+    "id": "hsk3_177",
+    "characters": "必须",
+    "pinyin": "bì xū",
+    "meaning": "Must",
+    "example": "这是必须。"
+  },
+  {
+    "id": "hsk3_178",
+    "characters": "水平",
+    "pinyin": "shui ping",
+    "meaning": "Level",
+    "example": "这是水平。"
+  },
+  {
+    "id": "hsk3_179",
+    "characters": "司机",
+    "pinyin": "Sī ji",
+    "meaning": "Driver",
+    "example": "这是司机。"
+  },
+  {
+    "id": "hsk3_180",
+    "characters": "太阳",
+    "pinyin": "tài yáng",
+    "meaning": "Sun",
+    "example": "这是太阳。"
+  },
+  {
+    "id": "hsk3_181",
+    "characters": "特别",
+    "pinyin": "tè bié",
+    "meaning": "Especially",
+    "example": "这是特别。"
+  },
+  {
+    "id": "hsk3_182",
+    "characters": "疼",
+    "pinyin": "téng",
+    "meaning": "Hurt",
+    "example": "这是疼。"
+  },
+  {
+    "id": "hsk3_183",
+    "characters": "体育",
+    "pinyin": "tī yù",
+    "meaning": "Sports",
+    "example": "这是体育。"
+  },
+  {
+    "id": "hsk3_184",
+    "characters": "甜",
+    "pinyin": "tián",
+    "meaning": "Sweet",
+    "example": "这是甜。"
+  },
+  {
+    "id": "hsk3_185",
+    "characters": "同事",
+    "pinyin": "tóng shì",
+    "meaning": "Colleague",
+    "example": "这是同事。"
+  },
+  {
+    "id": "hsk3_186",
+    "characters": "头发",
+    "pinyin": "tóu fa",
+    "meaning": "Hair",
+    "example": "这是头发。"
+  },
+  {
+    "id": "hsk3_187",
+    "characters": "突然",
+    "pinyin": "tūr án",
+    "meaning": "Suddenly",
+    "example": "这是突然。"
+  },
+  {
+    "id": "hsk3_188",
+    "characters": "图书馆",
+    "pinyin": "tú shū gu",
+    "meaning": "Library",
+    "example": "我喜欢图书馆。"
+  },
+  {
+    "id": "hsk3_189",
+    "characters": "腿",
+    "pinyin": "tui",
+    "meaning": "Leg",
+    "example": "这是腿。"
+  },
+  {
+    "id": "hsk3_190",
+    "characters": "碗",
+    "pinyin": "wăn",
+    "meaning": "Bowl",
+    "example": "这是碗。"
+  },
+  {
+    "id": "hsk3_191",
+    "characters": "万",
+    "pinyin": "wàn",
+    "meaning": "Ten thousand",
+    "example": "这是万。"
+  },
+  {
+    "id": "hsk3_192",
+    "characters": "为",
+    "pinyin": "wèi",
+    "meaning": "For",
+    "example": "这是为。"
+  },
+  {
+    "id": "hsk3_193",
+    "characters": "别人",
+    "pinyin": "biér en",
+    "meaning": "Others",
+    "example": "这是别人。"
+  },
+  {
+    "id": "hsk3_194",
+    "characters": "为了",
+    "pinyin": "wèi le",
+    "meaning": "In order to",
+    "example": "我为了。"
+  },
+  {
+    "id": "hsk3_195",
+    "characters": "文化",
+    "pinyin": "wén huà",
+    "meaning": "Culture",
+    "example": "这是文化。"
+  },
+  {
+    "id": "hsk3_196",
+    "characters": "洗手间",
+    "pinyin": "xī shou jiān",
+    "meaning": "Restroom",
+    "example": "我喜欢洗手间。"
+  },
+  {
+    "id": "hsk3_197",
+    "characters": "先",
+    "pinyin": "xiān",
+    "meaning": "First",
+    "example": "这是先。"
+  },
+  {
+    "id": "hsk3_198",
+    "characters": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "meaning": "Banana",
+    "example": "这是香蕉。"
+  },
+  {
+    "id": "hsk3_199",
+    "characters": "冰箱",
+    "pinyin": "bīng xiāng",
+    "meaning": "Refrigerator",
+    "example": "这是冰箱。"
+  },
+  {
+    "id": "hsk3_200",
+    "characters": "向",
+    "pinyin": "xiàng",
+    "meaning": "Towards",
+    "example": "这是向。"
+  },
+  {
+    "id": "hsk3_201",
+    "characters": "校长",
+    "pinyin": "xiào zhăng",
+    "meaning": "Principal",
+    "example": "这是校长。"
+  },
+  {
+    "id": "hsk3_202",
+    "characters": "新闻",
+    "pinyin": "xīn wén",
+    "meaning": "News",
+    "example": "这是新闻。"
+  },
+  {
+    "id": "hsk3_203",
+    "characters": "信用卡",
+    "pinyin": "xìn yòng",
+    "meaning": "Credit card",
+    "example": "我喜欢信用卡。"
+  },
+  {
+    "id": "hsk3_204",
+    "characters": "行李箱",
+    "pinyin": "xíng li xiāng",
+    "meaning": "Trunk",
+    "example": "我喜欢行李箱。"
+  },
+  {
+    "id": "hsk3_205",
+    "characters": "熊猫",
+    "pinyin": "xióng o",
+    "meaning": "Panda",
+    "example": "这是熊猫。"
+  },
+  {
+    "id": "hsk3_206",
+    "characters": "菜单",
+    "pinyin": "cài dān",
+    "meaning": "Menu",
+    "example": "这是菜单。"
+  },
+  {
+    "id": "hsk3_207",
+    "characters": "需要",
+    "pinyin": "xū yào",
+    "meaning": "Need",
+    "example": "这是需要。"
+  },
+  {
+    "id": "hsk3_208",
+    "characters": "爷爷",
+    "pinyin": "yé ye",
+    "meaning": "Grandpa",
+    "example": "这是爷爷。"
+  },
+  {
+    "id": "hsk3_209",
+    "characters": "一定",
+    "pinyin": "yi ding",
+    "meaning": "Certain",
+    "example": "这是一定。"
+  },
+  {
+    "id": "hsk3_210",
+    "characters": "一共",
+    "pinyin": "yi gòng",
+    "meaning": "Altogether",
+    "example": "这是一共。"
+  },
+  {
+    "id": "hsk3_211",
+    "characters": "一会儿",
+    "pinyin": "yí huir",
+    "meaning": "A while",
+    "example": "我喜欢一会儿。"
+  },
+  {
+    "id": "hsk3_212",
+    "characters": "一样",
+    "pinyin": "yí yàng",
+    "meaning": "Equally",
+    "example": "这是一样。"
+  },
+  {
+    "id": "hsk3_213",
+    "characters": "一般",
+    "pinyin": "yi bān",
+    "meaning": "Commonly",
+    "example": "这是一般。"
+  },
+  {
+    "id": "hsk3_214",
+    "characters": "一边",
+    "pinyin": "yì biān",
+    "meaning": "One side",
+    "example": "这是一边。"
+  },
+  {
+    "id": "hsk3_215",
+    "characters": "一直",
+    "pinyin": "yì zhí",
+    "meaning": "Always",
+    "example": "这是一直。"
+  },
+  {
+    "id": "hsk3_216",
+    "characters": "音乐",
+    "pinyin": "yīn yuè",
+    "meaning": "Music",
+    "example": "这是音乐。"
+  },
+  {
+    "id": "hsk3_217",
+    "characters": "银行",
+    "pinyin": "yín háng",
+    "meaning": "Bank",
+    "example": "这是银行。"
+  },
+  {
+    "id": "hsk3_218",
+    "characters": "饮料",
+    "pinyin": "yin liào",
+    "meaning": "Drinks",
+    "example": "这是饮料。"
+  },
+  {
+    "id": "hsk3_219",
+    "characters": "游戏",
+    "pinyin": "yóu xì",
+    "meaning": "Game",
+    "example": "这是游戏。"
+  },
+  {
+    "id": "hsk3_220",
+    "characters": "有名",
+    "pinyin": "yǒu míng",
+    "meaning": "Famous",
+    "example": "这是有名。"
+  },
+  {
+    "id": "hsk3_221",
+    "characters": "草",
+    "pinyin": "cão",
+    "meaning": "Grass",
+    "example": "这是草。"
+  },
+  {
+    "id": "hsk3_222",
+    "characters": "又",
+    "pinyin": "yòu",
+    "meaning": "Again",
+    "example": "这是又。"
+  },
+  {
+    "id": "hsk3_223",
+    "characters": "元",
+    "pinyin": "yuán",
+    "meaning": "Element; yuan",
+    "example": "这是元。"
+  },
+  {
+    "id": "hsk3_224",
+    "characters": "月亮",
+    "pinyin": "yuè liang",
+    "meaning": "Moon",
+    "example": "这是月亮。"
+  },
+  {
+    "id": "hsk3_225",
+    "characters": "越",
+    "pinyin": "yuè",
+    "meaning": "The more",
+    "example": "这是越。"
+  },
+  {
+    "id": "hsk3_226",
+    "characters": "站",
+    "pinyin": "zhàn",
+    "meaning": "Station",
+    "example": "这是站。"
+  },
+  {
+    "id": "hsk3_227",
+    "characters": "长(动词)",
+    "pinyin": "zhăng",
+    "meaning": "Grow",
+    "example": "我喜欢长(动词)。"
+  },
+  {
+    "id": "hsk3_228",
+    "characters": "照片",
+    "pinyin": "zhào piàn",
+    "meaning": "Photo",
+    "example": "这是照片。"
+  },
+  {
+    "id": "hsk3_229",
+    "characters": "照相机",
+    "pinyin": "zhào xiàng jī",
+    "meaning": "Camera",
+    "example": "我喜欢照相机。"
+  },
+  {
+    "id": "hsk3_230",
+    "characters": "只(量词)",
+    "pinyin": "zhī",
+    "meaning": "(measure word)",
+    "example": "我喜欢只(量词)。"
+  },
+  {
+    "id": "hsk3_231",
+    "characters": "只(副词)",
+    "pinyin": "zhĩ",
+    "meaning": "Only",
+    "example": "我喜欢只(副词)。"
+  },
+  {
+    "id": "hsk3_232",
+    "characters": "终于",
+    "pinyin": "zhōng yú",
+    "meaning": "Finally",
+    "example": "这是终于。"
+  },
+  {
+    "id": "hsk3_233",
+    "characters": "差",
+    "pinyin": "chà",
+    "meaning": "Bad",
+    "example": "这是差。"
+  },
+  {
+    "id": "hsk3_234",
+    "characters": "重要",
+    "pinyin": "zhòng yào",
+    "meaning": "Important",
+    "example": "这是重要。"
+  },
+  {
+    "id": "hsk3_235",
+    "characters": "周末",
+    "pinyin": "zhōu mò",
+    "meaning": "Weekend",
+    "example": "这是周末。"
+  },
+  {
+    "id": "hsk3_236",
+    "characters": "主要",
+    "pinyin": "zhū yào",
+    "meaning": "Main",
+    "example": "这是主要。"
+  },
+  {
+    "id": "hsk3_237",
+    "characters": "自己",
+    "pinyin": "zi ji",
+    "meaning": "Own, Self",
+    "example": "这是自己。"
+  },
+  {
+    "id": "hsk3_238",
+    "characters": "自行车",
+    "pinyin": "zì xí ngchẽ",
+    "meaning": "Bicycle",
+    "example": "我喜欢自行车。"
+  },
+  {
+    "id": "hsk3_239",
+    "characters": "总是",
+    "pinyin": "zōng shì",
+    "meaning": "Always",
+    "example": "我总是。"
+  },
+  {
+    "id": "hsk3_240",
+    "characters": "嘴",
+    "pinyin": "ZUĭ",
+    "meaning": "Mouth",
+    "example": "这是嘴。"
+  },
+  {
+    "id": "hsk3_241",
+    "characters": "最后",
+    "pinyin": "zuì hòu",
+    "meaning": "Last",
+    "example": "这是最后。"
+  },
+  {
+    "id": "hsk3_242",
+    "characters": "最近",
+    "pinyin": "zui jin",
+    "meaning": "Lately",
+    "example": "这是最近。"
+  },
+  {
+    "id": "hsk3_243",
+    "characters": "超市",
+    "pinyin": "chão shì",
+    "meaning": "Supermarket",
+    "example": "这是超市。"
+  },
+  {
+    "id": "hsk3_244",
+    "characters": "作业",
+    "pinyin": "zuò yè",
+    "meaning": "Homework",
+    "example": "这是作业。"
+  },
+  {
+    "id": "hsk3_245",
+    "characters": "衬衫",
+    "pinyin": "chèn shān",
+    "meaning": "Shirt",
+    "example": "这是衬衫。"
+  },
+  {
+    "id": "hsk3_246",
+    "characters": "成绩",
+    "pinyin": "chéng jì",
+    "meaning": "Achievement",
+    "example": "这是成绩。"
+  },
+  {
+    "id": "hsk3_247",
+    "characters": "城市",
+    "pinyin": "chéng shì",
+    "meaning": "City",
+    "example": "这是城市。"
+  },
+  {
+    "id": "hsk3_248",
+    "characters": "除了",
+    "pinyin": "chú le",
+    "meaning": "Except, Besides",
+    "example": "我除了。"
+  },
+  {
+    "id": "hsk3_249",
+    "characters": "船",
+    "pinyin": "chuán",
+    "meaning": "Ship",
+    "example": "这是船。"
+  },
+  {
+    "id": "hsk3_250",
+    "characters": "词典",
+    "pinyin": "cí diăn",
+    "meaning": "Dictionaries",
+    "example": "这是词典。"
+  },
+  {
+    "id": "hsk3_251",
+    "characters": "聪明",
+    "pinyin": "côngmi ng",
+    "meaning": "Clever",
+    "example": "这是聪明。"
+  },
+  {
+    "id": "hsk3_252",
+    "characters": "爱好",
+    "pinyin": "ài hào",
+    "meaning": "Hobby",
+    "example": "我很爱好。"
+  },
+  {
+    "id": "hsk3_253",
+    "characters": "带",
+    "pinyin": "dài",
+    "meaning": "Belt",
+    "example": "这是带。"
+  },
+  {
+    "id": "hsk3_254",
+    "characters": "蛋糕",
+    "pinyin": "dàng o",
+    "meaning": "Cake",
+    "example": "这是蛋糕。"
+  },
+  {
+    "id": "hsk3_255",
+    "characters": "当然",
+    "pinyin": "dāng rán",
+    "meaning": "Of course",
+    "example": "这是当然。"
+  },
+  {
+    "id": "hsk3_256",
+    "characters": "地",
+    "pinyin": "de",
+    "meaning": "47",
+    "example": "这是地。"
+  },
+  {
+    "id": "hsk3_257",
+    "characters": "安静",
+    "pinyin": "ān jìng",
+    "meaning": "Be quiet",
+    "example": "这是安静。"
+  },
+  {
+    "id": "hsk3_258",
+    "characters": "电梯",
+    "pinyin": "diàn tī",
+    "meaning": "Elevator.",
+    "example": "这是电梯。"
+  },
+  {
+    "id": "hsk3_259",
+    "characters": "电子邮件",
+    "pinyin": "diàn zī yóu jiàn",
+    "meaning": "E-mail",
+    "example": "我喜欢电子邮件。"
+  },
+  {
+    "id": "hsk3_260",
+    "characters": "动物",
+    "pinyin": "dòng wù",
+    "meaning": "Animal",
+    "example": "这是动物。"
+  },
+  {
+    "id": "hsk3_261",
+    "characters": "短",
+    "pinyin": "duăn",
+    "meaning": "Short",
+    "example": "这是短。"
+  },
+  {
+    "id": "hsk3_262",
+    "characters": "多么",
+    "pinyin": "duō me",
+    "meaning": "Such",
+    "example": "这是多么。"
+  },
+  {
+    "id": "hsk3_263",
+    "characters": "不但………………而且",
+    "pinyin": "bú dà n...é rqiě...",
+    "meaning": "Not only but also...",
+    "example": "我喜欢不但………………而且。"
+  },
+  {
+    "id": "hsk3_264",
+    "characters": "耳朵",
+    "pinyin": "ěr duo",
+    "meaning": "Ears",
+    "example": "这是耳朵。"
+  },
+  {
+    "id": "hsk3_265",
+    "characters": "方便",
+    "pinyin": "fāng biàn",
+    "meaning": "Convenient",
+    "example": "这是方便。"
+  },
+  {
+    "id": "hsk3_266",
+    "characters": "放",
+    "pinyin": "fàng",
+    "meaning": "Discharge",
+    "example": "这是放。"
+  },
+  {
+    "id": "hsk3_267",
+    "characters": "分",
+    "pinyin": "fēn",
+    "meaning": "Minute",
+    "example": "这是分。"
+  },
+  {
+    "id": "hsk3_268",
+    "characters": "班",
+    "pinyin": "bān",
+    "meaning": "Class",
+    "example": "这是班。"
+  },
+  {
+    "id": "hsk3_269",
+    "characters": "附近",
+    "pinyin": "fù jin",
+    "meaning": "Nearby",
+    "example": "这是附近。"
+  },
+  {
+    "id": "hsk3_270",
+    "characters": "干净",
+    "pinyin": "gan jìng",
+    "meaning": "Clean",
+    "example": "这是干净。"
+  },
+  {
+    "id": "hsk3_271",
+    "characters": "感冒",
+    "pinyin": "gănmào",
+    "meaning": "Get a cold",
+    "example": "这是感冒。"
+  },
+  {
+    "id": "hsk3_272",
+    "characters": "刚才",
+    "pinyin": "gāng cái",
+    "meaning": "Just",
+    "example": "这是刚才。"
+  },
+  {
+    "id": "hsk3_273",
+    "characters": "个子",
+    "pinyin": "gè zi",
+    "meaning": "Height",
+    "example": "这是个子。"
+  },
+  {
+    "id": "hsk3_274",
+    "characters": "跟",
+    "pinyin": "gên",
+    "meaning": "With",
+    "example": "这是跟。"
+  },
+  {
+    "id": "hsk3_275",
+    "characters": "根据",
+    "pinyin": "gënjù",
+    "meaning": "According to",
+    "example": "这是根据。"
+  },
+  {
+    "id": "hsk3_276",
+    "characters": "更",
+    "pinyin": "gèng",
+    "meaning": "More",
+    "example": "这是更。"
+  },
+  {
+    "id": "hsk3_277",
+    "characters": "公园",
+    "pinyin": "gōng yuán",
+    "meaning": "Park",
+    "example": "这是公园。"
+  },
+  {
+    "id": "hsk3_278",
+    "characters": "故事",
+    "pinyin": "gù shi",
+    "meaning": "Story",
+    "example": "这是故事。"
+  },
+  {
+    "id": "hsk3_279",
+    "characters": "关系",
+    "pinyin": "guān xì",
+    "meaning": "Relationship",
+    "example": "这是关系。"
+  },
+  {
+    "id": "hsk3_280",
+    "characters": "关心",
+    "pinyin": "guān xīn",
+    "meaning": "Care for",
+    "example": "这是关心。"
+  },
+  {
+    "id": "hsk3_281",
+    "characters": "关于",
+    "pinyin": "guān yú",
+    "meaning": "About",
+    "example": "这是关于。"
+  },
+  {
+    "id": "hsk3_282",
+    "characters": "国家",
+    "pinyin": "guó jiā",
+    "meaning": "Country",
+    "example": "这是国家。"
+  },
+  {
+    "id": "hsk3_283",
+    "characters": "过去",
+    "pinyin": "guò qù",
+    "meaning": "Past times",
+    "example": "这是过去。"
+  },
+  {
+    "id": "hsk3_284",
+    "characters": "半",
+    "pinyin": "bàn",
+    "meaning": "Half",
+    "example": "这是半。"
+  },
+  {
+    "id": "hsk3_285",
+    "characters": "过(动词)",
+    "pinyin": "过",
+    "meaning": "Pass",
+    "example": "我喜欢过(动词)。"
+  },
+  {
+    "id": "hsk3_286",
+    "characters": "还是",
+    "pinyin": "hái shì",
+    "meaning": "Still",
+    "example": "我还是。"
+  },
+  {
+    "id": "hsk3_287",
+    "characters": "害怕",
+    "pinyin": "hài pà",
+    "meaning": "Fear",
+    "example": "这是害怕。"
+  },
+  {
+    "id": "hsk3_288",
+    "characters": "黑板",
+    "pinyin": "hēi băn",
+    "meaning": "Blackboard",
+    "example": "这是黑板。"
+  },
+  {
+    "id": "hsk3_289",
+    "characters": "后来",
+    "pinyin": "hòu lái",
+    "meaning": "Later",
+    "example": "这是后来。"
+  },
+  {
+    "id": "hsk3_290",
+    "characters": "护照",
+    "pinyin": "hù zhào",
+    "meaning": "Passport",
+    "example": "这是护照。"
+  },
+  {
+    "id": "hsk3_291",
+    "characters": "花(动词)",
+    "pinyin": "hua",
+    "meaning": "Spend",
+    "example": "我喜欢花(动词)。"
+  },
+  {
+    "id": "hsk3_292",
+    "characters": "花(名词)",
+    "pinyin": "hua",
+    "meaning": "Flower",
+    "example": "我喜欢花(名词)。"
+  },
+  {
+    "id": "hsk3_293",
+    "characters": "画",
+    "pinyin": "huà",
+    "meaning": "Painting",
+    "example": "这是画。"
+  },
+  {
+    "id": "hsk3_294",
+    "characters": "中间",
+    "pinyin": "zhōng jiān",
+    "meaning": "Middle",
+    "example": "这是中间。"
+  },
+  {
+    "id": "hsk3_295",
+    "characters": "地图",
+    "pinyin": "dì tú",
+    "meaning": "Map",
+    "example": "这是地图。"
+  }
+]

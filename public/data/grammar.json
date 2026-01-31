@@ -1,0 +1,332 @@
+[
+  {
+    "id": "gram_001",
+    "name": "是...的",
+    "description": "과거 사건의 시간, 장소, 방법 등을 강조하는 구조",
+    "examples": [
+      "我是昨天来的。",
+      "他是坐飞机去的。",
+      "这本书是在书店买的。"
+    ],
+    "relatedWordIds": ["voc_045"]
+  },
+  {
+    "id": "gram_002",
+    "name": "了",
+    "description": "완료나 변화를 나타내는 조사",
+    "examples": [
+      "我吃了饭。",
+      "他来了。",
+      "天气变冷了。"
+    ],
+    "relatedWordIds": ["voc_023"]
+  },
+  {
+    "id": "gram_003",
+    "name": "着",
+    "description": "진행 상태나 지속 상태를 나타내는 조사",
+    "examples": [
+      "他坐着。",
+      "门开着。",
+      "他穿着新衣服。"
+    ],
+    "relatedWordIds": []
+  },
+  {
+    "id": "gram_004",
+    "name": "过",
+    "description": "과거 경험을 나타내는 조사",
+    "examples": [
+      "我去过北京。",
+      "我看过这部电影。",
+      "他吃过中国菜。"
+    ],
+    "relatedWordIds": ["voc_025", "voc_027"]
+  },
+  {
+    "id": "gram_005",
+    "name": "把",
+    "description": "처치문 구조: 주어가 목적어를 어떻게 처리하는지 나타냄",
+    "examples": [
+      "我把书放在桌子上。",
+      "他把门关上了。",
+      "请把窗户打开。"
+    ],
+    "relatedWordIds": ["voc_095"]
+  },
+  {
+    "id": "gram_006",
+    "name": "被",
+    "description": "피동문 구조: 주어가 동작을 받는 것을 나타냄",
+    "examples": [
+      "书被拿走了。",
+      "他被老师表扬了。",
+      "窗户被打开了。"
+    ],
+    "relatedWordIds": ["voc_095"]
+  },
+  {
+    "id": "gram_007",
+    "name": "比",
+    "description": "비교문: A比B+형용사",
+    "examples": [
+      "他比我高。",
+      "这本书比那本书贵。",
+      "今天比昨天热。"
+    ],
+    "relatedWordIds": ["voc_055", "voc_061"]
+  },
+  {
+    "id": "gram_008",
+    "name": "最",
+    "description": "최상급: 가장 ~하다",
+    "examples": [
+      "这是最好的。",
+      "他最高。",
+      "我最喜欢这本书。"
+    ],
+    "relatedWordIds": ["voc_033", "voc_048"]
+  },
+  {
+    "id": "gram_009",
+    "name": "越来越",
+    "description": "점점 더 ~해지다",
+    "examples": [
+      "天气越来越热。",
+      "他越来越高了。",
+      "我越来越喜欢中文了。"
+    ],
+    "relatedWordIds": ["voc_061", "voc_033"]
+  },
+  {
+    "id": "gram_010",
+    "name": "一边...一边...",
+    "description": "~하면서 ~하다",
+    "examples": [
+      "我一边听音乐一边学习。",
+      "他一边吃饭一边看电视。",
+      "我们一边走一边聊天。"
+    ],
+    "relatedWordIds": ["voc_028", "voc_021", "voc_023"]
+  },
+  {
+    "id": "gram_011",
+    "name": "又...又...",
+    "description": "~하고 ~하다 (두 가지 상태 동시)",
+    "examples": [
+      "他又高又帅。",
+      "这个房间又大又干净。",
+      "她又聪明又漂亮。"
+    ],
+    "relatedWordIds": ["voc_055", "voc_049"]
+  },
+  {
+    "id": "gram_012",
+    "name": "不但...而且...",
+    "description": "~할 뿐만 아니라 ~하다",
+    "examples": [
+      "他不但聪明而且努力。",
+      "这本书不但便宜而且好看。",
+      "我不但会中文而且会英文。"
+    ],
+    "relatedWordIds": ["voc_038"]
+  },
+  {
+    "id": "gram_013",
+    "name": "虽然...但是...",
+    "description": "비록 ~하지만",
+    "examples": [
+      "虽然很累，但是我很开心。",
+      "虽然下雨了，但是我们还是去了。",
+      "虽然很贵，但是质量很好。"
+    ],
+    "relatedWordIds": []
+  },
+  {
+    "id": "gram_014",
+    "name": "如果...就...",
+    "description": "만약 ~하면 ~하다",
+    "examples": [
+      "如果下雨，我就不去了。",
+      "如果你有时间，就来我家吧。",
+      "如果明天天气好，我们就去公园。"
+    ],
+    "relatedWordIds": ["voc_012"]
+  },
+  {
+    "id": "gram_015",
+    "name": "因为...所以...",
+    "description": "~때문에 ~하다",
+    "examples": [
+      "因为下雨，所以我没去。",
+      "因为他很忙，所以没来。",
+      "因为我喜欢中文，所以学习中文。"
+    ],
+    "relatedWordIds": ["voc_033", "voc_021"]
+  },
+  {
+    "id": "gram_016",
+    "name": "只要...就...",
+    "description": "~하기만 하면 ~하다",
+    "examples": [
+      "只要你努力，就能成功。",
+      "只要天气好，我们就去。",
+      "只要你有时间，就来吧。"
+    ],
+    "relatedWordIds": []
+  },
+  {
+    "id": "gram_017",
+    "name": "除了...以外",
+    "description": "~을 제외하고",
+    "examples": [
+      "除了中文以外，我还学英文。",
+      "除了他以外，别人都来了。",
+      "除了这本书以外，我还买了那本书。"
+    ],
+    "relatedWordIds": ["voc_021", "voc_095"]
+  },
+  {
+    "id": "gram_018",
+    "name": "V+得+Adj",
+    "description": "동작의 결과나 정도를 나타냄",
+    "examples": [
+      "他说得很好。",
+      "他跑得很快。",
+      "他写得很好。"
+    ],
+    "relatedWordIds": ["voc_029", "voc_059", "voc_048"]
+  },
+  {
+    "id": "gram_019",
+    "name": "V+不/得+Adj",
+    "description": "가능/불가능을 나타냄",
+    "examples": [
+      "我看得清楚。",
+      "我听不清楚。",
+      "他跑得很快。"
+    ],
+    "relatedWordIds": ["voc_027", "voc_028", "voc_059"]
+  },
+  {
+    "id": "gram_020",
+    "name": "正在...呢",
+    "description": "지금 ~하고 있다",
+    "examples": [
+      "我正在学习呢。",
+      "他正在吃饭呢。",
+      "我们正在聊天呢。"
+    ],
+    "relatedWordIds": ["voc_021", "voc_023"]
+  },
+  {
+    "id": "gram_021",
+    "name": "对...感兴趣",
+    "description": "~에 관심이 있다",
+    "examples": [
+      "我对中文很感兴趣。",
+      "他对音乐很感兴趣。",
+      "我们对这个电影很感兴趣。"
+    ],
+    "relatedWordIds": ["hsk3_001"]
+  },
+  {
+    "id": "gram_022",
+    "name": "为了",
+    "description": "~하기 위해서",
+    "examples": [
+      "为了学习中文，我每天练习。",
+      "为了健康，他每天运动。",
+      "为了考试，我们努力学习。"
+    ],
+    "relatedWordIds": ["hsk3_192"]
+  },
+  {
+    "id": "gram_023",
+    "name": "或者",
+    "description": "또는 (평서문에서)",
+    "examples": [
+      "你可以坐公交车或者走路去。",
+      "我想喝茶或者咖啡。",
+      "明天我们去公园或者看电影。"
+    ],
+    "relatedWordIds": ["hsk3_002"]
+  },
+  {
+    "id": "gram_024",
+    "name": "根据",
+    "description": "~에 의하면, ~에 따르면",
+    "examples": [
+      "根据天气预报，明天会下雨。",
+      "根据老师说，考试在下周。",
+      "根据这本书，这个方法很好。"
+    ],
+    "relatedWordIds": ["hsk3_003"]
+  },
+  {
+    "id": "gram_025",
+    "name": "向",
+    "description": "~를 향해, ~에게",
+    "examples": [
+      "他向我走来。",
+      "我向老师问问题。",
+      "我们向学校走去。"
+    ],
+    "relatedWordIds": ["hsk3_004"]
+  },
+  {
+    "id": "gram_026",
+    "name": "经过",
+    "description": "~을 거쳐, ~후에",
+    "examples": [
+      "经过努力学习，他通过了考试。",
+      "经过讨论，我们决定去北京。",
+      "经过三个小时，我们到了学校。"
+    ],
+    "relatedWordIds": ["hsk3_005"]
+  },
+  {
+    "id": "gram_027",
+    "name": "关于",
+    "description": "~에 관하여",
+    "examples": [
+      "我想了解关于中国的文化。",
+      "这本书是关于学习的。",
+      "老师讲了关于考试的事情。"
+    ],
+    "relatedWordIds": ["hsk3_006"]
+  },
+  {
+    "id": "gram_028",
+    "name": "除了...以外，还...",
+    "description": "~을 제외하고, ~뿐만 아니라",
+    "examples": [
+      "除了中文以外，我还学习英文。",
+      "除了他以外，我们还邀请了其他朋友。",
+      "除了看书以外，我还喜欢看电影。"
+    ],
+    "relatedWordIds": ["hsk3_007"]
+  },
+  {
+    "id": "gram_029",
+    "name": "先...然后...",
+    "description": "먼저 ~하고, 그 다음에",
+    "examples": [
+      "我先吃饭，然后去学习。",
+      "我们先讨论，然后做决定。",
+      "他先完成作业，然后看电视。"
+    ],
+    "relatedWordIds": ["hsk3_008", "hsk3_009"]
+  },
+  {
+    "id": "gram_030",
+    "name": "一定",
+    "description": "반드시, 틀림없이",
+    "examples": [
+      "明天我一定来。",
+      "他一定会成功的。",
+      "我们一定要努力学习。"
+    ],
+    "relatedWordIds": ["hsk3_010"]
+  }
+]

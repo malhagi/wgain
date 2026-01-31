@@ -1,0 +1,902 @@
+[
+  {
+    "id": "voc_001",
+    "characters": "你好",
+    "pinyin": "nǐ hǎo",
+    "meaning": "안녕하세요",
+    "partOfSpeech": "greeting",
+    "example": "你好，我是小明。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_002",
+    "characters": "谢谢",
+    "pinyin": "xiè xie",
+    "meaning": "감사합니다",
+    "partOfSpeech": "verb",
+    "example": "谢谢你帮助我。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_003",
+    "characters": "不客气",
+    "pinyin": "bú kè qì",
+    "meaning": "천만에요",
+    "partOfSpeech": "phrase",
+    "example": "不客气，这是我应该做的。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_004",
+    "characters": "请",
+    "pinyin": "qǐng",
+    "meaning": "부탁하다, 청하다",
+    "partOfSpeech": "verb",
+    "example": "请坐。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_005",
+    "characters": "对不起",
+    "pinyin": "duì bu qǐ",
+    "meaning": "죄송합니다",
+    "partOfSpeech": "phrase",
+    "example": "对不起，我迟到了。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_006",
+    "characters": "没关系",
+    "pinyin": "méi guān xi",
+    "meaning": "괜찮아요",
+    "partOfSpeech": "phrase",
+    "example": "没关系，我不介意。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_007",
+    "characters": "再见",
+    "pinyin": "zài jiàn",
+    "meaning": "안녕히 가세요",
+    "partOfSpeech": "greeting",
+    "example": "再见，明天见！",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_008",
+    "characters": "早上",
+    "pinyin": "zǎo shang",
+    "meaning": "아침",
+    "partOfSpeech": "noun",
+    "example": "早上好！",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_009",
+    "characters": "中午",
+    "pinyin": "zhōng wǔ",
+    "meaning": "점심",
+    "partOfSpeech": "noun",
+    "example": "中午我们一起吃饭吧。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_010",
+    "characters": "晚上",
+    "pinyin": "wǎn shang",
+    "meaning": "저녁",
+    "partOfSpeech": "noun",
+    "example": "晚上我要去图书馆。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_011",
+    "characters": "今天",
+    "pinyin": "jīn tiān",
+    "meaning": "오늘",
+    "partOfSpeech": "noun",
+    "example": "今天天气很好。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_012",
+    "characters": "明天",
+    "pinyin": "míng tiān",
+    "meaning": "내일",
+    "partOfSpeech": "noun",
+    "example": "明天我要去北京。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_013",
+    "characters": "昨天",
+    "pinyin": "zuó tiān",
+    "meaning": "어제",
+    "partOfSpeech": "noun",
+    "example": "昨天我看了电影。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_014",
+    "characters": "现在",
+    "pinyin": "xiàn zài",
+    "meaning": "지금",
+    "partOfSpeech": "noun",
+    "example": "现在几点了？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_015",
+    "characters": "小时",
+    "pinyin": "xiǎo shí",
+    "meaning": "시간",
+    "partOfSpeech": "noun",
+    "example": "我每天学习三个小时。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_016",
+    "characters": "分钟",
+    "pinyin": "fēn zhōng",
+    "meaning": "분",
+    "partOfSpeech": "noun",
+    "example": "还有五分钟就上课了。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_017",
+    "characters": "年",
+    "pinyin": "nián",
+    "meaning": "년",
+    "partOfSpeech": "noun",
+    "example": "今年是2024年。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_018",
+    "characters": "月",
+    "pinyin": "yuè",
+    "meaning": "월",
+    "partOfSpeech": "noun",
+    "example": "这个月我很忙。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_019",
+    "characters": "日",
+    "pinyin": "rì",
+    "meaning": "일",
+    "partOfSpeech": "noun",
+    "example": "今天是几月几日？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_020",
+    "characters": "星期",
+    "pinyin": "xīng qī",
+    "meaning": "주",
+    "partOfSpeech": "noun",
+    "example": "这个星期我要考试。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_021",
+    "characters": "学习",
+    "pinyin": "xué xí",
+    "meaning": "공부하다",
+    "partOfSpeech": "verb",
+    "example": "我在学习中文。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_022",
+    "characters": "工作",
+    "pinyin": "gōng zuò",
+    "meaning": "일하다",
+    "partOfSpeech": "verb",
+    "example": "我在一家公司工作。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_023",
+    "characters": "吃",
+    "pinyin": "chī",
+    "meaning": "먹다",
+    "partOfSpeech": "verb",
+    "example": "我们一起吃饭吧。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_024",
+    "characters": "喝",
+    "pinyin": "hē",
+    "meaning": "마시다",
+    "partOfSpeech": "verb",
+    "example": "我想喝咖啡。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_025",
+    "characters": "去",
+    "pinyin": "qù",
+    "meaning": "가다",
+    "partOfSpeech": "verb",
+    "example": "我要去学校。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_026",
+    "characters": "来",
+    "pinyin": "lái",
+    "meaning": "오다",
+    "partOfSpeech": "verb",
+    "example": "他明天来我家。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_027",
+    "characters": "看",
+    "pinyin": "kàn",
+    "meaning": "보다",
+    "partOfSpeech": "verb",
+    "example": "我喜欢看电影。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_028",
+    "characters": "听",
+    "pinyin": "tīng",
+    "meaning": "듣다",
+    "partOfSpeech": "verb",
+    "example": "我在听音乐。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_029",
+    "characters": "说",
+    "pinyin": "shuō",
+    "meaning": "말하다",
+    "partOfSpeech": "verb",
+    "example": "我会说中文。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_030",
+    "characters": "做",
+    "pinyin": "zuò",
+    "meaning": "하다",
+    "partOfSpeech": "verb",
+    "example": "你在做什么？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_031",
+    "characters": "买",
+    "pinyin": "mǎi",
+    "meaning": "사다",
+    "partOfSpeech": "verb",
+    "example": "我要买一本书。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_032",
+    "characters": "卖",
+    "pinyin": "mài",
+    "meaning": "팔다",
+    "partOfSpeech": "verb",
+    "example": "这家店卖很多书。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_033",
+    "characters": "喜欢",
+    "pinyin": "xǐ huān",
+    "meaning": "좋아하다",
+    "partOfSpeech": "verb",
+    "example": "我喜欢中文。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_034",
+    "characters": "爱",
+    "pinyin": "ài",
+    "meaning": "사랑하다",
+    "partOfSpeech": "verb",
+    "example": "我爱我的家人。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_035",
+    "characters": "想",
+    "pinyin": "xiǎng",
+    "meaning": "생각하다, ~하고 싶다",
+    "partOfSpeech": "verb",
+    "example": "我想去中国。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_036",
+    "characters": "知道",
+    "pinyin": "zhī dào",
+    "meaning": "알다",
+    "partOfSpeech": "verb",
+    "example": "我知道这件事。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_037",
+    "characters": "认识",
+    "pinyin": "rèn shi",
+    "meaning": "알아보다, 인식하다",
+    "partOfSpeech": "verb",
+    "example": "我认识他。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_038",
+    "characters": "会",
+    "pinyin": "huì",
+    "meaning": "~할 수 있다",
+    "partOfSpeech": "verb",
+    "example": "我会说中文。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_039",
+    "characters": "能",
+    "pinyin": "néng",
+    "meaning": "~할 수 있다",
+    "partOfSpeech": "verb",
+    "example": "你能帮我吗？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_040",
+    "characters": "可以",
+    "pinyin": "kě yǐ",
+    "meaning": "~해도 된다",
+    "partOfSpeech": "verb",
+    "example": "我可以进来吗？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_041",
+    "characters": "要",
+    "pinyin": "yào",
+    "meaning": "~해야 한다, ~하고 싶다",
+    "partOfSpeech": "verb",
+    "example": "我要去学校。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_042",
+    "characters": "应该",
+    "pinyin": "yīng gāi",
+    "meaning": "~해야 한다",
+    "partOfSpeech": "verb",
+    "example": "你应该好好学习。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_043",
+    "characters": "有",
+    "pinyin": "yǒu",
+    "meaning": "있다",
+    "partOfSpeech": "verb",
+    "example": "我有很多书。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_044",
+    "characters": "没有",
+    "pinyin": "méi yǒu",
+    "meaning": "없다",
+    "partOfSpeech": "verb",
+    "example": "我没有时间。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_045",
+    "characters": "是",
+    "pinyin": "shì",
+    "meaning": "~이다",
+    "partOfSpeech": "verb",
+    "example": "我是学生。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_046",
+    "characters": "在",
+    "pinyin": "zài",
+    "meaning": "~에 있다",
+    "partOfSpeech": "verb",
+    "example": "我在家。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_047",
+    "characters": "有",
+    "pinyin": "yǒu",
+    "meaning": "있다",
+    "partOfSpeech": "verb",
+    "example": "桌子上有一本书。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_048",
+    "characters": "好",
+    "pinyin": "hǎo",
+    "meaning": "좋다",
+    "partOfSpeech": "adjective",
+    "example": "今天天气很好。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_049",
+    "characters": "大",
+    "pinyin": "dà",
+    "meaning": "크다",
+    "partOfSpeech": "adjective",
+    "example": "这个房间很大。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_050",
+    "characters": "小",
+    "pinyin": "xiǎo",
+    "meaning": "작다",
+    "partOfSpeech": "adjective",
+    "example": "这个包很小。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_051",
+    "characters": "多",
+    "pinyin": "duō",
+    "meaning": "많다",
+    "partOfSpeech": "adjective",
+    "example": "这里有很多人。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_052",
+    "characters": "少",
+    "pinyin": "shǎo",
+    "meaning": "적다",
+    "partOfSpeech": "adjective",
+    "example": "今天人很少。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_053",
+    "characters": "新",
+    "pinyin": "xīn",
+    "meaning": "새롭다",
+    "partOfSpeech": "adjective",
+    "example": "这是一本新书。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_054",
+    "characters": "旧",
+    "pinyin": "jiù",
+    "meaning": "오래된",
+    "partOfSpeech": "adjective",
+    "example": "这是旧房子。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_055",
+    "characters": "高",
+    "pinyin": "gāo",
+    "meaning": "높다",
+    "partOfSpeech": "adjective",
+    "example": "这座山很高。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_056",
+    "characters": "低",
+    "pinyin": "dī",
+    "meaning": "낮다",
+    "partOfSpeech": "adjective",
+    "example": "价格很低。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_057",
+    "characters": "长",
+    "pinyin": "cháng",
+    "meaning": "길다",
+    "partOfSpeech": "adjective",
+    "example": "这条路很长。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_058",
+    "characters": "短",
+    "pinyin": "duǎn",
+    "meaning": "짧다",
+    "partOfSpeech": "adjective",
+    "example": "这篇文章很短。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_059",
+    "characters": "快",
+    "pinyin": "kuài",
+    "meaning": "빠르다",
+    "partOfSpeech": "adjective",
+    "example": "他跑得很快。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_060",
+    "characters": "慢",
+    "pinyin": "màn",
+    "meaning": "느리다",
+    "partOfSpeech": "adjective",
+    "example": "这辆车很慢。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_061",
+    "characters": "热",
+    "pinyin": "rè",
+    "meaning": "덥다",
+    "partOfSpeech": "adjective",
+    "example": "今天很热。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_062",
+    "characters": "冷",
+    "pinyin": "lěng",
+    "meaning": "춥다",
+    "partOfSpeech": "adjective",
+    "example": "冬天很冷。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_063",
+    "characters": "我",
+    "pinyin": "wǒ",
+    "meaning": "나",
+    "partOfSpeech": "pronoun",
+    "example": "我是学生。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_064",
+    "characters": "你",
+    "pinyin": "nǐ",
+    "meaning": "너",
+    "partOfSpeech": "pronoun",
+    "example": "你好吗？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_065",
+    "characters": "他",
+    "pinyin": "tā",
+    "meaning": "그",
+    "partOfSpeech": "pronoun",
+    "example": "他是我的朋友。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_066",
+    "characters": "她",
+    "pinyin": "tā",
+    "meaning": "그녀",
+    "partOfSpeech": "pronoun",
+    "example": "她是我的老师。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_067",
+    "characters": "我们",
+    "pinyin": "wǒ men",
+    "meaning": "우리",
+    "partOfSpeech": "pronoun",
+    "example": "我们是同学。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_068",
+    "characters": "你们",
+    "pinyin": "nǐ men",
+    "meaning": "너희",
+    "partOfSpeech": "pronoun",
+    "example": "你们好！",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_069",
+    "characters": "他们",
+    "pinyin": "tā men",
+    "meaning": "그들",
+    "partOfSpeech": "pronoun",
+    "example": "他们是我的朋友。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_070",
+    "characters": "这",
+    "pinyin": "zhè",
+    "meaning": "이",
+    "partOfSpeech": "pronoun",
+    "example": "这是什么？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_071",
+    "characters": "那",
+    "pinyin": "nà",
+    "meaning": "저",
+    "partOfSpeech": "pronoun",
+    "example": "那是什么？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_072",
+    "characters": "什么",
+    "pinyin": "shén me",
+    "meaning": "무엇",
+    "partOfSpeech": "pronoun",
+    "example": "你在做什么？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_073",
+    "characters": "谁",
+    "pinyin": "shéi",
+    "meaning": "누구",
+    "partOfSpeech": "pronoun",
+    "example": "你是谁？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_074",
+    "characters": "哪里",
+    "pinyin": "nǎ lǐ",
+    "meaning": "어디",
+    "partOfSpeech": "pronoun",
+    "example": "你去哪里？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_075",
+    "characters": "怎么",
+    "pinyin": "zěn me",
+    "meaning": "어떻게",
+    "partOfSpeech": "pronoun",
+    "example": "你怎么去学校？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_076",
+    "characters": "为什么",
+    "pinyin": "wèi shén me",
+    "meaning": "왜",
+    "partOfSpeech": "pronoun",
+    "example": "你为什么迟到？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_077",
+    "characters": "多少",
+    "pinyin": "duō shao",
+    "meaning": "얼마",
+    "partOfSpeech": "pronoun",
+    "example": "这个多少钱？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_078",
+    "characters": "几",
+    "pinyin": "jǐ",
+    "meaning": "몇",
+    "partOfSpeech": "pronoun",
+    "example": "现在几点了？",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_079",
+    "characters": "一",
+    "pinyin": "yī",
+    "meaning": "하나",
+    "partOfSpeech": "number",
+    "example": "我有一个朋友。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_080",
+    "characters": "二",
+    "pinyin": "èr",
+    "meaning": "둘",
+    "partOfSpeech": "number",
+    "example": "我有两个苹果。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_081",
+    "characters": "三",
+    "pinyin": "sān",
+    "meaning": "셋",
+    "partOfSpeech": "number",
+    "example": "三个人",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_082",
+    "characters": "四",
+    "pinyin": "sì",
+    "meaning": "넷",
+    "partOfSpeech": "number",
+    "example": "四个苹果",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_083",
+    "characters": "五",
+    "pinyin": "wǔ",
+    "meaning": "다섯",
+    "partOfSpeech": "number",
+    "example": "五个人",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_084",
+    "characters": "六",
+    "pinyin": "liù",
+    "meaning": "여섯",
+    "partOfSpeech": "number",
+    "example": "六本书",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_085",
+    "characters": "七",
+    "pinyin": "qī",
+    "meaning": "일곱",
+    "partOfSpeech": "number",
+    "example": "七点",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_086",
+    "characters": "八",
+    "pinyin": "bā",
+    "meaning": "여덟",
+    "partOfSpeech": "number",
+    "example": "八个人",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_087",
+    "characters": "九",
+    "pinyin": "jiǔ",
+    "meaning": "아홉",
+    "partOfSpeech": "number",
+    "example": "九点",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_088",
+    "characters": "十",
+    "pinyin": "shí",
+    "meaning": "열",
+    "partOfSpeech": "number",
+    "example": "十个人",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_089",
+    "characters": "学校",
+    "pinyin": "xué xiào",
+    "meaning": "학교",
+    "partOfSpeech": "noun",
+    "example": "我在学校学习。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_090",
+    "characters": "老师",
+    "pinyin": "lǎo shī",
+    "meaning": "선생님",
+    "partOfSpeech": "noun",
+    "example": "我的老师很好。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_091",
+    "characters": "学生",
+    "pinyin": "xué sheng",
+    "meaning": "학생",
+    "partOfSpeech": "noun",
+    "example": "我是学生。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_092",
+    "characters": "朋友",
+    "pinyin": "péng you",
+    "meaning": "친구",
+    "partOfSpeech": "noun",
+    "example": "他是我的好朋友。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_093",
+    "characters": "家",
+    "pinyin": "jiā",
+    "meaning": "집",
+    "partOfSpeech": "noun",
+    "example": "我在家。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_094",
+    "characters": "房间",
+    "pinyin": "fáng jiān",
+    "meaning": "방",
+    "partOfSpeech": "noun",
+    "example": "这个房间很大。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_095",
+    "characters": "书",
+    "pinyin": "shū",
+    "meaning": "책",
+    "partOfSpeech": "noun",
+    "example": "我有很多书。",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_096",
+    "characters": "本",
+    "pinyin": "běn",
+    "meaning": "권 (책 단위)",
+    "partOfSpeech": "measure word",
+    "example": "一本书",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_097",
+    "characters": "个",
+    "pinyin": "gè",
+    "meaning": "개 (일반 단위)",
+    "partOfSpeech": "measure word",
+    "example": "一个人",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_098",
+    "characters": "张",
+    "pinyin": "zhāng",
+    "meaning": "장 (종이, 테이블 등)",
+    "partOfSpeech": "measure word",
+    "example": "一张纸",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_099",
+    "characters": "件",
+    "pinyin": "jiàn",
+    "meaning": "벌 (옷 등)",
+    "partOfSpeech": "measure word",
+    "example": "一件衣服",
+    "hskLevel": 3
+  },
+  {
+    "id": "voc_100",
+    "characters": "块",
+    "pinyin": "kuài",
+    "meaning": "개 (돈, 과자 등)",
+    "partOfSpeech": "measure word",
+    "example": "一块钱",
+    "hskLevel": 3
+  }
+]

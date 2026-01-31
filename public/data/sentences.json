@@ -1,0 +1,402 @@
+[
+  {
+    "id": "sent_001",
+    "content": "你好，我是小明。",
+    "translation": "안녕하세요, 저는 샤오밍입니다.",
+    "wordIds": ["voc_001", "voc_045", "voc_063"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_002",
+    "content": "谢谢你帮助我。",
+    "translation": "도와주셔서 감사합니다.",
+    "wordIds": ["voc_002", "voc_064"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_003",
+    "content": "不客气，这是我应该做的。",
+    "translation": "천만에요, 이것은 제가 해야 할 일입니다.",
+    "wordIds": ["voc_003", "voc_070", "voc_045", "voc_063", "voc_042"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_004",
+    "content": "今天天气很好。",
+    "translation": "오늘 날씨가 아주 좋습니다.",
+    "wordIds": ["voc_011", "voc_048"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_005",
+    "content": "明天我要去北京。",
+    "translation": "내일 저는 베이징에 가겠습니다.",
+    "wordIds": ["voc_012", "voc_063", "voc_041", "voc_025"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_006",
+    "content": "昨天我看了电影。",
+    "translation": "어제 저는 영화를 봤습니다.",
+    "wordIds": ["voc_013", "voc_063", "voc_027"],
+    "grammarIds": ["gram_002"],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_007",
+    "content": "现在几点了？",
+    "translation": "지금 몇 시입니까?",
+    "wordIds": ["voc_014", "voc_078"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_008",
+    "content": "我每天学习三个小时。",
+    "translation": "저는 매일 세 시간 공부합니다.",
+    "wordIds": ["voc_063", "voc_015", "voc_021", "voc_081"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_009",
+    "content": "我在学习中文。",
+    "translation": "저는 중국어를 공부하고 있습니다.",
+    "wordIds": ["voc_063", "voc_046", "voc_021"],
+    "grammarIds": ["gram_020"],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_010",
+    "content": "我在一家公司工作。",
+    "translation": "저는 한 회사에서 일합니다.",
+    "wordIds": ["voc_063", "voc_046", "voc_079", "voc_097", "voc_022"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_011",
+    "content": "我们一起吃饭吧。",
+    "translation": "우리 함께 식사합시다.",
+    "wordIds": ["voc_067", "voc_023"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_012",
+    "content": "我想喝咖啡。",
+    "translation": "저는 커피를 마시고 싶습니다.",
+    "wordIds": ["voc_063", "voc_035", "voc_024"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_013",
+    "content": "我要去学校。",
+    "translation": "저는 학교에 가야 합니다.",
+    "wordIds": ["voc_063", "voc_041", "voc_025", "voc_089"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_014",
+    "content": "他明天来我家。",
+    "translation": "그는 내일 우리 집에 올 것입니다.",
+    "wordIds": ["voc_065", "voc_012", "voc_026", "voc_063", "voc_093"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_015",
+    "content": "我喜欢看电影。",
+    "translation": "저는 영화 보는 것을 좋아합니다.",
+    "wordIds": ["voc_063", "voc_033", "voc_027"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_016",
+    "content": "我在听音乐。",
+    "translation": "저는 음악을 듣고 있습니다.",
+    "wordIds": ["voc_063", "voc_046", "voc_028"],
+    "grammarIds": ["gram_020"],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_017",
+    "content": "我会说中文。",
+    "translation": "저는 중국어를 할 수 있습니다.",
+    "wordIds": ["voc_063", "voc_038", "voc_029"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_018",
+    "content": "你在做什么？",
+    "translation": "당신은 무엇을 하고 있습니까?",
+    "wordIds": ["voc_064", "voc_046", "voc_072", "voc_030"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_019",
+    "content": "我要买一本书。",
+    "translation": "저는 책 한 권을 사고 싶습니다.",
+    "wordIds": ["voc_063", "voc_041", "voc_031", "voc_079", "voc_096", "voc_095"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_020",
+    "content": "我喜欢中文。",
+    "translation": "저는 중국어를 좋아합니다.",
+    "wordIds": ["voc_063", "voc_033"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_021",
+    "content": "我想去中国。",
+    "translation": "저는 중국에 가고 싶습니다.",
+    "wordIds": ["voc_063", "voc_035", "voc_025"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_022",
+    "content": "我知道这件事。",
+    "translation": "저는 이 일을 압니다.",
+    "wordIds": ["voc_063", "voc_036", "voc_070"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_023",
+    "content": "我认识他。",
+    "translation": "저는 그를 압니다.",
+    "wordIds": ["voc_063", "voc_037", "voc_065"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_024",
+    "content": "你能帮我吗？",
+    "translation": "당신은 저를 도와줄 수 있습니까?",
+    "wordIds": ["voc_064", "voc_039"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_025",
+    "content": "我可以进来吗？",
+    "translation": "들어가도 될까요?",
+    "wordIds": ["voc_063", "voc_040"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_026",
+    "content": "你应该好好学习。",
+    "translation": "당신은 열심히 공부해야 합니다.",
+    "wordIds": ["voc_064", "voc_042", "voc_048", "voc_021"],
+    "grammarIds": [],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_027",
+    "content": "我有很多书。",
+    "translation": "저는 책이 많습니다.",
+    "wordIds": ["voc_063", "voc_043", "voc_051", "voc_095"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_028",
+    "content": "我没有时间。",
+    "translation": "저는 시간이 없습니다.",
+    "wordIds": ["voc_063", "voc_044"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_029",
+    "content": "我是学生。",
+    "translation": "저는 학생입니다.",
+    "wordIds": ["voc_063", "voc_045", "voc_091"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_030",
+    "content": "我在家。",
+    "translation": "저는 집에 있습니다.",
+    "wordIds": ["voc_063", "voc_046", "voc_093"],
+    "grammarIds": [],
+    "difficulty": 1
+  },
+  {
+    "id": "sent_031",
+    "content": "我是昨天来的。",
+    "translation": "저는 어제 왔습니다.",
+    "wordIds": ["voc_063", "voc_045", "voc_013", "voc_026"],
+    "grammarIds": ["gram_001"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_032",
+    "content": "我吃了饭。",
+    "translation": "저는 밥을 먹었습니다.",
+    "wordIds": ["voc_063", "voc_023"],
+    "grammarIds": ["gram_002"],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_033",
+    "content": "我去过北京。",
+    "translation": "저는 베이징에 가본 적이 있습니다.",
+    "wordIds": ["voc_063", "voc_025"],
+    "grammarIds": ["gram_004"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_034",
+    "content": "我把书放在桌子上。",
+    "translation": "저는 책을 탁자 위에 놓았습니다.",
+    "wordIds": ["voc_063", "voc_095"],
+    "grammarIds": ["gram_005"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_035",
+    "content": "他比我高。",
+    "translation": "그는 저보다 키가 큽니다.",
+    "wordIds": ["voc_065", "voc_063", "voc_055"],
+    "grammarIds": ["gram_007"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_036",
+    "content": "这是最好的。",
+    "translation": "이것이 가장 좋습니다.",
+    "wordIds": ["voc_070", "voc_045"],
+    "grammarIds": ["gram_008"],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_037",
+    "content": "天气越来越热。",
+    "translation": "날씨가 점점 더워지고 있습니다.",
+    "wordIds": ["voc_061"],
+    "grammarIds": ["gram_009"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_038",
+    "content": "我一边听音乐一边学习。",
+    "translation": "저는 음악을 들으면서 공부합니다.",
+    "wordIds": ["voc_063", "voc_028", "voc_021"],
+    "grammarIds": ["gram_010"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_039",
+    "content": "他又高又帅。",
+    "translation": "그는 키가 크고 잘생겼습니다.",
+    "wordIds": ["voc_065", "voc_055"],
+    "grammarIds": ["gram_011"],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_040",
+    "content": "虽然很累，但是我很开心。",
+    "translation": "비록 피곤하지만 저는 매우 기쁩니다.",
+    "wordIds": ["voc_063"],
+    "grammarIds": ["gram_013"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_041",
+    "content": "如果下雨，我就不去了。",
+    "translation": "만약 비가 오면 저는 가지 않겠습니다.",
+    "wordIds": ["voc_063", "voc_045"],
+    "grammarIds": ["gram_014"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_042",
+    "content": "因为下雨，所以我没去。",
+    "translation": "비가 왔기 때문에 저는 가지 않았습니다.",
+    "wordIds": ["voc_063", "voc_045"],
+    "grammarIds": ["gram_015"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_043",
+    "content": "他说得很好。",
+    "translation": "그는 말을 아주 잘합니다.",
+    "wordIds": ["voc_065", "voc_029", "voc_048"],
+    "grammarIds": ["gram_018"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_044",
+    "content": "我正在学习呢。",
+    "translation": "저는 지금 공부하고 있습니다.",
+    "wordIds": ["voc_063", "voc_021"],
+    "grammarIds": ["gram_020"],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_045",
+    "content": "这本书是在书店买的。",
+    "translation": "이 책은 서점에서 샀습니다.",
+    "wordIds": ["voc_070", "voc_096", "voc_095", "voc_046", "voc_031"],
+    "grammarIds": ["gram_001"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_046",
+    "content": "他坐着。",
+    "translation": "그는 앉아 있습니다.",
+    "wordIds": ["voc_065"],
+    "grammarIds": ["gram_003"],
+    "difficulty": 2
+  },
+  {
+    "id": "sent_047",
+    "content": "我看过这部电影。",
+    "translation": "저는 이 영화를 본 적이 있습니다.",
+    "wordIds": ["voc_063", "voc_027", "voc_070"],
+    "grammarIds": ["gram_004"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_048",
+    "content": "他把门关上了。",
+    "translation": "그는 문을 닫았습니다.",
+    "wordIds": ["voc_065"],
+    "grammarIds": ["gram_005"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_049",
+    "content": "这本书比那本书贵。",
+    "translation": "이 책은 그 책보다 비쌉니다.",
+    "wordIds": ["voc_070", "voc_096", "voc_095", "voc_071"],
+    "grammarIds": ["gram_007"],
+    "difficulty": 3
+  },
+  {
+    "id": "sent_050",
+    "content": "我最喜欢这本书。",
+    "translation": "저는 이 책을 가장 좋아합니다.",
+    "wordIds": ["voc_063", "voc_033", "voc_070", "voc_096", "voc_095"],
+    "grammarIds": ["gram_008"],
+    "difficulty": 3
+  }
+]

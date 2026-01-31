@@ -1,0 +1,270 @@
+[
+  {
+    "id": "gram_001",
+    "name": "是...的",
+    "description": "Structure emphasizing time, place, or method of past events",
+    "examples": [
+      "我是昨天来的。",
+      "他是坐飞机去的。",
+      "这本书是在书店买的。"
+    ],
+    "relatedWordIds": [
+      "voc_045"
+    ]
+  },
+  {
+    "id": "gram_002",
+    "name": "了",
+    "description": "Particle indicating completion or change",
+    "examples": [
+      "我吃了饭。",
+      "他来了。",
+      "天气变冷了。"
+    ],
+    "relatedWordIds": [
+      "voc_023"
+    ]
+  },
+  {
+    "id": "gram_003",
+    "name": "着",
+    "description": "Particle indicating ongoing or continuous state",
+    "examples": [
+      "他坐着。",
+      "门开着。",
+      "他穿着新衣服。"
+    ],
+    "relatedWordIds": []
+  },
+  {
+    "id": "gram_004",
+    "name": "过",
+    "description": "Particle indicating past experience",
+    "examples": [
+      "我去过北京。",
+      "我看过这部电影。",
+      "他吃过中国菜。"
+    ],
+    "relatedWordIds": [
+      "voc_025",
+      "voc_027"
+    ]
+  },
+  {
+    "id": "gram_005",
+    "name": "把",
+    "description": "Disposal structure: how the subject handles the object",
+    "examples": [
+      "我把书放在桌子上。",
+      "他把门关上了。",
+      "请把窗户打开。"
+    ],
+    "relatedWordIds": [
+      "voc_095"
+    ]
+  },
+  {
+    "id": "gram_006",
+    "name": "被",
+    "description": "Passive structure: the subject receives the action",
+    "examples": [
+      "书被拿走了。",
+      "他被老师表扬了。",
+      "窗户被打开了。"
+    ],
+    "relatedWordIds": [
+      "voc_095"
+    ]
+  },
+  {
+    "id": "gram_007",
+    "name": "比",
+    "description": "Comparison: A比B+adjective",
+    "examples": [
+      "他比我高。",
+      "这本书比那本书贵。",
+      "今天比昨天热。"
+    ],
+    "relatedWordIds": [
+      "voc_055",
+      "voc_061"
+    ]
+  },
+  {
+    "id": "gram_008",
+    "name": "最",
+    "description": "Superlative: most ~",
+    "examples": [
+      "这是最好的。",
+      "他最高。",
+      "我最喜欢这本书。"
+    ],
+    "relatedWordIds": [
+      "voc_033",
+      "voc_048"
+    ]
+  },
+  {
+    "id": "gram_009",
+    "name": "越来越",
+    "description": "More and more ~",
+    "examples": [
+      "天气越来越热。",
+      "他越来越高了。",
+      "我越来越喜欢中文了。"
+    ],
+    "relatedWordIds": [
+      "voc_061",
+      "voc_033"
+    ]
+  },
+  {
+    "id": "gram_010",
+    "name": "一边...一边...",
+    "description": "While ~, while ~",
+    "examples": [
+      "我一边听音乐一边学习。",
+      "他一边吃饭一边看电视。",
+      "我们一边走一边聊天。"
+    ],
+    "relatedWordIds": [
+      "voc_028",
+      "voc_021",
+      "voc_023"
+    ]
+  },
+  {
+    "id": "gram_011",
+    "name": "又...又...",
+    "description": "Both ~ and ~",
+    "examples": [
+      "他又高又帅。",
+      "这个房间又大又干净。",
+      "她又聪明又漂亮。"
+    ],
+    "relatedWordIds": [
+      "voc_055",
+      "voc_049"
+    ]
+  },
+  {
+    "id": "gram_012",
+    "name": "不但...而且...",
+    "description": "Not only ~ but also ~",
+    "examples": [
+      "他不但聪明而且努力。",
+      "这本书不但便宜而且好看。",
+      "我不但会中文而且会英文。"
+    ],
+    "relatedWordIds": [
+      "voc_038"
+    ]
+  },
+  {
+    "id": "gram_013",
+    "name": "虽然...但是...",
+    "description": "Although ~, but ~",
+    "examples": [
+      "虽然很累，但是我很开心。",
+      "虽然下雨了，但是我们还是去了。",
+      "虽然很贵，但是质量很好。"
+    ],
+    "relatedWordIds": []
+  },
+  {
+    "id": "gram_014",
+    "name": "如果...就...",
+    "description": "If ~, then ~",
+    "examples": [
+      "如果下雨，我就不去了。",
+      "如果你有时间，就来我家吧。",
+      "如果明天天气好，我们就去公园。"
+    ],
+    "relatedWordIds": [
+      "voc_012"
+    ]
+  },
+  {
+    "id": "gram_015",
+    "name": "因为...所以...",
+    "description": "Because ~, so ~",
+    "examples": [
+      "因为下雨，所以我没去。",
+      "因为他很忙，所以没来。",
+      "因为我喜欢中文，所以学习中文。"
+    ],
+    "relatedWordIds": [
+      "voc_033",
+      "voc_021"
+    ]
+  },
+  {
+    "id": "gram_016",
+    "name": "只要...就...",
+    "description": "As long as ~, then ~",
+    "examples": [
+      "只要你努力，就能成功。",
+      "只要天气好，我们就去。",
+      "只要你有时间，就来吧。"
+    ],
+    "relatedWordIds": []
+  },
+  {
+    "id": "gram_017",
+    "name": "除了...以外",
+    "description": "Except for ~",
+    "examples": [
+      "除了中文以外，我还学英文。",
+      "除了他以外，别人都来了。",
+      "除了这本书以外，我还买了那本书。"
+    ],
+    "relatedWordIds": [
+      "voc_021",
+      "voc_095"
+    ]
+  },
+  {
+    "id": "gram_018",
+    "name": "V+得+Adj",
+    "description": "V+得+Adj: result or degree of action",
+    "examples": [
+      "他说得很好。",
+      "他跑得很快。",
+      "他写得很好。"
+    ],
+    "relatedWordIds": [
+      "voc_029",
+      "voc_059",
+      "voc_048"
+    ]
+  },
+  {
+    "id": "gram_019",
+    "name": "V+不/得+Adj",
+    "description": "V+不/得+Adj: possibility/impossibility",
+    "examples": [
+      "我看得清楚。",
+      "我听不清楚。",
+      "他跑得很快。"
+    ],
+    "relatedWordIds": [
+      "voc_027",
+      "voc_028",
+      "voc_059"
+    ]
+  },
+  {
+    "id": "gram_020",
+    "name": "正在...呢",
+    "description": "正在...呢: currently doing ~",
+    "examples": [
+      "我正在学习呢。",
+      "他正在吃饭呢。",
+      "我们正在聊天呢。"
+    ],
+    "relatedWordIds": [
+      "voc_021",
+      "voc_023"
+    ]
+  }
+]
