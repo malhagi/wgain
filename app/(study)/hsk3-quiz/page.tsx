@@ -171,6 +171,7 @@ export default function HSK3QuizPage() {
             characters={currentVocab.characters}
             pinyin={currentVocab.pinyin}
             meaning={currentVocab.meaning}
+            examples={currentVocab.examples}
             onHintUsed={handleHintUsed}
             className="mb-4"
           />

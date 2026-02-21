@@ -22,7 +22,9 @@ export default function VocabularyPage() {
 
   useEffect(() => {
     loadVocabularyAsync().then((vocabList) => {
-      setVocabularies(vocabList);
+      // 1. 단어의 순서를 1,2,3 순서가 아니라 random으로 나오도록 섞어줘
+      const shuffledVocab = [...vocabList].sort(() => Math.random() - 0.5);
+      setVocabularies(shuffledVocab);
 
       const userProgress = getOrInitializeProgress();
       setProgress(userProgress);
@@ -31,15 +33,15 @@ export default function VocabularyPage() {
       const queue = createLearningQueue(userProgress.vocabulary);
       if (queue.length > 0) {
         const firstItem = queue[0];
-        const vocab = vocabList.find((v) => v.id === firstItem.itemId);
+        const vocab = shuffledVocab.find((v) => v.id === firstItem.itemId);
         if (vocab) {
           const vocabProgress = getOrCreateProgress(userProgress, vocab.id, 'vocabulary');
           setCurrentProgress(vocabProgress);
-          setCurrentIndex(vocabList.findIndex((v) => v.id === vocab.id));
+          setCurrentIndex(shuffledVocab.findIndex((v) => v.id === vocab.id));
         }
-      } else if (vocabList.length > 0) {
-        // 큐가 비어있으면 첫 번째 단어로
-        const vocab = vocabList[0];
+      } else if (shuffledVocab.length > 0) {
+        // 큐가 비어있으면 섞인 리스트의 첫 번째 단어로
+        const vocab = shuffledVocab[0];
         const vocabProgress = getOrCreateProgress(userProgress, vocab.id, 'vocabulary');
         setCurrentProgress(vocabProgress);
       }
@@ -178,6 +180,7 @@ export default function VocabularyPage() {
             characters={currentVocab.characters}
             pinyin={currentVocab.pinyin}
             meaning={currentVocab.meaning}
+            examples={currentVocab.examples}
             onHintUsed={handleHintUsed}
             className="mb-4"
           />
