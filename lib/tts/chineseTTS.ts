@@ -1,7 +1,7 @@
 // 중국어 TTS 유틸리티
 
 export function speakChinese(text: string, lang: string = 'zh-CN'): Promise<void> {
-  let gender: 'female' | 'male' = 'female'; // Default to female
+  let character: 'A' | 'B' | 'default' = 'default'; // Default to A voice
   let speechText = text;
 
   // '|' 문자를 기준으로 앞부분(중국어)만 가져옴
@@ -12,10 +12,10 @@ export function speakChinese(text: string, lang: string = 'zh-CN'): Promise<void
   // Check for A: or B: prefixes
   if (speechText.startsWith('A:') || speechText.startsWith('A：') || speechText.startsWith('A: ') || speechText.startsWith('A： ')) {
     speechText = speechText.replace(/^A[:：]\s*/, '').trim();
-    gender = 'female';
+    character = 'A';
   } else if (speechText.startsWith('B:') || speechText.startsWith('B：') || speechText.startsWith('B: ') || speechText.startsWith('B： ')) {
     speechText = speechText.replace(/^B[:：]\s*/, '').trim();
-    gender = 'male';
+    character = 'B';
   }
 
   return new Promise((resolve, reject) => {
@@ -66,8 +66,8 @@ export function speakChinese(text: string, lang: string = 'zh-CN'): Promise<void
         console.log('Available voices:', voices.length);
 
         if (voices.length > 0) {
-          // 여성 대표 음성 찾기
-          const femaleChineseVoice = voices.find(voice =>
+          // 여성 대표 음성들 찾기
+          const chineseFemaleVoices = voices.filter(voice =>
             (voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')) &&
             (voice.name.toLowerCase().includes('female') ||
               voice.name.toLowerCase().includes('woman') ||
@@ -77,33 +77,26 @@ export function speakChinese(text: string, lang: string = 'zh-CN'): Promise<void
               voice.name.toLowerCase().includes('huihui') ||
               voice.name.toLowerCase().includes('yaoyao') ||
               voice.name.toLowerCase().includes('xiaoxiao'))
-          ) || voices.find(voice =>
+          );
+
+          const fallbackChineseVoices = voices.filter(voice =>
             voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')
           );
 
-          let selectedVoice;
+          const primaryVoice = chineseFemaleVoices.length > 0 ? chineseFemaleVoices[0] : (fallbackChineseVoices.length > 0 ? fallbackChineseVoices[0] : null);
+          const secondaryVoice = chineseFemaleVoices.length > 1 ? chineseFemaleVoices[1] : (fallbackChineseVoices.length > 1 ? fallbackChineseVoices[1] : primaryVoice);
 
-          if (gender === 'female') {
-            selectedVoice = femaleChineseVoice;
-          } else {
-            // 남성 음성은 거친 경우가 많으므로 부드러운 음성을 선호 (Edge/Mac의 고급 음성)
-            selectedVoice = voices.find(voice =>
-              (voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')) &&
-              (
-                voice.name.toLowerCase().includes('yunxi') ||   // Edge 남성 음성 (좋음)
-                voice.name.toLowerCase().includes('yunyang') || // Edge 남성 음성
-                voice.name.toLowerCase().includes('yunjian') || // Mac 고품질 남성 음성
-                (voice.name.toLowerCase().includes('male') && !voice.name.toLowerCase().includes('kangkang'))
-              )
-            ) || voices.find(voice =>
-              (voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')) &&
-              femaleChineseVoice && voice.name !== femaleChineseVoice.name // 남성 음성을 못찾으면 A와 다른 아무 음성이나
-            ) || femaleChineseVoice;
+          let selectedVoice = primaryVoice;
+
+          if (character === 'A' || character === 'default') {
+            selectedVoice = primaryVoice;
+          } else if (character === 'B') {
+            selectedVoice = secondaryVoice;
           }
 
           if (selectedVoice) {
             utterance.voice = selectedVoice;
-            console.log('Using voice:', selectedVoice.name, 'for gender:', gender);
+            console.log('Using voice:', selectedVoice.name, 'for character:', character);
           }
         }
 
