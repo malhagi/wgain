@@ -184,11 +184,15 @@ export default function HSK3QuizPage() {
               📝 Examples
             </div>
             <div className="space-y-3">
-              {currentVocab.examples.map((example, idx) => (
-                <div key={idx} className="text-base text-black font-medium pb-2 border-b border-purple-200/40 last:border-0 last:pb-0">
-                  {example}
-                </div>
-              ))}
+              {currentVocab.examples.map((example, idx) => {
+                const [chinese, korean] = example.split('|');
+                return (
+                  <div key={idx} className="pb-2 border-b border-purple-200/40 last:border-0 last:pb-0">
+                    <div className="text-base text-black font-medium">{chinese}</div>
+                    {korean && <div className="text-sm text-purple-700 mt-1">{korean}</div>}
+                  </div>
+                );
+              })}
             </div>
           </div>
         )}
@@ -218,12 +222,16 @@ export default function HSK3QuizPage() {
                       <Volume2 className="w-5 h-5 text-white" />
                     </button>
                   </div>
-                  <div className="space-y-2 mt-2">
-                    {sim.examples.map((ex, exIdx) => (
-                      <div key={exIdx} className="text-sm text-gray-800">
-                        {ex}
-                      </div>
-                    ))}
+                  <div className="space-y-3 mt-3">
+                    {sim.examples.map((ex, exIdx) => {
+                      const [chinese, korean] = ex.split('|');
+                      return (
+                        <div key={exIdx} className="text-sm text-gray-800">
+                          <div className="font-medium text-black">{chinese}</div>
+                          {korean && <div className="text-xs text-orange-800 mt-0.5">{korean}</div>}
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               ))}

@@ -4,12 +4,17 @@ export function speakChinese(text: string, lang: string = 'zh-CN'): Promise<void
   let gender: 'female' | 'male' = 'female'; // Default to female
   let speechText = text;
 
-  // Check for A: or B: prefixes (handles both half-width and full-width colons)
-  if (speechText.startsWith('A:') || speechText.startsWith('A：')) {
-    speechText = speechText.substring(2).trim();
+  // '|' 문자를 기준으로 앞부분(중국어)만 가져옴
+  if (speechText.includes('|')) {
+    speechText = speechText.split('|')[0].trim();
+  }
+
+  // Check for A: or B: prefixes
+  if (speechText.startsWith('A:') || speechText.startsWith('A：') || speechText.startsWith('A: ') || speechText.startsWith('A： ')) {
+    speechText = speechText.replace(/^A[:：]\s*/, '').trim();
     gender = 'female';
-  } else if (speechText.startsWith('B:') || speechText.startsWith('B：')) {
-    speechText = speechText.substring(2).trim();
+  } else if (speechText.startsWith('B:') || speechText.startsWith('B：') || speechText.startsWith('B: ') || speechText.startsWith('B： ')) {
+    speechText = speechText.replace(/^B[:：]\s*/, '').trim();
     gender = 'male';
   }
 
@@ -61,35 +66,39 @@ export function speakChinese(text: string, lang: string = 'zh-CN'): Promise<void
         console.log('Available voices:', voices.length);
 
         if (voices.length > 0) {
+          // 여성 대표 음성 찾기
+          const femaleChineseVoice = voices.find(voice =>
+            (voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')) &&
+            (voice.name.toLowerCase().includes('female') ||
+              voice.name.toLowerCase().includes('woman') ||
+              voice.name.toLowerCase().includes('ting-ting') ||
+              voice.name.toLowerCase().includes('sin-ji') ||
+              voice.name.toLowerCase().includes('meijia') ||
+              voice.name.toLowerCase().includes('huihui') ||
+              voice.name.toLowerCase().includes('yaoyao') ||
+              voice.name.toLowerCase().includes('xiaoxiao'))
+          ) || voices.find(voice =>
+            voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')
+          );
+
           let selectedVoice;
 
           if (gender === 'female') {
-            selectedVoice = voices.find(voice =>
-              (voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')) &&
-              (voice.name.toLowerCase().includes('female') ||
-                voice.name.toLowerCase().includes('woman') ||
-                voice.name.toLowerCase().includes('ting-ting') || // iOS 중국어 여성 음성
-                voice.name.toLowerCase().includes('sin-ji') ||    // iOS 광동어 여성 음성
-                voice.name.toLowerCase().includes('meijia') ||    // Android 중국어 여성 음성
-                voice.name.toLowerCase().includes('huihui') ||    // Windows 중국어 여성 음성
-                voice.name.toLowerCase().includes('yaoyao') ||    // Windows 중국어 여성 음성
-                voice.name.toLowerCase().includes('xiaoxiao'))    // Edge 여성 음성
-            ) || voices.find(voice =>
-              voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')
-            );
+            selectedVoice = femaleChineseVoice;
           } else {
-            // Male voice
+            // 남성 음성은 거친 경우가 많으므로 부드러운 음성을 선호 (Edge/Mac의 고급 음성)
             selectedVoice = voices.find(voice =>
               (voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')) &&
-              (voice.name.toLowerCase().includes('male') ||
-                voice.name.toLowerCase().includes('man') ||
-                voice.name.toLowerCase().includes('kan-jian') ||  // iOS 중국어 남성 음성
-                voice.name.toLowerCase().includes('kangkang') ||  // Windows 중국어 남성 음성
-                voice.name.toLowerCase().includes('yunyang') ||   // Edge 남성 음성
-                voice.name.toLowerCase().includes('yunxi'))       // Edge 남성 음성
+              (
+                voice.name.toLowerCase().includes('yunxi') ||   // Edge 남성 음성 (좋음)
+                voice.name.toLowerCase().includes('yunyang') || // Edge 남성 음성
+                voice.name.toLowerCase().includes('yunjian') || // Mac 고품질 남성 음성
+                (voice.name.toLowerCase().includes('male') && !voice.name.toLowerCase().includes('kangkang'))
+              )
             ) || voices.find(voice =>
-              voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')
-            );
+              (voice.lang.startsWith('zh') || voice.lang.startsWith('cmn')) &&
+              femaleChineseVoice && voice.name !== femaleChineseVoice.name // 남성 음성을 못찾으면 A와 다른 아무 음성이나
+            ) || femaleChineseVoice;
           }
 
           if (selectedVoice) {
