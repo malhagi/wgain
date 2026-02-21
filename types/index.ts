@@ -4,13 +4,22 @@ export type LearningStatus = 'new' | 'learning' | 'review' | 'mastered';
 // 힌트 단계 타입
 export type HintStage = 'none' | 'tts' | 'pinyin' | 'meaning';
 
+// 유사 단어 타입
+export interface SimilarWord {
+  word: string;
+  pinyin: string;
+  meaning: string;
+  examples: string[];
+}
+
 // 단어 타입
 export interface Vocabulary {
   id: string;
   characters: string; // Simplified Chinese characters
   pinyin: string;
   meaning: string; // English meaning
-  example?: string;
+  examples?: string[];
+  similarWords?: SimilarWord[];
   status?: LearningStatus;
 }
 

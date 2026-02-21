@@ -19,6 +19,13 @@ export default function Dashboard() {
 
   const sections = [
     {
+      name: 'HSK 3 Quiz',
+      href: '/hsk3-quiz',
+      icon: TrendingUp,
+      color: 'bg-red-500',
+      stats: null,
+    },
+    {
       name: 'Vocabulary',
       href: '/vocabulary',
       icon: Book,

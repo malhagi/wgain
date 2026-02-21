@@ -12,7 +12,7 @@ import type { Vocabulary, LearningProgress, HintStage, UserProgress } from '@/ty
 import { CheckCircle2, XCircle, Volume2 } from 'lucide-react';
 import { speakChinese } from '@/lib/tts/chineseTTS';
 
-export default function VocabularyPage() {
+export default function HSK3QuizPage() {
   const [vocabularies, setVocabularies] = useState<Vocabulary[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [progress, setProgress] = useState<UserProgress | null>(null);
@@ -22,26 +22,19 @@ export default function VocabularyPage() {
 
   useEffect(() => {
     loadVocabularyAsync().then((vocabList) => {
-      setVocabularies(vocabList);
+      const hsk3List = vocabList.filter(v => v.id.startsWith('hsk3_'));
+      // Shuffle the list
+      const shuffled = [...hsk3List].sort(() => Math.random() - 0.5);
+      setVocabularies(shuffled);
 
       const userProgress = getOrInitializeProgress();
       setProgress(userProgress);
 
-      // 학습 큐 생성
-      const queue = createLearningQueue(userProgress.vocabulary);
-      if (queue.length > 0) {
-        const firstItem = queue[0];
-        const vocab = vocabList.find((v) => v.id === firstItem.itemId);
-        if (vocab) {
-          const vocabProgress = getOrCreateProgress(userProgress, vocab.id, 'vocabulary');
-          setCurrentProgress(vocabProgress);
-          setCurrentIndex(vocabList.findIndex((v) => v.id === vocab.id));
-        }
-      } else if (vocabList.length > 0) {
-        // 큐가 비어있으면 첫 번째 단어로
-        const vocab = vocabList[0];
+      if (shuffled.length > 0) {
+        const vocab = shuffled[0];
         const vocabProgress = getOrCreateProgress(userProgress, vocab.id, 'vocabulary');
         setCurrentProgress(vocabProgress);
+        setCurrentIndex(0);
       }
     });
   }, []);
@@ -161,8 +154,8 @@ export default function VocabularyPage() {
   return (
     <div className="container mx-auto px-4 py-6 pb-24 max-w-2xl">
       <div className="mb-6">
-        <h1 className="text-3xl font-bold text-black tracking-tight">📚 Vocabulary</h1>
-        <p className="text-sm text-blue-600 font-medium mt-1">Learn Chinese words</p>
+        <h1 className="text-3xl font-bold text-black tracking-tight">🎲 HSK 3 Random Quiz</h1>
+        <p className="text-sm text-blue-600 font-medium mt-1">Practice HSK 3 vocabulary randomly</p>
       </div>
 
       <div className="ios-card p-6 mb-5 transition-ios shadow-lg">

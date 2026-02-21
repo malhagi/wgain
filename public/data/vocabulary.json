@@ -6,7 +6,44 @@
     "meaning": "안녕하세요",
     "partOfSpeech": "greeting",
     "example": "你好，我是小明。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你好！",
+      "B: 你好！见到你很高兴。",
+      "A: 我也是，请坐。"
+    ],
+    "similarWords": [
+      {
+        "word": "您好",
+        "pinyin": "nín hǎo",
+        "meaning": "Hello (polite)",
+        "examples": [
+          "A: 王老师，您好！",
+          "B: 你好，请进。",
+          "A: 谢谢您。"
+        ]
+      },
+      {
+        "word": "嗨",
+        "pinyin": "hāi",
+        "meaning": "Hi (loanword)",
+        "examples": [
+          "A: 嗨！好久不见。",
+          "B: 嗨！最近怎么样？",
+          "A: 挺好的。"
+        ]
+      },
+      {
+        "word": "问候",
+        "pinyin": "wèn hòu",
+        "meaning": "Greet",
+        "examples": [
+          "A: 请代我向你父母问候。",
+          "B: 好的，我会转达的。",
+          "A: 谢谢。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_002",
@@ -15,7 +52,13 @@
     "meaning": "감사합니다",
     "partOfSpeech": "verb",
     "example": "谢谢你帮助我。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这是送给你的礼物。",
+      "B: 谢谢你！我非常喜欢。",
+      "A: 你喜欢就好。"
+    ],
+    "similarWords": []
   },
   {
     "id": "voc_003",
@@ -24,7 +67,44 @@
     "meaning": "천만에요",
     "partOfSpeech": "phrase",
     "example": "不客气，这是我应该做的。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 谢谢你帮我拿行李。",
+      "B: 不客气，这是应该的。",
+      "A: 你真好。"
+    ],
+    "similarWords": [
+      {
+        "word": "没事",
+        "pinyin": "méi shì",
+        "meaning": "It's nothing / No problem",
+        "examples": [
+          "A: 麻烦你了。",
+          "B: 没事，举手之劳。",
+          "A: 真的很感谢。"
+        ]
+      },
+      {
+        "word": "不用谢",
+        "pinyin": "bù yòng xiè",
+        "meaning": "You're welcome / No need to thank",
+        "examples": [
+          "A: 谢谢你借我钱。",
+          "B: 不用谢，什么时候还都行。",
+          "A: 下周发工资就还你。"
+        ]
+      },
+      {
+        "word": "别客气",
+        "pinyin": "bié kè qi",
+        "meaning": "Don't be polite / You're welcome",
+        "examples": [
+          "A: 今天真是打扰了。",
+          "B: 别客气，当自己家一样。",
+          "A: 好的。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_004",
@@ -33,7 +113,44 @@
     "meaning": "부탁하다, 청하다",
     "partOfSpeech": "verb",
     "example": "请坐。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 欢迎光临！请进。",
+      "B: 谢谢。请问洗手间在哪儿？",
+      "A: 在那边，一直走。"
+    ],
+    "similarWords": [
+      {
+        "word": "邀请",
+        "pinyin": "yāo qǐng",
+        "meaning": "Invite",
+        "examples": [
+          "A: 我想邀请你参加我的生日派对。",
+          "B: 太好了，谢谢你的邀请。",
+          "A: 记得周六晚上来。"
+        ]
+      },
+      {
+        "word": "求",
+        "pinyin": "qiú",
+        "meaning": "Beg / Request",
+        "examples": [
+          "A: 我求你帮我这个忙。",
+          "B: 别这样说，我尽量帮。",
+          "A: 拜托了。"
+        ]
+      },
+      {
+        "word": "请求",
+        "pinyin": "qǐng qiú",
+        "meaning": "Request",
+        "examples": [
+          "A: 我有一个请求。",
+          "B: 你说吧，什么事？",
+          "A: 能多给我一天时间吗？"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_005",
@@ -42,7 +159,44 @@
     "meaning": "죄송합니다",
     "partOfSpeech": "phrase",
     "example": "对不起，我迟到了。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 对不起，我迟到了。",
+      "B: 没事，外面堵车吗？",
+      "A: 是的，路上车很多。"
+    ],
+    "similarWords": [
+      {
+        "word": "抱歉",
+        "pinyin": "bào qiàn",
+        "meaning": "Be sorry / Feel apologetic",
+        "examples": [
+          "A: 很抱歉让您久等了。",
+          "B: 没关系，我也刚到。",
+          "A: 我们现在开始吧。"
+        ]
+      },
+      {
+        "word": "道歉",
+        "pinyin": "dào qiàn",
+        "meaning": "To apologize",
+        "examples": [
+          "A: 我为我昨天的行为道歉。",
+          "B: 事情过去了就算了。",
+          "A: 我保证不会有下次了。"
+        ]
+      },
+      {
+        "word": "不好意思",
+        "pinyin": "bù hǎo yì si",
+        "meaning": "Excuse me / Feel embarrassed",
+        "examples": [
+          "A: 不好意思，借过一下。",
+          "B: 哦，好的。",
+          "A: 谢谢。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_006",
@@ -51,7 +205,44 @@
     "meaning": "괜찮아요",
     "partOfSpeech": "phrase",
     "example": "没关系，我不介意。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我不小心把水洒了。",
+      "B: 没关系，我来擦一下。",
+      "A: 真是太抱歉了。"
+    ],
+    "similarWords": [
+      {
+        "word": "没关系",
+        "pinyin": "méi guān xi",
+        "meaning": "It doesn't matter / Never mind",
+        "examples": [
+          "A: 哎呀，踩到你的脚了，对不起！",
+          "B: 没关系，不疼。",
+          "A: 下次我会小心的。"
+        ]
+      },
+      {
+        "word": "无关",
+        "pinyin": "wú guān",
+        "meaning": "Unrelated",
+        "examples": [
+          "A: 这件事和我无关。",
+          "B: 那是谁做的？",
+          "A: 你去问问别人吧。"
+        ]
+      },
+      {
+        "word": "不要紧",
+        "pinyin": "bù yào jǐn",
+        "meaning": "Unimportant / Never mind",
+        "examples": [
+          "A: 我把杯子打碎了。",
+          "B: 不要紧，别伤到手就好。",
+          "A: 我来打扫干净。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_007",
@@ -60,7 +251,44 @@
     "meaning": "안녕히 가세요",
     "partOfSpeech": "greeting",
     "example": "再见，明天见！",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我要回家了，再见！",
+      "B: 再见，路上小心。",
+      "A: 好的，明天见。"
+    ],
+    "similarWords": [
+      {
+        "word": "告别",
+        "pinyin": "gào bié",
+        "meaning": "Bid farewell",
+        "examples": [
+          "A: 朋友明天出国，我去机场跟他告别。",
+          "B: 那你要多跟他说说话。",
+          "A: 嗯，我会的。"
+        ]
+      },
+      {
+        "word": "辞行",
+        "pinyin": "cí xíng",
+        "meaning": "Bid farewell (formal)",
+        "examples": [
+          "A: 我特地来向您辞行。",
+          "B: 祝你一路平安。",
+          "A: 谢谢您的照顾。"
+        ]
+      },
+      {
+        "word": "回头见",
+        "pinyin": "huí tóu jiàn",
+        "meaning": "See you later",
+        "examples": [
+          "A: 我先去开会了，回头见。",
+          "B: 好的，回头见。",
+          "A: 拜拜。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_008",
@@ -69,7 +297,44 @@
     "meaning": "아침",
     "partOfSpeech": "noun",
     "example": "早上好！",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 早上好！吃早饭了吗？",
+      "B: 早上好！还没吃呢。",
+      "A: 那我们一起去吃吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "早晨",
+        "pinyin": "zǎo chén",
+        "meaning": "Early morning",
+        "examples": [
+          "A: 每天早晨我都去跑步。",
+          "B: 这个习惯真好。",
+          "A: 一天都很有精神。"
+        ]
+      },
+      {
+        "word": "清晨",
+        "pinyin": "qīng chén",
+        "meaning": "Early morning / Dawn",
+        "examples": [
+          "A: 清晨的空气非常清新。",
+          "B: 是啊，这时候外面很安静。",
+          "A: 适合散步。"
+        ]
+      },
+      {
+        "word": "上午",
+        "pinyin": "shàng wǔ",
+        "meaning": "Morning",
+        "examples": [
+          "A: 明天上午你有安排吗？",
+          "B: 我要见一个客户。",
+          "A: 那只有下午见了。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_009",
@@ -78,7 +343,44 @@
     "meaning": "점심",
     "partOfSpeech": "noun",
     "example": "中午我们一起吃饭吧。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 中午你想吃什么？",
+      "B: 我想吃面条。",
+      "A: 好，那我们去前面的面馆。"
+    ],
+    "similarWords": [
+      {
+        "word": "正午",
+        "pinyin": "zhèng wǔ",
+        "meaning": "High noon / Midday",
+        "examples": [
+          "A: 夏天正午的太阳太毒了。",
+          "B: 出门一定要打伞。",
+          "A: 最好少出门。"
+        ]
+      },
+      {
+        "word": "半天",
+        "pinyin": "bàn tiān",
+        "meaning": "Half a day / A long time",
+        "examples": [
+          "A: 我等你半天了。",
+          "B: 抱歉抱歉，路上堵车。",
+          "A: 快走吧。"
+        ]
+      },
+      {
+        "word": "午饭",
+        "pinyin": "wǔ fàn",
+        "meaning": "Lunch",
+        "examples": [
+          "A: 午饭吃什么？",
+          "B: 我们去吃汉堡吧。",
+          "A: 好啊。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_010",
@@ -87,7 +389,44 @@
     "meaning": "저녁",
     "partOfSpeech": "noun",
     "example": "晚上我要去图书馆。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 今晚你有空吗？",
+      "B: 晚上我要加班，怎么了？",
+      "A: 本来想约你看电影的。"
+    ],
+    "similarWords": [
+      {
+        "word": "夜晚",
+        "pinyin": "yè wǎn",
+        "meaning": "Night",
+        "examples": [
+          "A: 城市的夜晚很漂亮。",
+          "B: 到处都是霓虹灯。",
+          "A: 像白天一样亮。"
+        ]
+      },
+      {
+        "word": "深夜",
+        "pinyin": "shēn yè",
+        "meaning": "Late night",
+        "examples": [
+          "A: 深夜了，你还在工作吗？",
+          "B: 还有一个报告没写完。",
+          "A: 注意身体。"
+        ]
+      },
+      {
+        "word": "晚安",
+        "pinyin": "wǎn ān",
+        "meaning": "Good night",
+        "examples": [
+          "A: 我困了，去睡觉了，晚安。",
+          "B: 晚安，做个好梦。",
+          "A: 拜拜。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_011",
@@ -96,7 +435,44 @@
     "meaning": "오늘",
     "partOfSpeech": "noun",
     "example": "今天天气很好。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 今天天气真好！",
+      "B: 是啊，不冷也不热。",
+      "A: 我们去公园散步吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "今日",
+        "pinyin": "jīn rì",
+        "meaning": "Today (formal)",
+        "examples": [
+          "A: 今日的头条新闻是什么？",
+          "B: 好像是一个科技发布会。",
+          "A: 我们看一下。"
+        ]
+      },
+      {
+        "word": "现今",
+        "pinyin": "xiàn jīn",
+        "meaning": "Nowadays",
+        "examples": [
+          "A: 现今社会变化真快。",
+          "B: 是啊，不学习就会落后。",
+          "A: 我们要跟上时代。"
+        ]
+      },
+      {
+        "word": "目前",
+        "pinyin": "mù qián",
+        "meaning": "Currently",
+        "examples": [
+          "A: 目前的情况怎么样？",
+          "B: 一切都在计划中。",
+          "A: 那就好。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_012",
@@ -105,7 +481,44 @@
     "meaning": "내일",
     "partOfSpeech": "noun",
     "example": "明天我要去北京。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 明天你会来公司吗？",
+      "B: 会的，明天早上九点到。",
+      "A: 那我们明天见。"
+    ],
+    "similarWords": [
+      {
+        "word": "明日",
+        "pinyin": "míng rì",
+        "meaning": "Tomorrow (formal)",
+        "examples": [
+          "A: 明日复明日，明日何其多。",
+          "B: 这是一首很有名的诗。",
+          "A: 告诉我们要珍惜时间。"
+        ]
+      },
+      {
+        "word": "将来",
+        "pinyin": "jiāng lái",
+        "meaning": "Future",
+        "examples": [
+          "A: 你将来想做什么？",
+          "B: 我想当一名医生。",
+          "A: 很有理想。"
+        ]
+      },
+      {
+        "word": "以后",
+        "pinyin": "yǐ hòu",
+        "meaning": "After / Afterwards",
+        "examples": [
+          "A: 以后请多指教。",
+          "B: 互相学习。",
+          "A: 合作愉快。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_013",
@@ -114,7 +527,44 @@
     "meaning": "어제",
     "partOfSpeech": "noun",
     "example": "昨天我看了电影。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 昨天你去哪儿了？",
+      "B: 昨天我在家休息了一天。",
+      "A: 难怪没看到你。"
+    ],
+    "similarWords": [
+      {
+        "word": "昨日",
+        "pinyin": "zuó rì",
+        "meaning": "Yesterday (formal)",
+        "examples": [
+          "A: 昨日的比赛你看哪？",
+          "B: 看了，非常精彩。",
+          "A: 最后谁赢了？"
+        ]
+      },
+      {
+        "word": "以往",
+        "pinyin": "yǐ wǎng",
+        "meaning": "In the past",
+        "examples": [
+          "A: 他比以往更努力了。",
+          "B: 因为他想考上好大学。",
+          "A: 祝他成功。"
+        ]
+      },
+      {
+        "word": "从前",
+        "pinyin": "cóng qián",
+        "meaning": "Before / In the past",
+        "examples": [
+          "A: 从前这里是一个小渔村。",
+          "B: 现在变成了大城市。",
+          "A: 变化太大了。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_014",
@@ -123,7 +573,44 @@
     "meaning": "지금",
     "partOfSpeech": "noun",
     "example": "现在几点了？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 现在几点了？",
+      "B: 现在是下午三点半。",
+      "A: 谢谢，我的手表坏了。"
+    ],
+    "similarWords": [
+      {
+        "word": "目前",
+        "pinyin": "mù qián",
+        "meaning": "Currently at present",
+        "examples": [
+          "A: 我们目前遇到了一些困难。",
+          "B: 需要我帮忙吗？",
+          "A: 暂时不用，谢谢。"
+        ]
+      },
+      {
+        "word": "此刻",
+        "pinyin": "cǐ kè",
+        "meaning": "This moment / Now",
+        "examples": [
+          "A: 此时此刻，我非常激动。",
+          "B: 恭喜你获奖。",
+          "A: 谢谢大家的支持。"
+        ]
+      },
+      {
+        "word": "正在",
+        "pinyin": "zhèng zài",
+        "meaning": "In the process of",
+        "examples": [
+          "A: 你正在做什么？",
+          "B: 我正在看书。",
+          "A: 不打扰你了。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_015",
@@ -132,7 +619,44 @@
     "meaning": "시간",
     "partOfSpeech": "noun",
     "example": "我每天学习三个小时。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你每天工作几个小时？",
+      "B: 我每天工作八个小时。",
+      "A: 那真是辛苦了。"
+    ],
+    "similarWords": [
+      {
+        "word": "钟头",
+        "pinyin": "zhōng tóu",
+        "meaning": "Hour (colloquial)",
+        "examples": [
+          "A: 你等了几个钟头了？",
+          "B: 差不多两个钟头。",
+          "A: 对不起，我来晚了。"
+        ]
+      },
+      {
+        "word": "时间",
+        "pinyin": "shí jiān",
+        "meaning": "Time",
+        "examples": [
+          "A: 我没有时间去购物了。",
+          "B: 那我们明天再去吧。",
+          "A: 好的。"
+        ]
+      },
+      {
+        "word": "时刻",
+        "pinyin": "shí kè",
+        "meaning": "Moment",
+        "examples": [
+          "A: 这是一个难忘的时刻。",
+          "B: 是啊，毕业了。",
+          "A: 祝大家前程似锦。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_016",
@@ -141,7 +665,44 @@
     "meaning": "분",
     "partOfSpeech": "noun",
     "example": "还有五分钟就上课了。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 会议还有多久开始？",
+      "B: 还有五分钟。",
+      "A: 好的，我去拿笔记。"
+    ],
+    "similarWords": [
+      {
+        "word": "秒",
+        "pinyin": "miǎo",
+        "meaning": "Second",
+        "examples": [
+          "A: 他的速度很快，跑完一百米只用了十秒。",
+          "B: 真是个天才。",
+          "A: 他每天都在训练。"
+        ]
+      },
+      {
+        "word": "片刻",
+        "pinyin": "piàn kè",
+        "meaning": "A short while",
+        "examples": [
+          "A: 请稍等片刻，经理马上就来。",
+          "B: 好的，没关系。",
+          "A: 您需要喝点水吗？"
+        ]
+      },
+      {
+        "word": "瞬间",
+        "pinyin": "shùn jiān",
+        "meaning": "Moment / Instant",
+        "examples": [
+          "A: 事故发生在一瞬间。",
+          "B: 太可怕了。",
+          "A: 大家要小心驾驶。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_017",
@@ -150,7 +711,44 @@
     "meaning": "년",
     "partOfSpeech": "noun",
     "example": "今年是2024年。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你是哪一年出生的？",
+      "B: 我是一九九零年出生的。",
+      "A: 那我们是同龄人！"
+    ],
+    "similarWords": [
+      {
+        "word": "岁",
+        "pinyin": "suì",
+        "meaning": "Age / Years old",
+        "examples": [
+          "A: 你今年几岁了？",
+          "B: 我今年三十岁。",
+          "A: 看起来很年轻。"
+        ]
+      },
+      {
+        "word": "年代",
+        "pinyin": "nián dài",
+        "meaning": "Decade / Era",
+        "examples": [
+          "A: 这种衣服是八十年代流行的。",
+          "B: 现在看起来很复古。",
+          "A: 时尚是个轮回。"
+        ]
+      },
+      {
+        "word": "年份",
+        "pinyin": "nián fèn",
+        "meaning": "Year",
+        "examples": [
+          "A: 这瓶红酒的年份很好。",
+          "B: 是哪一年的？",
+          "A: 是二零零零年的。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_018",
@@ -159,7 +757,44 @@
     "meaning": "월",
     "partOfSpeech": "noun",
     "example": "这个月我很忙。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你的生日是几月？",
+      "B: 我的生日在十月。",
+      "A: 太巧了，我也是！"
+    ],
+    "similarWords": [
+      {
+        "word": "月份",
+        "pinyin": "yuè fèn",
+        "meaning": "Month",
+        "examples": [
+          "A: 请问现在是几月份？",
+          "B: 现在是十二月份。",
+          "A: 快过年了。"
+        ]
+      },
+      {
+        "word": "季度",
+        "pinyin": "jì dù",
+        "meaning": "Quarter",
+        "examples": [
+          "A: 第一季度的销售额怎么样？",
+          "B: 比去年增长了百分之十。",
+          "A: 干得不错。"
+        ]
+      },
+      {
+        "word": "半月",
+        "pinyin": "bàn yuè",
+        "meaning": "Half a month",
+        "examples": [
+          "A: 我已经半个月没见到他了。",
+          "B: 他去出差了吗？",
+          "A: 可能是吧。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_019",
@@ -168,7 +803,44 @@
     "meaning": "일",
     "partOfSpeech": "noun",
     "example": "今天是几月几日？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 今天是几月几日？",
+      "B: 今天是八月十五日。",
+      "A: 啊，今天是中秋节！"
+    ],
+    "similarWords": [
+      {
+        "word": "日子",
+        "pinyin": "rì zi",
+        "meaning": "Day / Time",
+        "examples": [
+          "A: 最近日子过得怎么样？",
+          "B: 挺好的，每天都很充实。",
+          "A: 那就好。"
+        ]
+      },
+      {
+        "word": "白天",
+        "pinyin": "bái tiān",
+        "meaning": "Daytime",
+        "examples": [
+          "A: 白天我都要去上班。",
+          "B: 那我们晚上见。",
+          "A: 好的，晚上见。"
+        ]
+      },
+      {
+        "word": "某日",
+        "pinyin": "mǒu rì",
+        "meaning": "A certain day",
+        "examples": [
+          "A: 某日我们在街上偶遇了。",
+          "B: 真是太巧了。",
+          "A: 缘分啊。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_020",
@@ -177,7 +849,44 @@
     "meaning": "주",
     "partOfSpeech": "noun",
     "example": "这个星期我要考试。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这个星期你忙吗？",
+      "B: 有点忙，每天都在开会。",
+      "A: 那下个星期我们再约吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "周",
+        "pinyin": "zhōu",
+        "meaning": "Week",
+        "examples": [
+          "A: 这周你有什么计划吗？",
+          "B: 我打算去图书馆看书。",
+          "A: 我也去。"
+        ]
+      },
+      {
+        "word": "礼拜",
+        "pinyin": "lǐ bài",
+        "meaning": "Week / Worship",
+        "examples": [
+          "A: 今天是礼拜几？",
+          "B: 今天是礼拜三。",
+          "A: 时间过得真快。"
+        ]
+      },
+      {
+        "word": "周末",
+        "pinyin": "zhōu mò",
+        "meaning": "Weekend",
+        "examples": [
+          "A: 周末我们去野餐吧。",
+          "B: 好啊，带上好吃的。",
+          "A: 我准备三明治。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_021",
@@ -186,7 +895,44 @@
     "meaning": "공부하다",
     "partOfSpeech": "verb",
     "example": "我在学习中文。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你在学习什么？",
+      "B: 我在学习汉语。",
+      "A: 汉语难不难？"
+    ],
+    "similarWords": [
+      {
+        "word": "学期",
+        "pinyin": "xué qī",
+        "meaning": "Semester",
+        "examples": [
+          "A: 这个学期什么时候结束？",
+          "B: 下个星期二。",
+          "A: 终于可以放假了。"
+        ]
+      },
+      {
+        "word": "上课",
+        "pinyin": "shàng kè",
+        "meaning": "Attend class",
+        "examples": [
+          "A: 我们准备上课了。",
+          "B: 老师快来了。",
+          "A: 把书拿出来吧。"
+        ]
+      },
+      {
+        "word": "读书",
+        "pinyin": "dú shū",
+        "meaning": "Read a book / Study",
+        "examples": [
+          "A: 他每天都在图书馆读书。",
+          "B: 真是个勤奋的学生。",
+          "A: 他一定能考好。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_022",
@@ -195,7 +941,44 @@
     "meaning": "일하다",
     "partOfSpeech": "verb",
     "example": "我在一家公司工作。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你的新工作怎么样？",
+      "B: 我的工作很忙，但是很有趣。",
+      "A: 那祝你工作顺利。"
+    ],
+    "similarWords": [
+      {
+        "word": "职业",
+        "pinyin": "zhí yè",
+        "meaning": "Occupation",
+        "examples": [
+          "A: 你的职业是什么？",
+          "B: 我是一名工程师。",
+          "A: 听起来很酷。"
+        ]
+      },
+      {
+        "word": "上班",
+        "pinyin": "shàng bān",
+        "meaning": "Go to work",
+        "examples": [
+          "A: 你几点上班？",
+          "B: 我早上九点上班。",
+          "A: 那你要早点起床。"
+        ]
+      },
+      {
+        "word": "加班",
+        "pinyin": "jiā bān",
+        "meaning": "Work overtime",
+        "examples": [
+          "A: 今晚又要加班了。",
+          "B: 辛苦了，记得吃晚饭。",
+          "A: 谢谢关心。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_023",
@@ -204,7 +987,44 @@
     "meaning": "먹다",
     "partOfSpeech": "verb",
     "example": "我们一起吃饭吧。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 晚饭你想吃什么？",
+      "B: 我想吃饺子，你呢？",
+      "A: 我也喜欢吃饺子。"
+    ],
+    "similarWords": [
+      {
+        "word": "品尝",
+        "pinyin": "pǐn cháng",
+        "meaning": "Taste",
+        "examples": [
+          "A: 请品尝一下这道菜。",
+          "B: 味道真不错！",
+          "A: 这是我刚学会的。"
+        ]
+      },
+      {
+        "word": "吞咽",
+        "pinyin": "tūn yàn",
+        "meaning": "Swallow",
+        "examples": [
+          "A: 他吃得太快，直接吞咽了下去。",
+          "B: 这样对胃不好。",
+          "A: 应该慢慢嚼。"
+        ]
+      },
+      {
+        "word": "吃饭",
+        "pinyin": "chī fàn",
+        "meaning": "Eat a meal",
+        "examples": [
+          "A: 我们去吃饭吧。",
+          "B: 好啊，去哪里？",
+          "A: 前面那家餐厅。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_024",
@@ -213,7 +1033,44 @@
     "meaning": "마시다",
     "partOfSpeech": "verb",
     "example": "我想喝咖啡。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你想喝点什么吗？",
+      "B: 我想要一杯热茶。",
+      "A: 好的，马上来。"
+    ],
+    "similarWords": [
+      {
+        "word": "饮用",
+        "pinyin": "yǐn yòng",
+        "meaning": "Drink (formal)",
+        "examples": [
+          "A: 这里的水可以直接饮用吗？",
+          "B: 不可以，需要烧开。",
+          "A: 好的，我明白了。"
+        ]
+      },
+      {
+        "word": "干杯",
+        "pinyin": "gān bēi",
+        "meaning": "Cheers",
+        "examples": [
+          "A: 为了我们的友谊，干杯！",
+          "B: 干杯！",
+          "A: 干杯！"
+        ]
+      },
+      {
+        "word": "解渴",
+        "pinyin": "jiě kě",
+        "meaning": "Quench thirst",
+        "examples": [
+          "A: 喝口冰水真解渴。",
+          "B: 夏天最适合喝冷饮了。",
+          "A: 你也要来一杯吗？"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_025",
@@ -222,7 +1079,44 @@
     "meaning": "가다",
     "partOfSpeech": "verb",
     "example": "我要去学校。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 周末你打算去哪里？",
+      "B: 我打算去超市买东西。",
+      "A: 我能和你一起去吗？"
+    ],
+    "similarWords": [
+      {
+        "word": "离去",
+        "pinyin": "lí qù",
+        "meaning": "Leave / Depart",
+        "examples": [
+          "A: 他伤心地离去了。",
+          "B: 你们为什么吵架？",
+          "A: 是个误会。"
+        ]
+      },
+      {
+        "word": "前往",
+        "pinyin": "qián wǎng",
+        "meaning": "Head to",
+        "examples": [
+          "A: 我们将前往北京开会。",
+          "B: 一路顺风。",
+          "A: 谢谢。"
+        ]
+      },
+      {
+        "word": "出发",
+        "pinyin": "chū fā",
+        "meaning": "Set out / Depart",
+        "examples": [
+          "A: 我们什么时候出发？",
+          "B: 明天早上八点。",
+          "A: 大家不要迟到。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_026",
@@ -231,7 +1125,44 @@
     "meaning": "오다",
     "partOfSpeech": "verb",
     "example": "他明天来我家。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你什么时候来北京？",
+      "B: 我下个月就来。",
+      "A: 太好了，到时候带你去玩。"
+    ],
+    "similarWords": [
+      {
+        "word": "到来",
+        "pinyin": "dào lái",
+        "meaning": "Arrival",
+        "examples": [
+          "A: 迎接新年的到来。",
+          "B: 新年快乐！",
+          "A: 万事如意。"
+        ]
+      },
+      {
+        "word": "回来",
+        "pinyin": "huí lái",
+        "meaning": "Come back",
+        "examples": [
+          "A: 你什么时候回来？",
+          "B: 我下周回来。",
+          "A: 我去机场接你。"
+        ]
+      },
+      {
+        "word": "赶来",
+        "pinyin": "gǎn lái",
+        "meaning": "Hurry over",
+        "examples": [
+          "A: 他连夜赶来了这里。",
+          "B: 真是辛苦他了。",
+          "A: 给倒杯热水吧。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_027",
@@ -240,7 +1171,44 @@
     "meaning": "보다",
     "partOfSpeech": "verb",
     "example": "我喜欢看电影。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 晚上看电影吗？",
+      "B: 好啊，你想看哪一部？",
+      "A: 听说最近出了一部喜剧片。"
+    ],
+    "similarWords": [
+      {
+        "word": "观看",
+        "pinyin": "guān kàn",
+        "meaning": "Watch / View",
+        "examples": [
+          "A: 欢迎大家观看比赛。",
+          "B: 今天的比赛很精彩。",
+          "A: 两队实力相当。"
+        ]
+      },
+      {
+        "word": "瞧",
+        "pinyin": "qiáo",
+        "meaning": "Look (colloquial)",
+        "examples": [
+          "A: 你瞧，那是什么？",
+          "B: 好像是一只风筝。",
+          "A: 飞得好高啊。"
+        ]
+      },
+      {
+        "word": "视察",
+        "pinyin": "shì chá",
+        "meaning": "Inspect",
+        "examples": [
+          "A: 领导明天要来视察工作。",
+          "B: 我们要做好准备。",
+          "A: 大家都打起精神。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_028",
@@ -249,7 +1217,44 @@
     "meaning": "듣다",
     "partOfSpeech": "verb",
     "example": "我在听音乐。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你在听什么音乐？",
+      "B: 我在听一首中文歌。",
+      "A: 旋律真好听。"
+    ],
+    "similarWords": [
+      {
+        "word": "聆听",
+        "pinyin": "líng tīng",
+        "meaning": "Listen respectfully",
+        "examples": [
+          "A: 请大家安静，聆听专家的演讲。",
+          "B: 好的，我们会仔细听的。",
+          "A: 收获会很大的。"
+        ]
+      },
+      {
+        "word": "打听",
+        "pinyin": "dǎ ting",
+        "meaning": "Inquire about",
+        "examples": [
+          "A: 我去打听一下情况。",
+          "B: 有消息马上告诉我。",
+          "A: 放心交给我。"
+        ]
+      },
+      {
+        "word": "听见",
+        "pinyin": "tīng jiàn",
+        "meaning": "Hear",
+        "examples": [
+          "A: 你听见什么声音了吗？",
+          "B: 没有啊，怎么了？",
+          "A: 可能是风声吧。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_029",
@@ -258,7 +1263,44 @@
     "meaning": "말하다",
     "partOfSpeech": "verb",
     "example": "我会说中文。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你会说什么语言？",
+      "B: 我会说英语和一点儿汉语。",
+      "A: 你的发音很标准。"
+    ],
+    "similarWords": [
+      {
+        "word": "讲",
+        "pinyin": "jiǎng",
+        "meaning": "Talk / Explain",
+        "examples": [
+          "A: 你能讲个笑话吗？",
+          "B: 好啊，从前有个……",
+          "A: 哈哈，真好笑。"
+        ]
+      },
+      {
+        "word": "告诉",
+        "pinyin": "gào su",
+        "meaning": "Tell",
+        "examples": [
+          "A: 我告诉你一个秘密。",
+          "B: 什么秘密，快说！",
+          "A: 我要结婚了。"
+        ]
+      },
+      {
+        "word": "谈论",
+        "pinyin": "tán lùn",
+        "meaning": "Discuss talk about",
+        "examples": [
+          "A: 你们在谈论什么？",
+          "B: 我们在谈论明天的工作计划。",
+          "A: 我也来听听。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_030",
@@ -267,7 +1309,44 @@
     "meaning": "하다",
     "partOfSpeech": "verb",
     "example": "你在做什么？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你在做什么菜？",
+      "B: 我在做西红柿炒鸡蛋。",
+      "A: 听起来很好吃，需要帮忙吗？"
+    ],
+    "similarWords": [
+      {
+        "word": "制作",
+        "pinyin": "zhì zuò",
+        "meaning": "Make / Manufacture",
+        "examples": [
+          "A: 这个礼物是我亲手制作的。",
+          "B: 哇，太有心了！",
+          "A: 希望你喜欢。"
+        ]
+      },
+      {
+        "word": "干",
+        "pinyin": "gàn",
+        "meaning": "Do (colloquial)",
+        "examples": [
+          "A: 你在干什么呢？",
+          "B: 我在整理房间。",
+          "A: 需要帮忙吗？"
+        ]
+      },
+      {
+        "word": "办理",
+        "pinyin": "bàn lǐ",
+        "meaning": "Handle / Process",
+        "examples": [
+          "A: 我去银行办理业务。",
+          "B: 需要很长时间吗？",
+          "A: 大概半个小时吧。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_031",
@@ -276,7 +1355,44 @@
     "meaning": "사다",
     "partOfSpeech": "verb",
     "example": "我要买一本书。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你想买什么衣服？",
+      "B: 我想买一件黑色的外套。",
+      "A: 我们去那边的商店看看吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "购买",
+        "pinyin": "gòu mǎi",
+        "meaning": "Purchase",
+        "examples": [
+          "A: 我想购买这台电脑。",
+          "B: 好的，请到收银台付款。",
+          "A: 谢谢。"
+        ]
+      },
+      {
+        "word": "采购",
+        "pinyin": "cǎi gòu",
+        "meaning": "Procure / Purchase for business",
+        "examples": [
+          "A: 我们需要采购一批办公用品。",
+          "B: 预算是多少？",
+          "A: 五千块左右吧。"
+        ]
+      },
+      {
+        "word": "花费",
+        "pinyin": "huā fèi",
+        "meaning": "Expense / Spend",
+        "examples": [
+          "A: 这次旅行花费了不少钱。",
+          "B: 但是很值得。",
+          "A: 对，玩得很开心。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_032",
@@ -285,7 +1401,44 @@
     "meaning": "팔다",
     "partOfSpeech": "verb",
     "example": "这家店卖很多书。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这辆旧车你要卖掉吗？",
+      "B: 是的，我准备买一辆新车。",
+      "A: 你打算卖多少钱？"
+    ],
+    "similarWords": [
+      {
+        "word": "销售",
+        "pinyin": "xiāo shòu",
+        "meaning": "Sell / Sale",
+        "examples": [
+          "A: 这个产品的销售情况怎么样？",
+          "B: 非常好，供不应求。",
+          "A: 继续保持。"
+        ]
+      },
+      {
+        "word": "出售",
+        "pinyin": "chū shòu",
+        "meaning": "Offer for sale",
+        "examples": [
+          "A: 这几套房子正在出售。",
+          "B: 价格多少？",
+          "A: 三百万一套。"
+        ]
+      },
+      {
+        "word": "售卖",
+        "pinyin": "shòu mài",
+        "meaning": "Sell",
+        "examples": [
+          "A: 街边摊在售卖小吃。",
+          "B: 闻起来很香啊。",
+          "A: 我们去买点尝尝吧。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_033",
@@ -294,7 +1447,44 @@
     "meaning": "좋아하다",
     "partOfSpeech": "verb",
     "example": "我喜欢中文。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你喜欢运动吗？",
+      "B: 我很喜欢跑步和打篮球。",
+      "A: 我也是，周末可以一起去。"
+    ],
+    "similarWords": [
+      {
+        "word": "喜爱",
+        "pinyin": "xǐ ài",
+        "meaning": "Like / Favor",
+        "examples": [
+          "A: 我非常喜爱这只小狗。",
+          "B: 它确实很惹人爱。",
+          "A: 每天都想和它玩。"
+        ]
+      },
+      {
+        "word": "热爱",
+        "pinyin": "rè ài",
+        "meaning": "Love passionately",
+        "examples": [
+          "A: 他非常热爱音乐。",
+          "B: 所以才成为了音乐家。",
+          "A: 追逐梦想的人很棒。"
+        ]
+      },
+      {
+        "word": "偏爱",
+        "pinyin": "piān ài",
+        "meaning": "Prefer / Show favoritism",
+        "examples": [
+          "A: 老师似乎有点偏爱他。",
+          "B: 因为他学习成绩好啊。",
+          "A: 也是哦。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_034",
@@ -303,7 +1493,44 @@
     "meaning": "사랑하다",
     "partOfSpeech": "verb",
     "example": "我爱我的家人。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你真的很爱小动物。",
+      "B: 是啊，家里养了两只猫。",
+      "A: 太可爱了。"
+    ],
+    "similarWords": [
+      {
+        "word": "爱情",
+        "pinyin": "ài qíng",
+        "meaning": "Love / Romance",
+        "examples": [
+          "A: 爱情是需要经营的。",
+          "B: 你说得很对。",
+          "A: 我们要互相包容。"
+        ]
+      },
+      {
+        "word": "疼爱",
+        "pinyin": "téng ài",
+        "meaning": "Dote on",
+        "examples": [
+          "A: 奶奶非常疼爱孙子。",
+          "B: 总是把好吃的留给他。",
+          "A: 祖孙感情真好。"
+        ]
+      },
+      {
+        "word": "亲爱",
+        "pinyin": "qīn ài",
+        "meaning": "Dear / Beloved",
+        "examples": [
+          "A: 亲爱的，我回来了。",
+          "B: 辛苦了，饭在桌上。",
+          "A: 太感动了。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_035",
@@ -312,7 +1539,44 @@
     "meaning": "생각하다, ~하고 싶다",
     "partOfSpeech": "verb",
     "example": "我想去中国。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你想去旅游吗？",
+      "B: 我想去海边度假。",
+      "A: 那是个好主意。"
+    ],
+    "similarWords": [
+      {
+        "word": "思考",
+        "pinyin": "sī kǎo",
+        "meaning": "Think deeply",
+        "examples": [
+          "A: 我需要时间好好思考一下。",
+          "B: 别着急，慢慢想。",
+          "A: 谢谢你的理解。"
+        ]
+      },
+      {
+        "word": "想念",
+        "pinyin": "xiǎng niàn",
+        "meaning": "Miss",
+        "examples": [
+          "A: 我很想念家乡的美食。",
+          "B: 什么时候回去看看？",
+          "A: 过节的时候吧。"
+        ]
+      },
+      {
+        "word": "打算",
+        "pinyin": "dǎ suàn",
+        "meaning": "Plan",
+        "examples": [
+          "A: 明天你有什么打算？",
+          "B: 打算去爬山。",
+          "A: 注意安全。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_036",
@@ -321,7 +1585,44 @@
     "meaning": "알다",
     "partOfSpeech": "verb",
     "example": "我知道这件事。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你知道密码是多少吗？",
+      "B: 对不起，我不知道。",
+      "A: 没关系，我再问问别人。"
+    ],
+    "similarWords": [
+      {
+        "word": "懂得",
+        "pinyin": "dǒng dé",
+        "meaning": "Understand / Know",
+        "examples": [
+          "A: 他懂得很多天文知识。",
+          "B: 难怪大家叫他百事通。",
+          "A: 这也是一种天赋。"
+        ]
+      },
+      {
+        "word": "明白",
+        "pinyin": "míng bái",
+        "meaning": "Understand clearly",
+        "examples": [
+          "A: 刚才说的你明白了吗？",
+          "B: 明白了，保证完成完成。",
+          "A: 很好去办吧。"
+        ]
+      },
+      {
+        "word": "清楚",
+        "pinyin": "qīng chu",
+        "meaning": "Clear / Know well",
+        "examples": [
+          "A: 这件事的具体情况我不清楚。",
+          "B: 那我们再去问问别人。",
+          "A: 好主意。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_037",
@@ -330,7 +1631,44 @@
     "meaning": "알아보다, 인식하다",
     "partOfSpeech": "verb",
     "example": "我认识他。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你认识那个女孩吗？",
+      "B: 认识，她是我妹妹的朋友。",
+      "A: 原来是这样。"
+    ],
+    "similarWords": [
+      {
+        "word": "结识",
+        "pinyin": "jié shí",
+        "meaning": "Get to know",
+        "examples": [
+          "A: 很高兴结识你。",
+          "B: 我也是。",
+          "A: 以后常联系。"
+        ]
+      },
+      {
+        "word": "熟悉",
+        "pinyin": "shú xi",
+        "meaning": "Familiar with",
+        "examples": [
+          "A: 你熟悉这里的环境吗？",
+          "B: 刚搬来，还不太熟。",
+          "A: 我带你转转。"
+        ]
+      },
+      {
+        "word": "认识到",
+        "pinyin": "rèn shi dào",
+        "meaning": "Realize",
+        "examples": [
+          "A: 我认识到了自己的错误。",
+          "B: 能改就好。",
+          "A: 下次一定注意。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_038",
@@ -339,7 +1677,44 @@
     "meaning": "~할 수 있다",
     "partOfSpeech": "verb",
     "example": "我会说中文。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你会开车吗？",
+      "B: 不会，我明年打算去学。",
+      "A: 学开车很有用。"
+    ],
+    "similarWords": [
+      {
+        "word": "能够",
+        "pinyin": "néng gòu",
+        "meaning": "Be able to",
+        "examples": [
+          "A: 你能够完成这个任务吗？",
+          "B: 没问题，保证完成。",
+          "A: 辛苦了。"
+        ]
+      },
+      {
+        "word": "善于",
+        "pinyin": "shàn yú",
+        "meaning": "Be good at",
+        "examples": [
+          "A: 她很善于交际。",
+          "B: 在公司人缘很好。",
+          "A: 这是个优点。"
+        ]
+      },
+      {
+        "word": "懂得",
+        "pinyin": "dǒng dé",
+        "meaning": "Understand / Know how to",
+        "examples": [
+          "A: 他懂得怎么照顾人。",
+          "B: 是个体贴的好男人。",
+          "A: 真让人羡慕。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_039",
@@ -348,7 +1723,44 @@
     "meaning": "~할 수 있다",
     "partOfSpeech": "verb",
     "example": "你能帮我吗？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 周末你能来参加聚会吗？",
+      "B: 能，我一定准时到。",
+      "A: 太棒了，大家都在等你。"
+    ],
+    "similarWords": [
+      {
+        "word": "能力",
+        "pinyin": "néng lì",
+        "meaning": "Ability",
+        "examples": [
+          "A: 他的工作能力很强。",
+          "B: 老板很器重他。",
+          "A: 升职加薪指日可待。"
+        ]
+      },
+      {
+        "word": "可以",
+        "pinyin": "kě yǐ",
+        "meaning": "Can / May",
+        "examples": [
+          "A: 我可以进来吗？",
+          "B: 可以，请进。",
+          "A: 打扰了。"
+        ]
+      },
+      {
+        "word": "能够",
+        "pinyin": "néng gòu",
+        "meaning": "Be able to",
+        "examples": [
+          "A: 我们终于能够见面了。",
+          "B: 等了好久。",
+          "A: 是啊，太想你了。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_040",
@@ -357,7 +1769,44 @@
     "meaning": "~해도 된다",
     "partOfSpeech": "verb",
     "example": "我可以进来吗？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我可以借你的笔用一下吗？",
+      "B: 当然可以，给你。",
+      "A: 谢谢你。"
+    ],
+    "similarWords": [
+      {
+        "word": "允许",
+        "pinyin": "yǔn xǔ",
+        "meaning": "Permit / Allow",
+        "examples": [
+          "A: 这里允许拍照吗？",
+          "B: 抱歉，不允许。",
+          "A: 好的，我这就收起来。"
+        ]
+      },
+      {
+        "word": "同意",
+        "pinyin": "tóng yì",
+        "meaning": "Agree",
+        "examples": [
+          "A: 你同意我的看法吗？",
+          "B: 我完全同意。",
+          "A: 那我们就这么决定了。"
+        ]
+      },
+      {
+        "word": "行",
+        "pinyin": "xíng",
+        "meaning": "Alright / OK",
+        "examples": [
+          "A: 这样安排行不行？",
+          "B: 行，没问题。",
+          "A: 那我们就行动吧。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_041",
@@ -366,7 +1815,44 @@
     "meaning": "~해야 한다, ~하고 싶다",
     "partOfSpeech": "verb",
     "example": "我要去学校。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你要点什么菜？",
+      "B: 我要一盘炒饭和一碗汤。",
+      "A: 好的，请稍等。"
+    ],
+    "similarWords": [
+      {
+        "word": "需要",
+        "pinyin": "xū yào",
+        "meaning": "Need",
+        "examples": [
+          "A: 你需要什么帮助吗？",
+          "B: 帮我拿一下外套吧。",
+          "A: 好的，给你。"
+        ]
+      },
+      {
+        "word": "想要",
+        "pinyin": "xiǎng yào",
+        "meaning": "Want",
+        "examples": [
+          "A: 我想要一杯热牛奶。",
+          "B: 马上给你倒。",
+          "A: 谢谢。"
+        ]
+      },
+      {
+        "word": "必须",
+        "pinyin": "bì xū",
+        "meaning": "Must / Have to",
+        "examples": [
+          "A: 我必须现在走。",
+          "B: 这么着急吗？",
+          "A: 有急事要办。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_042",
@@ -375,7 +1861,44 @@
     "meaning": "~해야 한다",
     "partOfSpeech": "verb",
     "example": "你应该好好学习。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 外面下雨了。",
+      "B: 那你应该带把伞再出门。",
+      "A: 好，我去拿伞。"
+    ],
+    "similarWords": [
+      {
+        "word": "理当",
+        "pinyin": "lǐ dāng",
+        "meaning": "Should / ought to",
+        "examples": [
+          "A: 帮助朋友是理当的。",
+          "B: 谢谢你的帮忙。",
+          "A: 不客气。"
+        ]
+      },
+      {
+        "word": "得",
+        "pinyin": "děi",
+        "meaning": "Must / Need to",
+        "examples": [
+          "A: 时间不早了，我得走了。",
+          "B: 路上小心。",
+          "A: 再见。"
+        ]
+      },
+      {
+        "word": "应当",
+        "pinyin": "yīng dāng",
+        "meaning": "Should",
+        "examples": [
+          "A: 我们应当遵守规则。",
+          "B: 是的，大家都要遵守。",
+          "A: 对社会负责。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_043",
@@ -384,7 +1907,44 @@
     "meaning": "있다",
     "partOfSpeech": "verb",
     "example": "我有很多书。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你的书包里有什么？",
+      "B: 有一本书和两支笔。",
+      "A: 能借我用一下笔吗？"
+    ],
+    "similarWords": [
+      {
+        "word": "拥有",
+        "pinyin": "yōng yǒu",
+        "meaning": "Possess / Have",
+        "examples": [
+          "A: 她拥有一座大房子。",
+          "B: 真让人羡慕。",
+          "A: 那是她努力工作的成果。"
+        ]
+      },
+      {
+        "word": "具有",
+        "pinyin": "jù yǒu",
+        "meaning": "Possess / Feature",
+        "examples": [
+          "A: 这件产品具有很多新功能。",
+          "B: 听起来很不错。",
+          "A: 销量肯定会好。"
+        ]
+      },
+      {
+        "word": "富有",
+        "pinyin": "fù yǒu",
+        "meaning": "Rich / Wealthy",
+        "examples": [
+          "A: 他是一个富有的人。",
+          "B: 但他生活很低调。",
+          "A: 确实令人敬佩。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_044",
@@ -393,7 +1953,44 @@
     "meaning": "없다",
     "partOfSpeech": "verb",
     "example": "我没有时间。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这里没有多余的椅子了。",
+      "B: 没事，我站着就好。",
+      "A: 真的很不好意思。"
+    ],
+    "similarWords": [
+      {
+        "word": "无",
+        "pinyin": "wú",
+        "meaning": "Without / None",
+        "examples": [
+          "A: 这里全完无人居住。",
+          "B: 看起来很荒凉。",
+          "A: 我们赶紧走吧。"
+        ]
+      },
+      {
+        "word": "没",
+        "pinyin": "méi",
+        "meaning": "Not have / Not",
+        "examples": [
+          "A: 你带伞了吗？",
+          "B: 没带，怎么了？",
+          "A: 外面好像要下雨了。"
+        ]
+      },
+      {
+        "word": "缺乏",
+        "pinyin": "quē fá",
+        "meaning": "Lack / Short of",
+        "examples": [
+          "A: 这个项目缺乏资金支持。",
+          "B: 那我们要去拉赞助了。",
+          "A: 加油。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_045",
@@ -402,7 +1999,44 @@
     "meaning": "~이다",
     "partOfSpeech": "verb",
     "example": "我是学生。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你是学生吗？",
+      "B: 是的，我在大学读书。",
+      "A: 你学什么专业？"
+    ],
+    "similarWords": [
+      {
+        "word": "乃是",
+        "pinyin": "nǎi shì",
+        "meaning": "Be (formal)",
+        "examples": [
+          "A: 失败乃是成功之母。",
+          "B: 这句话说得很对。",
+          "A: 不要害怕失败。"
+        ]
+      },
+      {
+        "word": "系",
+        "pinyin": "xì",
+        "meaning": "Is (formal)",
+        "examples": [
+          "A: 此人系犯罪嫌疑人。",
+          "B: 警察正在通缉他。",
+          "A: 真可怕。"
+        ]
+      },
+      {
+        "word": "确实",
+        "pinyin": "què shí",
+        "meaning": "Indeed / Really",
+        "examples": [
+          "A: 这个消息确实是真的。",
+          "B: 简直不敢相信。",
+          "A: 我也觉得很意外。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_046",
@@ -411,7 +2045,44 @@
     "meaning": "~에 있다",
     "partOfSpeech": "verb",
     "example": "我在家。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你现在在哪里？",
+      "B: 我在图书馆看书。",
+      "A: 等看完了我们去吃饭吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "处于",
+        "pinyin": "chǔ yú",
+        "meaning": "Be in (a situation)",
+        "examples": [
+          "A: 公司正处于困难时期。",
+          "B: 大家要一起度过难关。",
+          "A: 一起努力吧。"
+        ]
+      },
+      {
+        "word": "位于",
+        "pinyin": "wèi yú",
+        "meaning": "Located at",
+        "examples": [
+          "A: 我们的公司位于市中心。",
+          "B: 交通很方便吧？",
+          "A: 是的，地铁直达。"
+        ]
+      },
+      {
+        "word": "存在",
+        "pinyin": "cún zài",
+        "meaning": "Exist",
+        "examples": [
+          "A: 这个问题依然存在。",
+          "B: 我们要想办法解决。",
+          "A: 明天开会讨论。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_047",
@@ -420,7 +2091,44 @@
     "meaning": "있다",
     "partOfSpeech": "verb",
     "example": "桌子上有一本书。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 桌子上有一杯咖啡，是你的吗？",
+      "B: 不是我的，可能是李明的。",
+      "A: 那我给他拿过去。"
+    ],
+    "similarWords": [
+      {
+        "word": "拥有",
+        "pinyin": "yōng yǒu",
+        "meaning": "Possess / Have (Alternative)",
+        "examples": [
+          "A: 他拥有很多好朋友。",
+          "B: 因为他性格好啊。",
+          "A: 确实很受欢迎。"
+        ]
+      },
+      {
+        "word": "具备",
+        "pinyin": "jù bèi",
+        "meaning": "Possess / Qualified",
+        "examples": [
+          "A: 申请这个职位需要具备什么条件？",
+          "B: 需要两年的工作经验。",
+          "A: 那我刚好符合。"
+        ]
+      },
+      {
+        "word": "属于",
+        "pinyin": "shǔ yú",
+        "meaning": "Belong to",
+        "examples": [
+          "A: 这支笔属于谁的？",
+          "B: 是小明的。",
+          "A: 我帮他放桌子上。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_048",
@@ -429,7 +2137,44 @@
     "meaning": "좋다",
     "partOfSpeech": "adjective",
     "example": "今天天气很好。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 那家餐厅的菜好吃吗？",
+      "B: 很好吃，我们经常去。",
+      "A: 下次我也去尝尝。"
+    ],
+    "similarWords": [
+      {
+        "word": "棒",
+        "pinyin": "bàng",
+        "meaning": "Great / Excellent",
+        "examples": [
+          "A: 你画得真棒！",
+          "B: 谢谢夸奖。",
+          "A: 继续努力。"
+        ]
+      },
+      {
+        "word": "优秀",
+        "pinyin": "yōu xiù",
+        "meaning": "Outstanding / Excellent",
+        "examples": [
+          "A: 他是一个非常优秀的学生。",
+          "B: 老师们都很喜欢他。",
+          "A: 是大家的榜样。"
+        ]
+      },
+      {
+        "word": "优良",
+        "pinyin": "yōu liáng",
+        "meaning": "Fine / Good (quality)",
+        "examples": [
+          "A: 这个品种的水果优良。",
+          "B: 吃起来很甜。",
+          "A: 我们多买点。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_049",
@@ -438,7 +2183,44 @@
     "meaning": "크다",
     "partOfSpeech": "adjective",
     "example": "这个房间很大。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这个苹果很大！",
+      "B: 是的，而且很甜。",
+      "A: 那我要多买几个。"
+    ],
+    "similarWords": [
+      {
+        "word": "巨大",
+        "pinyin": "jù dà",
+        "meaning": "Huge / Immense",
+        "examples": [
+          "A: 这是一笔巨大的财富。",
+          "B: 用来做慈善吧。",
+          "A: 好主意。"
+        ]
+      },
+      {
+        "word": "庞大",
+        "pinyin": "páng dà",
+        "meaning": "Enormous",
+        "examples": [
+          "A: 这是一个庞大的工程。",
+          "B: 需要很多时间才能完成。",
+          "A: 大家要齐心协力。"
+        ]
+      },
+      {
+        "word": "宏大",
+        "pinyin": "hóng dà",
+        "meaning": "Grand / Magnificent",
+        "examples": [
+          "A: 这个建筑规模很宏大。",
+          "B: 看上去非常壮观。",
+          "A: 是的，很震撼。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_050",
@@ -447,7 +2229,44 @@
     "meaning": "작다",
     "partOfSpeech": "adjective",
     "example": "这个包很小。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这双鞋太小了。",
+      "B: 那你需要换大一号的吗？",
+      "A: 是的，麻烦你帮我找一下。"
+    ],
+    "similarWords": [
+      {
+        "word": "微弱",
+        "pinyin": "wēi ruò",
+        "meaning": "Faint / Weak",
+        "examples": [
+          "A: 这点微弱的灯光不够看书。",
+          "B: 那我把大灯打开。",
+          "A: 多谢。"
+        ]
+      },
+      {
+        "word": "细小",
+        "pinyin": "xì xiǎo",
+        "meaning": "Tiny",
+        "examples": [
+          "A: 桌子上有细小的灰尘。",
+          "B: 我用抹布擦一下。",
+          "A: 麻烦你啦。"
+        ]
+      },
+      {
+        "word": "些许",
+        "pinyin": "xiē xǔ",
+        "meaning": "A little bit",
+        "examples": [
+          "A: 我有些许感冒。",
+          "B: 去吃点药休息一下。",
+          "A: 马上就去。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_051",
@@ -456,7 +2275,44 @@
     "meaning": "많다",
     "partOfSpeech": "adjective",
     "example": "这里有很多人。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 今天来上课的人多吗？",
+      "B: 挺多的，教室都坐满了。",
+      "A: 看来大家都对这门课感兴趣。"
+    ],
+    "similarWords": [
+      {
+        "word": "许多",
+        "pinyin": "xǔ duō",
+        "meaning": "Many / Much",
+        "examples": [
+          "A: 今天来了许多客人。",
+          "B: 大家都非常热情。",
+          "A: 招待好他们。"
+        ]
+      },
+      {
+        "word": "不少",
+        "pinyin": "bù shǎo",
+        "meaning": "A lot (not few)",
+        "examples": [
+          "A: 他攒了不少钱。",
+          "B: 是个很节约的人。",
+          "A: 是的。"
+        ]
+      },
+      {
+        "word": "大量",
+        "pinyin": "dà liàng",
+        "meaning": "Large quantity",
+        "examples": [
+          "A: 我们需要购买大量的办公用品。",
+          "B: 去找供应商谈谈折扣。",
+          "A: 我马上联系。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_052",
@@ -465,7 +2321,44 @@
     "meaning": "적다",
     "partOfSpeech": "adjective",
     "example": "今天人很少。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我的钱很少，不能买这个。",
+      "B: 没关系，我们可以买别的。",
+      "A: 谢谢你的理解。"
+    ],
+    "similarWords": [
+      {
+        "word": "少数",
+        "pinyin": "shǎo shù",
+        "meaning": "Minority / A few",
+        "examples": [
+          "A: 只有少数人同意这个方案。",
+          "B: 看来还需要修改。",
+          "A: 我再去征求意见。"
+        ]
+      },
+      {
+        "word": "很少",
+        "pinyin": "hěn shǎo",
+        "meaning": "Rarely / Very few",
+        "examples": [
+          "A: 他很少回家看望父母。",
+          "B: 工作太忙了吧。",
+          "A: 应该多抽时间。"
+        ]
+      },
+      {
+        "word": "稍微",
+        "pinyin": "shāo wēi",
+        "meaning": "A little bit / Slightly",
+        "examples": [
+          "A: 汤稍微有点咸。",
+          "B: 下次我少放点盐。",
+          "A: 好的。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_053",
@@ -474,7 +2367,44 @@
     "meaning": "새롭다",
     "partOfSpeech": "adjective",
     "example": "这是一本新书。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这是你的新车吗？",
+      "B: 是的，昨天刚买的。",
+      "A: 看起来非常漂亮。"
+    ],
+    "similarWords": [
+      {
+        "word": "崭新",
+        "pinyin": "zhǎn xīn",
+        "meaning": "Brand new",
+        "examples": [
+          "A: 这是一辆崭新的汽车。",
+          "B: 刚刚提回来的。",
+          "A: 恭喜你啊。"
+        ]
+      },
+      {
+        "word": "新鲜",
+        "pinyin": "xīn xiān",
+        "meaning": "Fresh / Novel",
+        "examples": [
+          "A: 这个想法很新鲜。",
+          "B: 我们可以尝试一下。",
+          "A: 说不定有奇效。"
+        ]
+      },
+      {
+        "word": "新型",
+        "pinyin": "xīn xíng",
+        "meaning": "New type",
+        "examples": [
+          "A: 这是一款新型智能手机。",
+          "B: 功能非常强大。",
+          "A: 卖得很火。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_054",
@@ -483,7 +2413,44 @@
     "meaning": "오래된",
     "partOfSpeech": "adjective",
     "example": "这是旧房子。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我的手机太旧了。",
+      "B: 你打算什么时候换新的？",
+      "A: 等下个月发工资吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "古老",
+        "pinyin": "gǔ lǎo",
+        "meaning": "Ancient",
+        "examples": [
+          "A: 这是一座古老的寺庙。",
+          "B: 历史悠久啊。",
+          "A: 充满神秘感。"
+        ]
+      },
+      {
+        "word": "陈旧",
+        "pinyin": "chén jiù",
+        "meaning": "Old-fashioned / Obsolete",
+        "examples": [
+          "A: 这种管理方法太陈旧了。",
+          "B: 需要引进新方法了。",
+          "A: 是的。"
+        ]
+      },
+      {
+        "word": "废旧",
+        "pinyin": "fèi jiù",
+        "meaning": "Scrap / Worn out",
+        "examples": [
+          "A: 废旧电池不能乱扔。",
+          "B: 要放进专门的回收箱。",
+          "A: 大家都应该知道。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_055",
@@ -492,7 +2459,44 @@
     "meaning": "높다",
     "partOfSpeech": "adjective",
     "example": "这座山很高。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你哥哥长得真高！",
+      "B: 他有一米八五。",
+      "A: 怪不得他打篮球那么好。"
+    ],
+    "similarWords": [
+      {
+        "word": "高大",
+        "pinyin": "gāo dà",
+        "meaning": "Tall and big",
+        "examples": [
+          "A: 他长得很高大。",
+          "B: 看起来很有安全感。",
+          "A: 是个运动健将。"
+        ]
+      },
+      {
+        "word": "高昂",
+        "pinyin": "gāo áng",
+        "meaning": "High (spirits/price)",
+        "examples": [
+          "A: 这件衣服价格高昂。",
+          "B: 我们还是去别家看看吧。",
+          "A: 同意。"
+        ]
+      },
+      {
+        "word": "崇高",
+        "pinyin": "chóng gāo",
+        "meaning": "Lofty / Noble",
+        "examples": [
+          "A: 他有着崇高的理想。",
+          "B: 令人敬佩。",
+          "A: 祝他早日实现。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_056",
@@ -501,7 +2505,44 @@
     "meaning": "낮다",
     "partOfSpeech": "adjective",
     "example": "价格很低。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 今天气温很低。",
+      "B: 是的，外面正在下雪。",
+      "A: 那你要多穿点衣服。"
+    ],
+    "similarWords": [
+      {
+        "word": "低下",
+        "pinyin": "dī xià",
+        "meaning": "Low (status/level)",
+        "examples": [
+          "A: 他的工作效率低下。",
+          "B: 需要找他谈谈。",
+          "A: 可能是最近太累了。"
+        ]
+      },
+      {
+        "word": "低微",
+        "pinyin": "dī wēi",
+        "meaning": "Humble / Low",
+        "examples": [
+          "A: 他出身低微，但很努力。",
+          "B: 英雄不问出处。",
+          "A: 是的。"
+        ]
+      },
+      {
+        "word": "低沉",
+        "pinyin": "dī chén",
+        "meaning": "Low and deep / Depressed",
+        "examples": [
+          "A: 外面天空低沉，快下雨了。",
+          "B: 幸好我们没出门。",
+          "A: 是啊。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_057",
@@ -510,7 +2551,44 @@
     "meaning": "길다",
     "partOfSpeech": "adjective",
     "example": "这条路很长。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这条路太长了。",
+      "B: 是啊，我们走了很久。",
+      "A: 还是坐车吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "漫长",
+        "pinyin": "màn cháng",
+        "meaning": "Very long",
+        "examples": [
+          "A: 这是一个漫长的过程。",
+          "B: 我们要有耐心。",
+          "A: 急不来的。"
+        ]
+      },
+      {
+        "word": "长久",
+        "pinyin": "cháng jiǔ",
+        "meaning": "Long lasting",
+        "examples": [
+          "A: 友谊需要长久地经营。",
+          "B: 你说得对。",
+          "A: 我们要经常联系。"
+        ]
+      },
+      {
+        "word": "悠长",
+        "pinyin": "yōu cháng",
+        "meaning": "Long (time/distance)",
+        "examples": [
+          "A: 悠长的钟声传得很远。",
+          "B: 听起来很安静。",
+          "A: 让人心情平静。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_058",
@@ -519,7 +2597,44 @@
     "meaning": "짧다",
     "partOfSpeech": "adjective",
     "example": "这篇文章很短。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我的头发太短了。",
+      "B: 我觉得短发也很适合你。",
+      "A: 谢谢你这么说。"
+    ],
+    "similarWords": [
+      {
+        "word": "短暂",
+        "pinyin": "duǎn zàn",
+        "meaning": "Brief / Short",
+        "examples": [
+          "A: 生命是短暂的。",
+          "B: 所以我们要珍惜时间。",
+          "A: 每天都要充实。"
+        ]
+      },
+      {
+        "word": "短促",
+        "pinyin": "duǎn cù",
+        "meaning": "Short (time)",
+        "examples": [
+          "A: 他发出了一声短促的惊呼。",
+          "B: 发生了什么事？",
+          "A: 好像是看到虫子了。"
+        ]
+      },
+      {
+        "word": "短小",
+        "pinyin": "duǎn xiǎo",
+        "meaning": "Small and short",
+        "examples": [
+          "A: 这是一个短小精悍的故事。",
+          "B: 但很有道理。",
+          "A: 是啊。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_059",
@@ -528,7 +2643,44 @@
     "meaning": "빠르다",
     "partOfSpeech": "adjective",
     "example": "他跑得很快。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你跑得真快！",
+      "B: 我每天都练习跑步。",
+      "A: 真厉害，我也要向你学习。"
+    ],
+    "similarWords": [
+      {
+        "word": "迅速",
+        "pinyin": "xùn sù",
+        "meaning": "Rapid / Swift",
+        "examples": [
+          "A: 警察迅速赶到了现场。",
+          "B: 行动真快。",
+          "A: 控制了局面。"
+        ]
+      },
+      {
+        "word": "飞快",
+        "pinyin": "fēi kuài",
+        "meaning": "Very fast",
+        "examples": [
+          "A: 时间过得飞快。",
+          "B: 一转眼一年又过去了。",
+          "A: 年纪越大感觉越快。"
+        ]
+      },
+      {
+        "word": "快捷",
+        "pinyin": "kuài jié",
+        "meaning": "Quick and convenient",
+        "examples": [
+          "A: 现在的快递服务很快捷。",
+          "B: 昨天买的今天就到了。",
+          "A: 真是方便。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_060",
@@ -537,7 +2689,44 @@
     "meaning": "느리다",
     "partOfSpeech": "adjective",
     "example": "这辆车很慢。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你这辆车开得太慢了。",
+      "B: 安全第一嘛。",
+      "A: 你说得对。"
+    ],
+    "similarWords": [
+      {
+        "word": "缓慢",
+        "pinyin": "huǎn màn",
+        "meaning": "Slow",
+        "examples": [
+          "A: 队伍行进得很缓慢。",
+          "B: 前面可能出车祸了。",
+          "A: 我们只能等了。"
+        ]
+      },
+      {
+        "word": "迟缓",
+        "pinyin": "chí huǎn",
+        "meaning": "Slow / Sluggish",
+        "examples": [
+          "A: 爷爷的行动越来越迟缓了。",
+          "B: 年纪大了，多体谅。",
+          "A: 我会多照顾他的。"
+        ]
+      },
+      {
+        "word": "悠闲",
+        "pinyin": "yōu xián",
+        "meaning": "Leisurely",
+        "examples": [
+          "A: 周末下午的时光很悠闲。",
+          "B: 喝杯咖啡，看看书。",
+          "A: 这才是生活。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_061",
@@ -546,7 +2735,44 @@
     "meaning": "덥다",
     "partOfSpeech": "adjective",
     "example": "今天很热。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 夏天的天气很热。",
+      "B: 我喜欢去游泳。",
+      "A: 游泳确实很凉快。"
+    ],
+    "similarWords": [
+      {
+        "word": "炎热",
+        "pinyin": "yán rè",
+        "meaning": "Scorching hot",
+        "examples": [
+          "A: 今天的夏天特别炎热。",
+          "B: 每天都要开空调。",
+          "A: 不然受不了。"
+        ]
+      },
+      {
+        "word": "酷热",
+        "pinyin": "kù rè",
+        "meaning": "Extremely hot",
+        "examples": [
+          "A: 在酷热的太阳下工作很辛苦。",
+          "B: 给工人们送点水吧。",
+          "A: 好主意。"
+        ]
+      },
+      {
+        "word": "滚烫",
+        "pinyin": "gǔn tàng",
+        "meaning": "Boiling hot",
+        "examples": [
+          "A: 汤很滚烫，小心烫嘴。",
+          "B: 好的，我吹一吹再喝。",
+          "A: 慢慢喝。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_062",
@@ -555,7 +2781,44 @@
     "meaning": "춥다",
     "partOfSpeech": "adjective",
     "example": "冬天很冷。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 今天的风很大，很冷。",
+      "B: 我们还是在屋里待着吧。",
+      "A: 好的，我给你倒杯热水。"
+    ],
+    "similarWords": [
+      {
+        "word": "寒冷",
+        "pinyin": "hán lěng",
+        "meaning": "Cold / Chilly",
+        "examples": [
+          "A: 北方的冬天很寒冷。",
+          "B: 记得多穿件衣服。",
+          "A: 好的。"
+        ]
+      },
+      {
+        "word": "冰凉",
+        "pinyin": "bīng liáng",
+        "meaning": "Ice-cold",
+        "examples": [
+          "A: 这杯水好冰凉。",
+          "B: 因为刚从冰箱拿出来。",
+          "A: 夏天喝正好。"
+        ]
+      },
+      {
+        "word": "严寒",
+        "pinyin": "yán hán",
+        "meaning": "Bitter cold",
+        "examples": [
+          "A: 他们克服了严寒的气候。",
+          "B: 终于到达了山顶。",
+          "A: 真是了不起。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_063",
@@ -564,7 +2827,44 @@
     "meaning": "나",
     "partOfSpeech": "pronoun",
     "example": "我是学生。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我是一个学生。",
+      "B: 你在哪里上学？",
+      "A: 我在北京大学上学。"
+    ],
+    "similarWords": [
+      {
+        "word": "自己",
+        "pinyin": "zì jǐ",
+        "meaning": "Myself / Oneself",
+        "examples": [
+          "A: 我自己可以处理这件事。",
+          "B: 那我就放心了。",
+          "A: 有问题再找你。"
+        ]
+      },
+      {
+        "word": "本人",
+        "pinyin": "běn rén",
+        "meaning": "Myself / In person",
+        "examples": [
+          "A: 必须由本人亲自签字。",
+          "B: 好的，我明天去。",
+          "A: 别忘了带身份证。"
+        ]
+      },
+      {
+        "word": "俺",
+        "pinyin": "ǎn",
+        "meaning": "I (dialect)",
+        "examples": [
+          "A: 俺是个粗人，不会说话。",
+          "B: 您太谦虚了。",
+          "A: 见笑了。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_064",
@@ -573,7 +2873,44 @@
     "meaning": "너",
     "partOfSpeech": "pronoun",
     "example": "你好吗？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你昨天去哪儿了？",
+      "B: 我去朋友家玩了。",
+      "A: 玩得开心吗？"
+    ],
+    "similarWords": [
+      {
+        "word": "您",
+        "pinyin": "nín",
+        "meaning": "You (polite)",
+        "examples": [
+          "A: 您找谁？",
+          "B: 我找李经理。",
+          "A: 请稍等。"
+        ]
+      },
+      {
+        "word": "汝",
+        "pinyin": "rǔ",
+        "meaning": "You (literary)",
+        "examples": [
+          "A: 汝何故泣？",
+          "B: 这是古文里的句子。",
+          "A: 翻译过来是你为什么哭。"
+        ]
+      },
+      {
+        "word": "阁下",
+        "pinyin": "gé xià",
+        "meaning": "Your Excellency",
+        "examples": [
+          "A: 阁下请用茶。",
+          "B: 谢谢。",
+          "A: 招待不周。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_065",
@@ -582,7 +2919,44 @@
     "meaning": "그",
     "partOfSpeech": "pronoun",
     "example": "他是我的朋友。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 他是谁？",
+      "B: 他是我的新同事。",
+      "A: 帮我介绍一下吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "人家",
+        "pinyin": "rén jiā",
+        "meaning": "Others / Him / Her",
+        "examples": [
+          "A: 别总是说人家的坏话。",
+          "B: 我知道了。",
+          "A: 要多看到别人的优点。"
+        ]
+      },
+      {
+        "word": "这家伙",
+        "pinyin": "zhè jiā huǒ",
+        "meaning": "This guy (colloquial)",
+        "examples": [
+          "A: 这家伙真聪明。",
+          "B: 是啊，什么都会。",
+          "A: 令人佩服。"
+        ]
+      },
+      {
+        "word": "那个人",
+        "pinyin": "nà gè rén",
+        "meaning": "That person",
+        "examples": [
+          "A: 那个人是谁？",
+          "B: 我不认识。",
+          "A: 看上去很眼熟。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_066",
@@ -591,7 +2965,44 @@
     "meaning": "그녀",
     "partOfSpeech": "pronoun",
     "example": "她是我的老师。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 她唱歌真好听。",
+      "B: 是啊，她以前学过音乐。",
+      "A: 难怪这么专业。"
+    ],
+    "similarWords": [
+      {
+        "word": "女士",
+        "pinyin": "nǚ shì",
+        "meaning": "Ms. / Lady",
+        "examples": [
+          "A: 这位女士是我的合伙人。",
+          "B: 幸会幸会。",
+          "A: 以后多合作。"
+        ]
+      },
+      {
+        "word": "姑娘",
+        "pinyin": "gū niang",
+        "meaning": "Girl",
+        "examples": [
+          "A: 那个姑娘长得很漂亮。",
+          "B: 你喜欢她吗？",
+          "A: 只是欣赏。"
+        ]
+      },
+      {
+        "word": "小姐",
+        "pinyin": "xiǎo jiě",
+        "meaning": "Miss",
+        "examples": [
+          "A: 王小姐，您的快递。",
+          "B: 谢谢你。",
+          "A: 不客气。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_067",
@@ -600,7 +3011,44 @@
     "meaning": "우리",
     "partOfSpeech": "pronoun",
     "example": "我们是同学。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我们一起去吃饭吧。",
+      "B: 好啊，吃什么？",
+      "A: 去吃火锅怎么样？"
+    ],
+    "similarWords": [
+      {
+        "word": "咱们",
+        "pinyin": "zán men",
+        "meaning": "We (including listener)",
+        "examples": [
+          "A: 咱们一起去吃饭吧。",
+          "B: 好啊，走吧。",
+          "A: 我请客。"
+        ]
+      },
+      {
+        "word": "大家",
+        "pinyin": "dà jiā",
+        "meaning": "Everyone",
+        "examples": [
+          "A: 大家好，我叫李华。",
+          "B: 欢迎加入我们。",
+          "A: 以后请多关照。"
+        ]
+      },
+      {
+        "word": "我等",
+        "pinyin": "wǒ děng",
+        "meaning": "We (literary)",
+        "examples": [
+          "A: 我等定当竭尽全力。",
+          "B: 很有气势的一句话。",
+          "A: 是的。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_068",
@@ -609,7 +3057,44 @@
     "meaning": "너희",
     "partOfSpeech": "pronoun",
     "example": "你们好！",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你们今天有空吗？",
+      "B: 我们下午要去开会。",
+      "A: 那明天再说吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "诸位",
+        "pinyin": "zhū wèi",
+        "meaning": "Everyone / Ladies and Gentlemen",
+        "examples": [
+          "A: 诸位请安静。",
+          "B: 会议马上开始。",
+          "A: 请做好准备。"
+        ]
+      },
+      {
+        "word": "大家",
+        "pinyin": "dà jiā",
+        "meaning": "Everyone",
+        "examples": [
+          "A: 大家今天辛苦了。",
+          "B: 没事，应该的。",
+          "A: 晚上一起聚餐。"
+        ]
+      },
+      {
+        "word": "各位",
+        "pinyin": "gè wèi",
+        "meaning": "Everybody",
+        "examples": [
+          "A: 各位同事，早上好。",
+          "B: 早上好！",
+          "A: 今天也要加油哦。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_069",
@@ -618,7 +3103,44 @@
     "meaning": "그들",
     "partOfSpeech": "pronoun",
     "example": "他们是我的朋友。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 他们在笑什么？",
+      "B: 好像在看一个搞笑视频。",
+      "A: 我也去看看。"
+    ],
+    "similarWords": [
+      {
+        "word": "人家",
+        "pinyin": "rén jiā",
+        "meaning": "They / Others",
+        "examples": [
+          "A: 人家都不去，我们也不去了吧。",
+          "B: 那我们也回家吧。",
+          "A: 好的。"
+        ]
+      },
+      {
+        "word": "大众",
+        "pinyin": "dà zhòng",
+        "meaning": "The public",
+        "examples": [
+          "A: 这款产品很受大众欢迎。",
+          "B: 销量非常好。",
+          "A: 继续努力。"
+        ]
+      },
+      {
+        "word": "众人",
+        "pinyin": "zhòng rén",
+        "meaning": "Everybody / The crowd",
+        "examples": [
+          "A: 他的提议遭到了众人的反对。",
+          "B: 看来方案行不通。",
+          "A: 需要重新修改。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_070",
@@ -627,7 +3149,44 @@
     "meaning": "이",
     "partOfSpeech": "pronoun",
     "example": "这是什么？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这是一个苹果。",
+      "B: 是谁买的？",
+      "A: 是我妈妈买的。"
+    ],
+    "similarWords": [
+      {
+        "word": "此",
+        "pinyin": "cǐ",
+        "meaning": "This (formal)",
+        "examples": [
+          "A: 此外，我们还要注意安全。",
+          "B: 明白。",
+          "A: 安全第一。"
+        ]
+      },
+      {
+        "word": "这里",
+        "pinyin": "zhè lǐ",
+        "meaning": "Here",
+        "examples": [
+          "A: 这里的风景真好。",
+          "B: 是个度假的好地方。",
+          "A: 下次还来。"
+        ]
+      },
+      {
+        "word": "这儿",
+        "pinyin": "zhè r",
+        "meaning": "Here (colloquial)",
+        "examples": [
+          "A: 你坐这儿吧。",
+          "B: 好的，谢谢。",
+          "A: 不客气。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_071",
@@ -636,7 +3195,44 @@
     "meaning": "저",
     "partOfSpeech": "pronoun",
     "example": "那是什么？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 那本书是你的吗？",
+      "B: 不是，那是王老师的。",
+      "A: 请帮我拿给他。"
+    ],
+    "similarWords": [
+      {
+        "word": "彼",
+        "pinyin": "bǐ",
+        "meaning": "That (literary)",
+        "examples": [
+          "A: 知己知彼，百战不殆。",
+          "B: 这是一句名言。",
+          "A: 很有道理。"
+        ]
+      },
+      {
+        "word": "那里",
+        "pinyin": "nà lǐ",
+        "meaning": "There",
+        "examples": [
+          "A: 那里有一家好吃的餐厅。",
+          "B: 我们晚上去尝尝吧。",
+          "A: 好主意。"
+        ]
+      },
+      {
+        "word": "那儿",
+        "pinyin": "nà r",
+        "meaning": "There (colloquial)",
+        "examples": [
+          "A: 书放在那儿了。",
+          "B: 我看到了。",
+          "A: 拿过来吧。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_072",
@@ -645,7 +3241,44 @@
     "meaning": "무엇",
     "partOfSpeech": "pronoun",
     "example": "你在做什么？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你在找什么？",
+      "B: 我在找我的钥匙。",
+      "A: 在沙发的下面吗？"
+    ],
+    "similarWords": [
+      {
+        "word": "啥",
+        "pinyin": "shá",
+        "meaning": "What (dialect)",
+        "examples": [
+          "A: 你在干啥呢？",
+          "B: 我在看书。",
+          "A: 这么用功。"
+        ]
+      },
+      {
+        "word": "何",
+        "pinyin": "hé",
+        "meaning": "What (literary)",
+        "examples": [
+          "A: 谈何容易？",
+          "B: 确实很难。",
+          "A: 我们一起想办法。"
+        ]
+      },
+      {
+        "word": "什么事",
+        "pinyin": "shén me shì",
+        "meaning": "What's the matter",
+        "examples": [
+          "A: 找我有什么事？",
+          "B: 想请你吃个饭。",
+          "A: 太客气了。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_073",
@@ -654,7 +3287,44 @@
     "meaning": "누구",
     "partOfSpeech": "pronoun",
     "example": "你是谁？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 请问你是谁？",
+      "B: 我是新来的员工，我叫李华。",
+      "A: 很高兴认识你。"
+    ],
+    "similarWords": [
+      {
+        "word": "哪位",
+        "pinyin": "nǎ wèi",
+        "meaning": "Which person (polite)",
+        "examples": [
+          "A: 您找哪位？",
+          "B: 我找李经理。",
+          "A: 请稍等。"
+        ]
+      },
+      {
+        "word": "孰",
+        "pinyin": "shú",
+        "meaning": "Who (literary)",
+        "examples": [
+          "A: 孰能生巧？",
+          "B: 熟能生巧。",
+          "A: 有道理。"
+        ]
+      },
+      {
+        "word": "什么人",
+        "pinyin": "shén me rén",
+        "meaning": "What kind of person",
+        "examples": [
+          "A: 他是个什么人？",
+          "B: 他很讲义气。",
+          "A: 值得交朋友。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_074",
@@ -663,7 +3333,44 @@
     "meaning": "어디",
     "partOfSpeech": "pronoun",
     "example": "你去哪里？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你的家在哪里？",
+      "B: 我的家在上海。",
+      "A: 上海是一个大城市。"
+    ],
+    "similarWords": [
+      {
+        "word": "哪儿",
+        "pinyin": "nǎ r",
+        "meaning": "Where (colloquial)",
+        "examples": [
+          "A: 你去哪儿？",
+          "B: 我去超市。",
+          "A: 帮我带瓶水。"
+        ]
+      },
+      {
+        "word": "何处",
+        "pinyin": "hé chù",
+        "meaning": "Where (literary)",
+        "examples": [
+          "A: 问君欲往何处？",
+          "B: 浪迹天涯。",
+          "A: 真潇洒。"
+        ]
+      },
+      {
+        "word": "什么地方",
+        "pinyin": "shén me dì fāng",
+        "meaning": "What place",
+        "examples": [
+          "A: 这是什么地方？",
+          "B: 这里是北京广场。",
+          "A: 真大啊。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_075",
@@ -672,7 +3379,44 @@
     "meaning": "어떻게",
     "partOfSpeech": "pronoun",
     "example": "你怎么去学校？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这个汉字怎么写？",
+      "B: 这样写，先横后竖。",
+      "A: 原来如此，谢谢。"
+    ],
+    "similarWords": [
+      {
+        "word": "如何",
+        "pinyin": "rú hé",
+        "meaning": "How",
+        "examples": [
+          "A: 这件事该如何处理？",
+          "B: 我去请示一下领导。",
+          "A: 好的。"
+        ]
+      },
+      {
+        "word": "怎样",
+        "pinyin": "zěn yàng",
+        "meaning": "How / What kind",
+        "examples": [
+          "A: 你的新学校怎样？",
+          "B: 环境很好，同学也很友善。",
+          "A: 那就好。"
+        ]
+      },
+      {
+        "word": "怎的",
+        "pinyin": "zěn de",
+        "meaning": "Why / How (dialect)",
+        "examples": [
+          "A: 你怎么这般高兴？",
+          "B: 因为我考试过了。",
+          "A: 恭喜啊！"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_076",
@@ -681,7 +3425,44 @@
     "meaning": "왜",
     "partOfSpeech": "pronoun",
     "example": "你为什么迟到？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你今天为什么没来上课？",
+      "B: 因为我生病了。",
+      "A: 那你好好休息。"
+    ],
+    "similarWords": [
+      {
+        "word": "为何",
+        "pinyin": "wèi hé",
+        "meaning": "Why (formal)",
+        "examples": [
+          "A: 为何你不早点告诉我？",
+          "B: 我怕你担心。",
+          "A: 下次不能这样了。"
+        ]
+      },
+      {
+        "word": "怎么会",
+        "pinyin": "zěn me huì",
+        "meaning": "How could it be",
+        "examples": [
+          "A: 怎么会发生这种事？",
+          "B: 真是太意外了。",
+          "A: 谁也没想到。"
+        ]
+      },
+      {
+        "word": "缘何",
+        "pinyin": "yuán hé",
+        "meaning": "For what reason",
+        "examples": [
+          "A: 缘何愁眉不展？",
+          "B: 遇到了一些麻烦。",
+          "A: 需要帮忙吗？"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_077",
@@ -690,7 +3471,44 @@
     "meaning": "얼마",
     "partOfSpeech": "pronoun",
     "example": "这个多少钱？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这件衣服多少钱？",
+      "B: 这件衣服两百块钱。",
+      "A: 有点贵，能便宜点吗？"
+    ],
+    "similarWords": [
+      {
+        "word": "几多",
+        "pinyin": "jǐ duō",
+        "meaning": "How much (regional)",
+        "examples": [
+          "A: 这个苹果要几多钱？",
+          "B: 五块钱一斤。",
+          "A: 给我来两斤。"
+        ]
+      },
+      {
+        "word": "几何",
+        "pinyin": "jǐ hé",
+        "meaning": "How much / Geometry",
+        "examples": [
+          "A: 价值几何？",
+          "B: 无法估量。",
+          "A: 真是无价之宝。"
+        ]
+      },
+      {
+        "word": "大量",
+        "pinyin": "dà liàng",
+        "meaning": "A lot of",
+        "examples": [
+          "A: 我们需要大量的材料。",
+          "B: 我马上去采购。",
+          "A: 注意质量。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_078",
@@ -699,7 +3517,44 @@
     "meaning": "몇",
     "partOfSpeech": "pronoun",
     "example": "现在几点了？",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你家有几口人？",
+      "B: 我家有四口人。",
+      "A: 你有兄弟姐妹吗？"
+    ],
+    "similarWords": [
+      {
+        "word": "几个",
+        "pinyin": "jǐ gè",
+        "meaning": "A few / Several",
+        "examples": [
+          "A: 你有几个朋友？",
+          "B: 我有三个好朋友。",
+          "A: 友谊长存。"
+        ]
+      },
+      {
+        "word": "多少",
+        "pinyin": "duō shǎo",
+        "meaning": "How many",
+        "examples": [
+          "A: 班里有多少人？",
+          "B: 三十个人。",
+          "A: 挺多的。"
+        ]
+      },
+      {
+        "word": "若干",
+        "pinyin": "ruò gān",
+        "meaning": "A certain number",
+        "examples": [
+          "A: 我们遇到了若干问题。",
+          "B: 一一解决吧。",
+          "A: 好的。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_079",
@@ -708,7 +3563,44 @@
     "meaning": "하나",
     "partOfSpeech": "number",
     "example": "我有一个朋友。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 请给我一杯水。",
+      "B: 好的，马上来。",
+      "A: 还要一杯咖啡。"
+    ],
+    "similarWords": [
+      {
+        "word": "单个",
+        "pinyin": "dān gè",
+        "meaning": "Single one",
+        "examples": [
+          "A: 可以单个买吗？",
+          "B: 不可以，我们只整箱卖。",
+          "A: 那算了吧。"
+        ]
+      },
+      {
+        "word": "唯一",
+        "pinyin": "wéi yī",
+        "meaning": "Only / Unique",
+        "examples": [
+          "A: 这是唯一的解决办法。",
+          "B: 那我们只能这样做了。",
+          "A: 别无选择。"
+        ]
+      },
+      {
+        "word": "统一",
+        "pinyin": "tǒng yī",
+        "meaning": "Unify / Uniform",
+        "examples": [
+          "A: 我们要统一服装。",
+          "B: 买什么样的？",
+          "A: 白衬衫黑裤子。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_080",
@@ -717,7 +3609,44 @@
     "meaning": "둘",
     "partOfSpeech": "number",
     "example": "我有两个苹果。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 比赛什么时候开始？",
+      "B: 下午两点整。",
+      "A: 那我们快点走吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "两",
+        "pinyin": "liǎng",
+        "meaning": "Two / Pair",
+        "examples": [
+          "A: 给我两本书。",
+          "B: 好的，给你。",
+          "A: 谢谢。"
+        ]
+      },
+      {
+        "word": "双",
+        "pinyin": "shuāng",
+        "meaning": "Pair / Double",
+        "examples": [
+          "A: 这双鞋很漂亮。",
+          "B: 买下来吧。",
+          "A: 有点贵。"
+        ]
+      },
+      {
+        "word": "对",
+        "pinyin": "duì",
+        "meaning": "Pair / Couple",
+        "examples": [
+          "A: 他们真是一对好夫妻。",
+          "B: 让人羡慕。",
+          "A: 恩爱有加。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_081",
@@ -726,7 +3655,44 @@
     "meaning": "셋",
     "partOfSpeech": "number",
     "example": "三个人",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我买了三个苹果。",
+      "B: 给我一个好吗？",
+      "A: 给你。"
+    ],
+    "similarWords": [
+      {
+        "word": "第三",
+        "pinyin": "dì sān",
+        "meaning": "Third",
+        "examples": [
+          "A: 他得了第三名。",
+          "B: 也不错了。",
+          "A: 下次争取拿第一。"
+        ]
+      },
+      {
+        "word": "多",
+        "pinyin": "duō",
+        "meaning": "Many / Much",
+        "examples": [
+          "A: 三人行，必有我师焉。",
+          "B: 要多向别人学习。",
+          "A: 是的。"
+        ]
+      },
+      {
+        "word": "多数",
+        "pinyin": "duō shù",
+        "meaning": "Majority",
+        "examples": [
+          "A: 多数人都同意了。",
+          "B: 那就通过这个方案吧。",
+          "A: 好的。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_082",
@@ -735,7 +3701,44 @@
     "meaning": "넷",
     "partOfSpeech": "number",
     "example": "四个苹果",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 现在是四点钟。",
+      "B: 那我们该走了。",
+      "A: 好的。"
+    ],
+    "similarWords": [
+      {
+        "word": "周围",
+        "pinyin": "zhōu wéi",
+        "meaning": "Surrounding",
+        "examples": [
+          "A: 四周很安静。",
+          "B: 大家都睡了。",
+          "A: 我们也休息吧。"
+        ]
+      },
+      {
+        "word": "四季",
+        "pinyin": "sì jì",
+        "meaning": "Four seasons",
+        "examples": [
+          "A: 这里四季如春。",
+          "B: 真是个好地方。",
+          "A: 适合养老。"
+        ]
+      },
+      {
+        "word": "大量",
+        "pinyin": "dà liàng",
+        "meaning": "Many",
+        "examples": [
+          "A: 这条街四通八达。",
+          "B: 交通很方便。",
+          "A: 是的。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_083",
@@ -744,7 +3747,44 @@
     "meaning": "다섯",
     "partOfSpeech": "number",
     "example": "五个人",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 五月的天气很舒服。",
+      "B: 不冷也不热。",
+      "A: 我们可以去旅游。"
+    ],
+    "similarWords": [
+      {
+        "word": "许多",
+        "pinyin": "xǔ duō",
+        "meaning": "Many",
+        "examples": [
+          "A: 他读过五花八门的书。",
+          "B: 知识很渊博。",
+          "A: 值得学习。"
+        ]
+      },
+      {
+        "word": "彩色",
+        "pinyin": "cǎi sè",
+        "meaning": "Colorful",
+        "examples": [
+          "A: 五颜六色的气球真好看。",
+          "B: 孩子们非常喜欢。",
+          "A: 买几个带回家吧。"
+        ]
+      },
+      {
+        "word": "少数",
+        "pinyin": "shǎo shù",
+        "meaning": "A few",
+        "examples": [
+          "A: 这种花很少见。",
+          "B: 非常珍贵。",
+          "A: 要好好保护。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_084",
@@ -753,7 +3793,44 @@
     "meaning": "여섯",
     "partOfSpeech": "number",
     "example": "六本书",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我有六本书。",
+      "B: 都是什么书？",
+      "A: 都是小说。"
+    ],
+    "similarWords": [
+      {
+        "word": "顺利",
+        "pinyin": "shùn lì",
+        "meaning": "Smooth / Successful",
+        "examples": [
+          "A: 祝你六六大顺！",
+          "B: 借你吉言。",
+          "A: 一切顺利。"
+        ]
+      },
+      {
+        "word": "很多",
+        "pinyin": "hěn duō",
+        "meaning": "Many",
+        "examples": [
+          "A: 这件事我说了六七遍了。",
+          "B: 抱歉，我忘了。",
+          "A: 记性真差。"
+        ]
+      },
+      {
+        "word": "大量",
+        "pinyin": "dà liàng",
+        "meaning": "A lot",
+        "examples": [
+          "A: 这里有很多好吃的。",
+          "B: 我们慢慢挑。",
+          "A: 每样都尝尝。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_085",
@@ -762,7 +3839,44 @@
     "meaning": "일곱",
     "partOfSpeech": "number",
     "example": "七点",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 七点钟我们去吃饭。",
+      "B: 好，我们在哪里吃？",
+      "A: 随便找一家餐厅吧。"
+    ],
+    "similarWords": [
+      {
+        "word": "杂乱",
+        "pinyin": "zá luàn",
+        "meaning": "Messy / Disorganized",
+        "examples": [
+          "A: 房间里七零八落的。",
+          "B: 真是乱七八糟。",
+          "A: 赶紧打扫一下。"
+        ]
+      },
+      {
+        "word": "少数",
+        "pinyin": "shǎo shù",
+        "meaning": "Minority",
+        "examples": [
+          "A: 只有七八个人来开会。",
+          "B: 把情况通知给大家。",
+          "A: 好的。"
+        ]
+      },
+      {
+        "word": "多数",
+        "pinyin": "duō shù",
+        "meaning": "Majority",
+        "examples": [
+          "A: 多数人都支持他。",
+          "B: 看来他的人气很高。",
+          "A: 众望所归。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_086",
@@ -771,7 +3885,44 @@
     "meaning": "여덟",
     "partOfSpeech": "number",
     "example": "八个人",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 八月十五是中秋节。",
+      "B: 我们可以吃月饼。",
+      "A: 对，还有赏月。"
+    ],
+    "similarWords": [
+      {
+        "word": "四面八方",
+        "pinyin": "sì miàn bā fāng",
+        "meaning": "All directions",
+        "examples": [
+          "A: 客人们来自四面八方。",
+          "B: 真是热闹。",
+          "A: 欢迎大家。"
+        ]
+      },
+      {
+        "word": "许多",
+        "pinyin": "xǔ duō",
+        "meaning": "Many",
+        "examples": [
+          "A: 这里有八仙过海，各显神通的故事。",
+          "B: 很有意思的传说。",
+          "A: 中国文化博大精深。"
+        ]
+      },
+      {
+        "word": "无数",
+        "pinyin": "wú shù",
+        "meaning": "Countless",
+        "examples": [
+          "A: 天上有无数颗星星。",
+          "B: 真漂亮。",
+          "A: 像钻石一样。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_087",
@@ -780,7 +3931,44 @@
     "meaning": "아홉",
     "partOfSpeech": "number",
     "example": "九点",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 九月我要去北京。",
+      "B: 去旅游吗？",
+      "A: 去出差。"
+    ],
+    "similarWords": [
+      {
+        "word": "极多",
+        "pinyin": "jí duō",
+        "meaning": "Very many",
+        "examples": [
+          "A: 把这九牛一毛的钱收起来吧。",
+          "B: 谢谢你的好意。",
+          "A: 别客气。"
+        ]
+      },
+      {
+        "word": "长久",
+        "pinyin": "cháng jiǔ",
+        "meaning": "Long lasting",
+        "examples": [
+          "A: 祝你们幸福长久！",
+          "B: 谢谢祝福。",
+          "A: 白头偕老。"
+        ]
+      },
+      {
+        "word": "许多",
+        "pinyin": "xǔ duō",
+        "meaning": "A lot",
+        "examples": [
+          "A: 经历了九死一生，他终于获救了。",
+          "B: 太惊险了。",
+          "A: 大难不死，必有后福。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_088",
@@ -789,7 +3977,44 @@
     "meaning": "열",
     "partOfSpeech": "number",
     "example": "十个人",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 十月一日是国庆节。",
+      "B: 放假七天呢。",
+      "A: 我们去哪里玩？"
+    ],
+    "similarWords": [
+      {
+        "word": "完美",
+        "pinyin": "wán měi",
+        "meaning": "Perfect",
+        "examples": [
+          "A: 这次表演真是十全十美。",
+          "B: 大家都非常努力。",
+          "A: 辛苦没有白费。"
+        ]
+      },
+      {
+        "word": "许多",
+        "pinyin": "xǔ duō",
+        "meaning": "Many",
+        "examples": [
+          "A: 路口有十字路口。",
+          "B: 过马路要注意安全。",
+          "A: 遵守交通规则。"
+        ]
+      },
+      {
+        "word": "非常",
+        "pinyin": "fēi cháng",
+        "meaning": "Extremely",
+        "examples": [
+          "A: 他十分感谢你的帮助。",
+          "B: 举手之劳而已。",
+          "A: 你真是个好人。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_089",
@@ -798,7 +4023,44 @@
     "meaning": "학교",
     "partOfSpeech": "noun",
     "example": "我在学校学习。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我的学校很大。",
+      "B: 有几个操场？",
+      "A: 有两个。"
+    ],
+    "similarWords": [
+      {
+        "word": "学院",
+        "pinyin": "xué yuàn",
+        "meaning": "College / Academy",
+        "examples": [
+          "A: 他在音乐学院上学。",
+          "B: 是学什么乐器的？",
+          "A: 是学钢琴的。"
+        ]
+      },
+      {
+        "word": "母校",
+        "pinyin": "mǔ xiào",
+        "meaning": "Alma mater",
+        "examples": [
+          "A: 明天我要回母校看看。",
+          "B: 充满回忆的地方。",
+          "A: 是的。"
+        ]
+      },
+      {
+        "word": "校园",
+        "pinyin": "xiào yuán",
+        "meaning": "Campus",
+        "examples": [
+          "A: 我们的校园很美丽。",
+          "B: 有很多大树。",
+          "A: 空气也很好。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_090",
@@ -807,7 +4069,44 @@
     "meaning": "선생님",
     "partOfSpeech": "noun",
     "example": "我的老师很好。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 老师早上好！",
+      "B: 同学们早上好！",
+      "A: 今天我们学什么？"
+    ],
+    "similarWords": [
+      {
+        "word": "教师",
+        "pinyin": "jiào shī",
+        "meaning": "Teacher",
+        "examples": [
+          "A: 他是一名优秀的人民教师。",
+          "B: 学生们都很喜欢他。",
+          "A: 非常有耐心。"
+        ]
+      },
+      {
+        "word": "导师",
+        "pinyin": "dǎo shī",
+        "meaning": "Tutor / Mentor",
+        "examples": [
+          "A: 我的导师对我非常严格。",
+          "B: 严师出高徒。",
+          "A: 说得对。"
+        ]
+      },
+      {
+        "word": "恩师",
+        "pinyin": "ēn shī",
+        "meaning": "Respected teacher",
+        "examples": [
+          "A: 他是我的恩师，我永远感激他。",
+          "B: 尊师重道是美德。",
+          "A: 是的。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_091",
@@ -816,7 +4115,44 @@
     "meaning": "학생",
     "partOfSpeech": "noun",
     "example": "我是学生。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 班里有多少个学生？",
+      "B: 有三十个学生。",
+      "A: 男生多还是女生多？"
+    ],
+    "similarWords": [
+      {
+        "word": "学员",
+        "pinyin": "xué yuán",
+        "meaning": "Trainee / Student",
+        "examples": [
+          "A: 培训班的学员们学习很认真。",
+          "B: 大家都想提高自己。",
+          "A: 共同进步。"
+        ]
+      },
+      {
+        "word": "同学",
+        "pinyin": "tóng xué",
+        "meaning": "Classmate",
+        "examples": [
+          "A: 我们是大学同学。",
+          "B: 难怪你们感情那么好。",
+          "A: 经常一起玩。"
+        ]
+      },
+      {
+        "word": "弟子",
+        "pinyin": "dì zǐ",
+        "meaning": "Disciple / Follower",
+        "examples": [
+          "A: 他是这位大师的得意弟子。",
+          "B: 继承了大师的真传。",
+          "A: 前途无量。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_092",
@@ -825,7 +4161,44 @@
     "meaning": "친구",
     "partOfSpeech": "noun",
     "example": "他是我的好朋友。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 他是我的好朋友。",
+      "B: 你们认识多久了？",
+      "A: 我们认识十年了。"
+    ],
+    "similarWords": [
+      {
+        "word": "知己",
+        "pinyin": "zhī jǐ",
+        "meaning": "Confidant / Intimate friend",
+        "examples": [
+          "A: 人生得一知己足矣。",
+          "B: 是啊，很难得。",
+          "A: 我很珍惜我们的友谊。"
+        ]
+      },
+      {
+        "word": "伙伴",
+        "pinyin": "huǒ bàn",
+        "meaning": "Partner / Companion",
+        "examples": [
+          "A: 我们是很好的合作伙伴。",
+          "B: 希望以后继续合作。",
+          "A: 共创辉煌。"
+        ]
+      },
+      {
+        "word": "好友",
+        "pinyin": "hǎo yǒu",
+        "meaning": "Good friend",
+        "examples": [
+          "A: 他是我多年的好友。",
+          "B: 你们真是发小。",
+          "A: 从小玩到大的。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_093",
@@ -834,7 +4207,44 @@
     "meaning": "집",
     "partOfSpeech": "noun",
     "example": "我在家。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 你家离学校远吗？",
+      "B: 不远，走十分钟就到了。",
+      "A: 那很方便。"
+    ],
+    "similarWords": [
+      {
+        "word": "家庭",
+        "pinyin": "jiā tíng",
+        "meaning": "Family",
+        "examples": [
+          "A: 我有一个幸福的家庭。",
+          "B: 真是太棒了。",
+          "A: 我们周末经常一起出去玩。"
+        ]
+      },
+      {
+        "word": "房屋",
+        "pinyin": "fáng wū",
+        "meaning": "House / Building",
+        "examples": [
+          "A: 这片房屋很旧了，准备拆迁。",
+          "B: 这里要建什么？",
+          "A: 听说要建一个商场。"
+        ]
+      },
+      {
+        "word": "故乡",
+        "pinyin": "gù xiāng",
+        "meaning": "Hometown",
+        "examples": [
+          "A: 我的故乡在南方的一个小镇。",
+          "B: 那里风景一定很美。",
+          "A: 是的，有山有水。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_094",
@@ -843,7 +4253,44 @@
     "meaning": "방",
     "partOfSpeech": "noun",
     "example": "这个房间很大。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这个房间真干净。",
+      "B: 我刚打扫完。",
+      "A: 辛苦你了。"
+    ],
+    "similarWords": [
+      {
+        "word": "卧室",
+        "pinyin": "wò shì",
+        "meaning": "Bedroom",
+        "examples": [
+          "A: 我的卧室朝南，阳光很好。",
+          "B: 那冬天一定很暖和。",
+          "A: 是的，我很喜欢。"
+        ]
+      },
+      {
+        "word": "客厅",
+        "pinyin": "kè tīng",
+        "meaning": "Living room",
+        "examples": [
+          "A: 大家去客厅看电视吧。",
+          "B: 好的，我倒点水来。",
+          "A: 边喝水边看。"
+        ]
+      },
+      {
+        "word": "屋子",
+        "pinyin": "wū zi",
+        "meaning": "Room / House",
+        "examples": [
+          "A: 外面很冷，快进屋子来。",
+          "B: 屋里暖和多了。",
+          "A: 先喝口热水。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_095",
@@ -852,7 +4299,44 @@
     "meaning": "책",
     "partOfSpeech": "noun",
     "example": "我有很多书。",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这本书很有意思。",
+      "B: 讲的是什么故事？",
+      "A: 是一个关于冒险的故事。"
+    ],
+    "similarWords": [
+      {
+        "word": "书籍",
+        "pinyin": "shū jí",
+        "meaning": "Books / Literature",
+        "examples": [
+          "A: 图书馆有很多书籍可以借阅。",
+          "B: 那我周末去看看。",
+          "A: 可以办张借书卡。"
+        ]
+      },
+      {
+        "word": "读物",
+        "pinyin": "dú wù",
+        "meaning": "Reading material",
+        "examples": [
+          "A: 适合儿童的读物有哪些？",
+          "B: 可以买一些绘本。",
+          "A: 这个主意不错。"
+        ]
+      },
+      {
+        "word": "杂志",
+        "pinyin": "zá zhì",
+        "meaning": "Magazine",
+        "examples": [
+          "A: 我订了一份时尚杂志。",
+          "B: 里面的衣服很好看吧。",
+          "A: 还能学到很多搭配技巧。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_096",
@@ -861,7 +4345,44 @@
     "meaning": "권 (책 단위)",
     "partOfSpeech": "measure word",
     "example": "一本书",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 我要买两本书。",
+      "B: 好的，一共五十块钱。",
+      "A: 给你钱。"
+    ],
+    "similarWords": [
+      {
+        "word": "册",
+        "pinyin": "cè",
+        "meaning": "Volume / Copy (measure word)",
+        "examples": [
+          "A: 这套书一共分上下两册。",
+          "B: 我只买了上册。",
+          "A: 下册也很好看。"
+        ]
+      },
+      {
+        "word": "部",
+        "pinyin": "bù",
+        "meaning": "Part / Film (measure word)",
+        "examples": [
+          "A: 这是一部非常感人的电影。",
+          "B: 我看哭了。",
+          "A: 值得推荐。"
+        ]
+      },
+      {
+        "word": "卷",
+        "pinyin": "juǎn",
+        "meaning": "Volume / Roll",
+        "examples": [
+          "A: 这幅画长达数卷。",
+          "B: 非常壮观的画作。",
+          "A: 是的。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_097",
@@ -870,7 +4391,44 @@
     "meaning": "개 (일반 단위)",
     "partOfSpeech": "measure word",
     "example": "一个人",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 给我一个苹果。",
+      "B: 这个可以吗？",
+      "A: 可以。"
+    ],
+    "similarWords": [
+      {
+        "word": "名",
+        "pinyin": "míng",
+        "meaning": "Measure word for people",
+        "examples": [
+          "A: 今天来了三名新员工。",
+          "B: 欢迎他们。",
+          "A: 去做个自我介绍吧。"
+        ]
+      },
+      {
+        "word": "位",
+        "pinyin": "wèi",
+        "meaning": "Measure word for people (polite)",
+        "examples": [
+          "A: 各位旅客，大家好。",
+          "B: 飞机马上就要起飞了。",
+          "A: 请系好安全带。"
+        ]
+      },
+      {
+        "word": "只",
+        "pinyin": "zhī",
+        "meaning": "Measure word for animals/things",
+        "examples": [
+          "A: 我买了两只小鸡。",
+          "B: 真可爱。",
+          "A: 放在院子里养。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_098",
@@ -879,7 +4437,44 @@
     "meaning": "장 (종이, 테이블 등)",
     "partOfSpeech": "measure word",
     "example": "一张纸",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 请给我一张纸。",
+      "B: 给你。",
+      "A: 谢谢。"
+    ],
+    "similarWords": [
+      {
+        "word": "幅",
+        "pinyin": "fú",
+        "meaning": "Measure word for pictures",
+        "examples": [
+          "A: 墙上挂着一幅名画。",
+          "B: 看上去很贵。",
+          "A: 是的。"
+        ]
+      },
+      {
+        "word": "页",
+        "pinyin": "yè",
+        "meaning": "Page",
+        "examples": [
+          "A: 请把书翻到第三十页。",
+          "B: 这里有一道难题。",
+          "A: 我们一起讨论一下。"
+        ]
+      },
+      {
+        "word": "张",
+        "pinyin": "zhāng",
+        "meaning": "Measure word for flat things",
+        "examples": [
+          "A: 给我一张餐巾纸。",
+          "B: 给你。",
+          "A: 谢谢。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_099",
@@ -888,7 +4483,44 @@
     "meaning": "벌 (옷 등)",
     "partOfSpeech": "measure word",
     "example": "一件衣服",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这件衣服很漂亮。",
+      "B: 也就是颜色好看。",
+      "A: 我觉得很适合你。"
+    ],
+    "similarWords": [
+      {
+        "word": "套",
+        "pinyin": "tào",
+        "meaning": "Set / Suit",
+        "examples": [
+          "A: 我买了一套新西装。",
+          "B: 穿上很帅气。",
+          "A: 明天去面试穿。"
+        ]
+      },
+      {
+        "word": "条",
+        "pinyin": "tiáo",
+        "meaning": "Measure word for long thin things",
+        "examples": [
+          "A: 这条河很宽。",
+          "B: 水很清澈。",
+          "A: 我们去划船吧。"
+        ]
+      },
+      {
+        "word": "副",
+        "pinyin": "fù",
+        "meaning": "Pair / Set",
+        "examples": [
+          "A: 我买了一副新手套。",
+          "B: 冬天戴正好。",
+          "A: 很保暖。"
+        ]
+      }
+    ]
   },
   {
     "id": "voc_100",
@@ -897,6 +4529,43 @@
     "meaning": "개 (돈, 과자 등)",
     "partOfSpeech": "measure word",
     "example": "一块钱",
-    "hskLevel": 3
+    "hskLevel": 3,
+    "examples": [
+      "A: 这块手表多少钱？",
+      "B: 三千块。",
+      "A: 有点贵。"
+    ],
+    "similarWords": [
+      {
+        "word": "钞票",
+        "pinyin": "chāo piào",
+        "meaning": "Paper money / Banknote",
+        "examples": [
+          "A: 他的钱包里塞满了钞票。",
+          "B: 看来他发财了。",
+          "A: 我们让他请客。"
+        ]
+      },
+      {
+        "word": "金钱",
+        "pinyin": "jīn qián",
+        "meaning": "Money / Wealth",
+        "examples": [
+          "A: 金钱不是万能的。",
+          "B: 但没钱是万万不能的。",
+          "A: 说得对。"
+        ]
+      },
+      {
+        "word": "财富",
+        "pinyin": "cái fù",
+        "meaning": "Wealth / Riches",
+        "examples": [
+          "A: 健康是最大的财富。",
+          "B: 是的，身体最重要。",
+          "A: 我们要坚持锻炼。"
+        ]
+      }
+    ]
   }
 ]
