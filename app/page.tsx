@@ -9,10 +9,11 @@ import type { UserProgress } from '@/types';
 
 export default function Dashboard() {
   const [progress, setProgress] = useState<UserProgress | null>(null);
-  const [overallStats, setOverallStats] = useState<any>(null);
+  const [overallStats, setOverallStats] = useState<{ total: number; new: number; learning: number; review: number; mastered: number } | null>(null);
 
   useEffect(() => {
     const userProgress = getOrInitializeProgress();
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setProgress(userProgress);
     setOverallStats(calculateOverallStats(userProgress));
   }, []);

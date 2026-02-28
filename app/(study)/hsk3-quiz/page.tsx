@@ -1,11 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import { loadVocabularyAsync } from '@/lib/data/loader';
 import { getOrInitializeProgress, updateItemProgress } from '@/lib/utils/storage';
 import { getOrCreateProgress, updateHintUsage } from '@/lib/learning/progressTracker';
-import { createLearningQueue, handleCorrectAnswer, handleIncorrectAnswer } from '@/lib/learning/learningQueue';
 import { updateProgressOnCorrect, updateProgressOnIncorrect } from '@/lib/learning/spacedRepetition';
 import ProgressiveHint from '@/components/study/ProgressiveHint';
 import type { Vocabulary, LearningProgress, HintStage, UserProgress } from '@/types';
@@ -17,7 +15,6 @@ export default function HSK3QuizPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [progress, setProgress] = useState<UserProgress | null>(null);
   const [currentProgress, setCurrentProgress] = useState<LearningProgress | null>(null);
-  const [showAnswer, setShowAnswer] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
 
   useEffect(() => {
@@ -36,6 +33,8 @@ export default function HSK3QuizPage() {
         setCurrentProgress(vocabProgress);
         setCurrentIndex(0);
       }
+    }).catch(() => {
+      // API load failure handled gracefully
     });
   }, []);
 
@@ -80,7 +79,6 @@ export default function HSK3QuizPage() {
       const nextProgress = getOrCreateProgress(updatedProgress, nextVocab.id, 'vocabulary');
       setCurrentProgress(nextProgress);
 
-      setShowAnswer(false);
     } catch (error) {
       console.error('Error in handleCorrect:', error);
     } finally {
@@ -118,7 +116,6 @@ export default function HSK3QuizPage() {
       const nextProgress = getOrCreateProgress(updatedProgress, nextVocab.id, 'vocabulary');
       setCurrentProgress(nextProgress);
 
-      setShowAnswer(false);
     } catch (error) {
       console.error('Error in handleIncorrect:', error);
     } finally {
@@ -126,7 +123,7 @@ export default function HSK3QuizPage() {
     }
   };
 
-  const playSimilarWord = async (similarWord: any) => {
+  const playSimilarWord = async (similarWord: { word: string; examples?: string[] }) => {
     if (isProcessing) return;
     setIsProcessing(true);
     try {

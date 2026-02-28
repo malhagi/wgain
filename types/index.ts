@@ -33,11 +33,19 @@ export interface Grammar {
   status?: LearningStatus;
 }
 
+// 예문 (이야기 형태의 중국어/한국어 쌍)
+export interface ExampleSentence {
+  chinese: string;
+  korean: string;
+}
+
 // 문장 타입
 export interface Sentence {
   id: string;
   content: string; // 간체자
   translation: string;
+  translationKo?: string;
+  examples?: ExampleSentence[];
   wordIds: string[];
   grammarIds: string[];
   difficulty: number;

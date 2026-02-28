@@ -1,0 +1,29 @@
+---
+description: API 라우트 규칙 (Next.js App Router)
+globs: "**/api/**/*.ts"
+alwaysApply: false
+---
+
+# API Route 규칙
+
+## 구조
+모든 API 라우트는 `app/api/data/` 아래에 위치하며 `data/*.json` 파일을 읽어 반환.
+
+## 패턴
+```typescript
+import { NextResponse } from 'next/server';
+import fs from 'fs';
+import path from 'path';
+
+export async function GET() {
+  const filePath = path.join(process.cwd(), 'data', 'filename.json');
+  const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  return NextResponse.json(data);
+}
+```
+
+## 규칙
+- GET 메서드만 사용 (읽기 전용 데이터)
+- `fs.readFileSync`로 동기 읽기 (빌드 시 정적 생성 호환)
+- 에러 발생 시 적절한 HTTP 상태 코드와 메시지 반환
+- `data/` 폴더의 JSON이 소스, `public/data/`는 정적 백업용

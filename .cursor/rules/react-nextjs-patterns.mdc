@@ -1,0 +1,43 @@
+---
+description: React/Next.js 컴포넌트 패턴 및 스타일링 규칙
+globs: "**/*.tsx"
+alwaysApply: false
+---
+
+# React/Next.js 패턴
+
+## 컴포넌트 구조
+- 함수형 컴포넌트 + React Hooks
+- `'use client'` 디렉티브: 상태/이벤트가 있는 페이지에 필수
+- Props에 TypeScript 인터페이스 정의
+
+## 스타일링 (디자인 시스템)
+```css
+/* iOS Card */
+.ios-card → bg-white/80 backdrop-blur-sm rounded-3xl shadow-md border border-black/5
+/* Transitions */
+.transition-ios → transition-all duration-200 ease-out
+/* Active states */
+active:scale-95, active:scale-98
+```
+
+## 색상 체계
+- Vocabulary: blue-500, Sentences: green-500, Reading: purple-500, Writing: orange-500
+- 그라디언트: `bg-gradient-to-br from-{color}-50 to-{color}-100`
+- 버튼: `bg-gradient-to-br from-{color}-500 to-{color}-600`
+
+## 페이지 패턴
+```tsx
+'use client';
+import { useState, useEffect } from 'react';
+// 1. 타입 임포트
+// 2. 데이터 로딩 (useEffect + fetch from /api/data/*)
+// 3. 상태 관리 (useState)
+// 4. 이벤트 핸들러
+// 5. 렌더링 (로딩 → 에러 → 콘텐츠)
+```
+
+## 금지 사항
+- `any` 타입 사용 금지
+- 인라인 스타일 지양 (fontSize: '16px' iOS 줌 방지 제외)
+- 서버 컴포넌트에서 useState/useEffect 사용 금지

@@ -1,0 +1,44 @@
+---
+description: Baozi HSK 3 프로젝트 컨텍스트 및 개발 규칙
+alwaysApply: true
+---
+
+# Baozi HSK 3 - 프로젝트 규칙
+
+## 프로젝트 개요
+모바일 퍼스트 HSK 3 중국어 학습 앱. iOS 스타일 UI, Spaced Repetition, Progressive Hint 시스템.
+
+## 기술 스택
+- Next.js 16+ (App Router), React 19, TypeScript 5 (strict)
+- Tailwind CSS 4 (`@tailwindcss/postcss`), Lucide React
+- Web Speech API (TTS), localStorage (오프라인 퍼스트)
+- Playwright (E2E 테스트)
+
+## 핵심 규칙
+
+### Spec-Driven Development
+1. 코드 변경 전 반드시 `docs/DESIGN_SPEC.md` 또는 `docs/tabs/*.md` 참조
+2. 구현 후 스펙과 차이가 있으면 스펙 문서도 함께 업데이트
+3. 새 기능은 스펙 → 구현 → 검증 → 빌드 순서 준수
+
+### 워크플로우 (Spec → Dev → Verify → Build)
+- **Spec**: 요구사항 정의 및 스펙 문서 업데이트
+- **Dev**: 스펙 기반 구현 + Playwright E2E 테스트 추가
+- **Verify**: `npm run verify` (typecheck + lint + test:e2e)
+- **Build**: `npm run build` 로 프로덕션 빌드 확인
+
+### 코딩 컨벤션
+- Strict TypeScript: 모든 타입 명시, `any` 사용 금지
+- 모바일 퍼스트: 최소 터치 타겟 44x44px, iOS 스타일 컴포넌트
+- 오프라인 퍼스트: localStorage key는 `hsk_learning_progress`
+- Tailwind 추상화: `.ios-card`, `.transition-ios` 등 디자인 시스템 준수
+- 데이터: `data/*.json` → API route → `lib/data/loader.ts` 패턴
+
+### 디렉토리 구조
+- `app/(study)/` - 학습 페이지들
+- `components/` - 재사용 UI 컴포넌트
+- `lib/learning/` - 학습 알고리즘 (spaced repetition, progress)
+- `data/` - HSK3 학습 데이터 (JSON)
+- `docs/` - 스펙 문서 (Single Source of Truth)
+- `tests/` - Playwright E2E 테스트
+- `types/` - TypeScript 타입 정의

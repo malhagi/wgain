@@ -1,4 +1,4 @@
-import type { LearningQueueItem, LearningProgress, LearningStatus } from '@/types';
+import type { LearningProgress } from '@/types';
 import { updateProgressOnCorrect, updateProgressOnIncorrect, isDueToday, needsReview } from './spacedRepetition';
 
 // 학습 큐 항목 타입

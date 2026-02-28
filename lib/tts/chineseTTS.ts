@@ -1,27 +1,26 @@
 // 중국어 TTS 유틸리티
 
-export function speakChinese(text: string, lang: string = 'zh-CN'): Promise<void> {
-  let character: 'A' | 'B' | 'default' = 'default'; // Default to A voice
+export interface TTSOptions {
+  rate?: number;
+  lang?: string;
+}
+
+export function speakChinese(text: string, options?: TTSOptions | string): Promise<void> {
+  const opts: TTSOptions = typeof options === 'string'
+    ? { lang: options }
+    : { rate: 0.8, lang: 'zh-CN', ...options };
+
   let speechText = text;
 
-  // '|' 문자를 기준으로 앞부분(중국어)만 가져옴
   if (speechText.includes('|')) {
     speechText = speechText.split('|')[0].trim();
   }
 
-  // Check for A: or B: prefixes
-  if (speechText.startsWith('A:') || speechText.startsWith('A：') || speechText.startsWith('A: ') || speechText.startsWith('A： ')) {
-    speechText = speechText.replace(/^A[:：]\s*/, '').trim();
-    character = 'A';
-  } else if (speechText.startsWith('B:') || speechText.startsWith('B：') || speechText.startsWith('B: ') || speechText.startsWith('B： ')) {
-    speechText = speechText.replace(/^B[:：]\s*/, '').trim();
-    character = 'B';
-  }
+  speechText = speechText.replace(/^[AB][:：]\s*/, '').trim();
 
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-      console.log('Speech synthesis not supported');
-      reject(new Error('Speech synthesis not supported'));
+      resolve();
       return;
     }
 
@@ -32,8 +31,8 @@ export function speakChinese(text: string, lang: string = 'zh-CN'): Promise<void
     setTimeout(() => {
       try {
         const utterance = new SpeechSynthesisUtterance(speechText);
-        utterance.lang = lang;
-        utterance.rate = 0.8; // 조금 더 느리게 (더 명확하게)
+        utterance.lang = opts.lang ?? 'zh-CN';
+        utterance.rate = opts.rate ?? 0.8;
         utterance.pitch = 1.0;
         utterance.volume = 1.0;
 
@@ -84,19 +83,9 @@ export function speakChinese(text: string, lang: string = 'zh-CN'): Promise<void
           );
 
           const primaryVoice = chineseFemaleVoices.length > 0 ? chineseFemaleVoices[0] : (fallbackChineseVoices.length > 0 ? fallbackChineseVoices[0] : null);
-          const secondaryVoice = chineseFemaleVoices.length > 1 ? chineseFemaleVoices[1] : (fallbackChineseVoices.length > 1 ? fallbackChineseVoices[1] : primaryVoice);
 
-          let selectedVoice = primaryVoice;
-
-          if (character === 'A' || character === 'default') {
-            selectedVoice = primaryVoice;
-          } else if (character === 'B') {
-            selectedVoice = secondaryVoice;
-          }
-
-          if (selectedVoice) {
-            utterance.voice = selectedVoice;
-            console.log('Using voice:', selectedVoice.name, 'for character:', character);
+          if (primaryVoice) {
+            utterance.voice = primaryVoice;
           }
         }
 
@@ -113,9 +102,8 @@ export function speakChinese(text: string, lang: string = 'zh-CN'): Promise<void
             resolve();
           }
         }, 20000);
-      } catch (error) {
-        console.error('TTS setup error:', error);
-        reject(error);
+      } catch {
+        resolve();
       }
     }, 100); // iOS를 위한 짧은 딜레이
   });

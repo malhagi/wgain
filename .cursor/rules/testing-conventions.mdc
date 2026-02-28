@@ -1,0 +1,41 @@
+---
+description: Playwright E2E 테스트 규칙
+globs: "tests/**/*.spec.ts"
+alwaysApply: false
+---
+
+# Playwright E2E 테스트 규칙
+
+## 파일 위치
+- 모든 테스트: `tests/` 디렉토리
+- 네이밍: `{feature}.spec.ts` (예: `vocabulary.spec.ts`)
+
+## 테스트 구조
+```typescript
+import { test, expect } from '@playwright/test';
+
+test.describe('Feature Name', () => {
+  test('사용자 행동 기반 설명', async ({ page }) => {
+    await page.goto('/path');
+    // 실제 사용자 인터랙션 시뮬레이션
+    await expect(page.locator('selector')).toBeVisible();
+  });
+});
+```
+
+## 핵심 원칙
+- 실제 사용자 관점의 인터랙션 테스트
+- 테스트 이름: 행동 기반 서술 (예: 'vocabulary progressive hints work correctly')
+- 각 탭별 최소 1개의 스펙 파일
+- `data-testid` 속성 활용 권장
+- 네트워크 의존성 최소화: API mock 또는 로컬 데이터 활용
+
+## 실행 명령
+- `npm run test:e2e` - CI 모드 (headless)
+- `npm run test:e2e:ui` - UI 모드 (디버깅)
+
+## 테스트 대상 (필수)
+- 각 탭 네비게이션 동작
+- 핵심 학습 플로우 (I Know / Don't Know)
+- Progressive Hint 시스템
+- 데이터 로딩 및 표시

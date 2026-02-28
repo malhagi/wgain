@@ -11,7 +11,6 @@ interface ProgressiveHintProps {
   meaning: string;
   examples?: string[];
   onHintUsed?: (stage: HintStage) => void;
-  onReset?: () => void;
   className?: string;
 }
 
@@ -21,7 +20,6 @@ export default function ProgressiveHint({
   meaning,
   examples,
   onHintUsed,
-  onReset,
   className = '',
 }: ProgressiveHintProps) {
   const [showHints, setShowHints] = useState(false);
@@ -57,17 +55,6 @@ export default function ProgressiveHint({
       onHintUsed?.('meaning');
     }
   };
-
-  // Reset: 외부에서 호출되어 힌트 상태 초기화
-  const reset = () => {
-    setShowHints(false);
-    setIsPlaying(false);
-    onReset?.();
-  };
-
-  // 외부에서 reset을 호출할 수 있도록 ref로 노출
-  // 그러나 React 18+에서는 useImperativeHandle을 사용해야 하므로,
-  // 대신 부모 컴포넌트에서 key prop을 변경하여 컴포넌트를 리마운트하는 방식을 권장
 
   return (
     <div className={`relative ${className}`}>

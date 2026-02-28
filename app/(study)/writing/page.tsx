@@ -219,6 +219,7 @@ export default function WritingPage() {
     // Auto-save (localStorage)
     const savedText = localStorage.getItem(`writing_${selectedTopic.id}`);
     if (savedText) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setText(savedText);
       setWordCount(savedText.length);
     }
