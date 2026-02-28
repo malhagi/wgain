@@ -1,35 +1,48 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import { loadVocabularyAsync } from '@/lib/data/loader';
 import { getOrInitializeProgress, updateItemProgress } from '@/lib/utils/storage';
 import { getOrCreateProgress, updateHintUsage } from '@/lib/learning/progressTracker';
-import { createLearningQueue, handleCorrectAnswer, handleIncorrectAnswer } from '@/lib/learning/learningQueue';
+import { createLearningQueue } from '@/lib/learning/learningQueue';
 import { updateProgressOnCorrect, updateProgressOnIncorrect } from '@/lib/learning/spacedRepetition';
 import ProgressiveHint from '@/components/study/ProgressiveHint';
 import type { Vocabulary, LearningProgress, HintStage, UserProgress } from '@/types';
 import { CheckCircle2, XCircle, Volume2 } from 'lucide-react';
-import { speakChinese } from '@/lib/tts/chineseTTS';
+import { speakChinese, stopSpeaking } from '@/lib/tts/chineseTTS';
+
+function getRandomIndex(length: number, excludeIndex: number): number {
+  if (length <= 1) return 0;
+  let next: number;
+  do {
+    next = Math.floor(Math.random() * length);
+  } while (next === excludeIndex);
+  return next;
+}
+
+function parseExample(example: string): { chinese: string; korean: string } {
+  const cleaned = example.replace(/^[AB][:：]\s*/, '');
+  const parts = cleaned.split('|');
+  const chinese = parts[0].trim();
+  const korean = parts.length > 1 ? parts[1].replace(/^[AB][:：]\s*/, '').trim() : '';
+  return { chinese, korean };
+}
 
 export default function VocabularyPage() {
   const [vocabularies, setVocabularies] = useState<Vocabulary[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [progress, setProgress] = useState<UserProgress | null>(null);
   const [currentProgress, setCurrentProgress] = useState<LearningProgress | null>(null);
-  const [showAnswer, setShowAnswer] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
 
   useEffect(() => {
     loadVocabularyAsync().then((vocabList) => {
-      // 1. 단어의 순서를 1,2,3 순서가 아니라 random으로 나오도록 섞어줘
       const shuffledVocab = [...vocabList].sort(() => Math.random() - 0.5);
       setVocabularies(shuffledVocab);
 
       const userProgress = getOrInitializeProgress();
       setProgress(userProgress);
 
-      // 학습 큐 생성
       const queue = createLearningQueue(userProgress.vocabulary);
       if (queue.length > 0) {
         const firstItem = queue[0];
@@ -40,11 +53,12 @@ export default function VocabularyPage() {
           setCurrentIndex(shuffledVocab.findIndex((v) => v.id === vocab.id));
         }
       } else if (shuffledVocab.length > 0) {
-        // 큐가 비어있으면 섞인 리스트의 첫 번째 단어로
         const vocab = shuffledVocab[0];
         const vocabProgress = getOrCreateProgress(userProgress, vocab.id, 'vocabulary');
         setCurrentProgress(vocabProgress);
       }
+    }).catch(() => {
+      // API load failure handled gracefully
     });
   }, []);
 
@@ -82,14 +96,13 @@ export default function VocabularyPage() {
       setProgress(updatedProgress);
       setCurrentProgress(updatedProgressData);
 
-      // 4. 다음 단어로 이동
-      const nextIndex = (currentIndex + 1) % vocabularies.length;
+      // 4. 랜덤으로 다음 단어 이동
+      const nextIndex = getRandomIndex(vocabularies.length, currentIndex);
       setCurrentIndex(nextIndex);
       const nextVocab = vocabularies[nextIndex];
       const nextProgress = getOrCreateProgress(updatedProgress, nextVocab.id, 'vocabulary');
       setCurrentProgress(nextProgress);
 
-      setShowAnswer(false);
     } catch (error) {
       console.error('Error in handleCorrect:', error);
     } finally {
@@ -103,31 +116,26 @@ export default function VocabularyPage() {
     setIsProcessing(true);
 
     try {
-      // 1. 단어 TTS 재생
       await speakChinese(currentVocab.characters);
 
-      // 2. 예문이 있으면 예문 TTS 재생 (순차적으로)
       if (currentVocab.examples && currentVocab.examples.length > 0) {
         for (const example of currentVocab.examples) {
           await speakChinese(example);
         }
       }
 
-      // 3. 진행도 업데이트
       const updatedProgressData = updateProgressOnIncorrect(currentProgress);
       const updatedProgress = updateItemProgress(progress, updatedProgressData);
 
       setProgress(updatedProgress);
       setCurrentProgress(updatedProgressData);
 
-      // 4. 다음 단어로 이동
-      const nextIndex = (currentIndex + 1) % vocabularies.length;
+      const nextIndex = getRandomIndex(vocabularies.length, currentIndex);
       setCurrentIndex(nextIndex);
       const nextVocab = vocabularies[nextIndex];
       const nextProgress = getOrCreateProgress(updatedProgress, nextVocab.id, 'vocabulary');
       setCurrentProgress(nextProgress);
 
-      setShowAnswer(false);
     } catch (error) {
       console.error('Error in handleIncorrect:', error);
     } finally {
@@ -135,7 +143,26 @@ export default function VocabularyPage() {
     }
   };
 
-  const playSimilarWord = async (similarWord: any) => {
+  const [playingSentenceIdx, setPlayingSentenceIdx] = useState<string | null>(null);
+
+  const playSingleSentence = async (text: string, key: string) => {
+    if (playingSentenceIdx) {
+      stopSpeaking();
+      setPlayingSentenceIdx(null);
+      return;
+    }
+    setPlayingSentenceIdx(key);
+    try {
+      const cleaned = text.replace(/^[AB][:：]\s*/, '').split('|')[0].trim();
+      await speakChinese(cleaned);
+    } catch (error) {
+      console.error('TTS error:', error);
+    } finally {
+      setPlayingSentenceIdx(null);
+    }
+  };
+
+  const playSimilarWord = async (similarWord: { word: string; examples?: string[] }) => {
     if (isProcessing) return;
     setIsProcessing(true);
     try {
@@ -194,17 +221,60 @@ export default function VocabularyPage() {
             </div>
             <div className="space-y-3">
               {currentVocab.examples.map((example, idx) => {
-                const [chinese, korean] = example.split('|');
+                const { chinese, korean } = parseExample(example);
+                const sentenceKey = `ex-${idx}`;
+                const isSentencePlaying = playingSentenceIdx === sentenceKey;
                 return (
                   <div key={idx} className="pb-2 border-b border-purple-200/40 last:border-0 last:pb-0">
-                    <div className="text-base text-black font-medium">{chinese}</div>
-                    {korean && <div className="text-sm text-purple-700 mt-1">{korean}</div>}
+                    <div className="flex items-start gap-2">
+                      <button
+                        onClick={() => playSingleSentence(example, sentenceKey)}
+                        className={`mt-0.5 w-7 h-7 rounded-lg shrink-0 flex items-center justify-center transition-ios ${
+                          isSentencePlaying
+                            ? 'bg-purple-400 text-white'
+                            : 'bg-purple-200 text-purple-700 active:scale-90'
+                        }`}
+                        aria-label={`Play sentence: ${chinese}`}
+                      >
+                        <Volume2 className="w-3.5 h-3.5" strokeWidth={2.5} />
+                      </button>
+                      <div className="flex-1">
+                        <div className="text-base text-black font-medium">{chinese}</div>
+                        {korean && <div className="text-sm text-purple-700 mt-1">{korean}</div>}
+                      </div>
+                    </div>
                   </div>
                 );
               })}
             </div>
           </div>
         )}
+
+        {/* I Know / Don't Know 버튼 - 예문 바로 아래 */}
+        <div className="flex gap-3 mt-5">
+          <button
+            onClick={handleCorrect}
+            disabled={isProcessing}
+            className={`flex-1 bg-gradient-to-br from-green-500 to-green-600 text-white py-4 px-6 rounded-2xl font-bold text-base shadow-lg transition-ios flex items-center justify-center gap-2 ${isProcessing ? 'opacity-50 cursor-not-allowed' : 'active:scale-95'
+              }`}
+          >
+            <CheckCircle2 className="w-6 h-6" strokeWidth={2.5} />
+            {isProcessing ? 'Playing...' : 'I Know'}
+          </button>
+          <button
+            onClick={handleIncorrect}
+            disabled={isProcessing}
+            className={`flex-1 bg-gradient-to-br from-red-500 to-red-600 text-white py-4 px-6 rounded-2xl font-bold text-base shadow-lg transition-ios flex items-center justify-center gap-2 ${isProcessing ? 'opacity-50 cursor-not-allowed' : 'active:scale-95'
+              }`}
+          >
+            <XCircle className="w-6 h-6" strokeWidth={2.5} />
+            {isProcessing ? 'Playing...' : "Don't Know"}
+          </button>
+        </div>
+
+        <div className="mt-4 text-sm font-bold text-black/60 text-center">
+          {currentIndex + 1} / {vocabularies.length}
+        </div>
 
         {/* Similar Words Section */}
         {currentVocab.similarWords && currentVocab.similarWords.length > 0 && (
@@ -233,11 +303,26 @@ export default function VocabularyPage() {
                   </div>
                   <div className="space-y-3 mt-3">
                     {sim.examples.map((ex, exIdx) => {
-                      const [chinese, korean] = ex.split('|');
+                      const { chinese, korean } = parseExample(ex);
+                      const simKey = `sim-${idx}-${exIdx}`;
+                      const isSimPlaying = playingSentenceIdx === simKey;
                       return (
-                        <div key={exIdx} className="text-sm text-gray-800">
-                          <div className="font-medium text-black">{chinese}</div>
-                          {korean && <div className="text-xs text-orange-800 mt-0.5">{korean}</div>}
+                        <div key={exIdx} className="flex items-start gap-2">
+                          <button
+                            onClick={() => playSingleSentence(ex, simKey)}
+                            className={`mt-0.5 w-7 h-7 rounded-lg shrink-0 flex items-center justify-center transition-ios ${
+                              isSimPlaying
+                                ? 'bg-orange-400 text-white'
+                                : 'bg-orange-200 text-orange-700 active:scale-90'
+                            }`}
+                            aria-label={`Play sentence: ${chinese}`}
+                          >
+                            <Volume2 className="w-3.5 h-3.5" strokeWidth={2.5} />
+                          </button>
+                          <div className="flex-1 text-sm text-gray-800">
+                            <div className="font-medium text-black">{chinese}</div>
+                            {korean && <div className="text-xs text-orange-800 mt-0.5">{korean}</div>}
+                          </div>
                         </div>
                       );
                     })}
@@ -247,31 +332,6 @@ export default function VocabularyPage() {
             </div>
           </div>
         )}
-
-        <div className="flex gap-3 mt-6">
-          <button
-            onClick={handleCorrect}
-            disabled={isProcessing}
-            className={`flex-1 bg-gradient-to-br from-green-500 to-green-600 text-white py-4 px-6 rounded-2xl font-bold text-base shadow-lg transition-ios flex items-center justify-center gap-2 ${isProcessing ? 'opacity-50 cursor-not-allowed' : 'active:scale-95'
-              }`}
-          >
-            <CheckCircle2 className="w-6 h-6" strokeWidth={2.5} />
-            {isProcessing ? 'Playing...' : 'I Know'}
-          </button>
-          <button
-            onClick={handleIncorrect}
-            disabled={isProcessing}
-            className={`flex-1 bg-gradient-to-br from-red-500 to-red-600 text-white py-4 px-6 rounded-2xl font-bold text-base shadow-lg transition-ios flex items-center justify-center gap-2 ${isProcessing ? 'opacity-50 cursor-not-allowed' : 'active:scale-95'
-              }`}
-          >
-            <XCircle className="w-6 h-6" strokeWidth={2.5} />
-            {isProcessing ? 'Playing...' : "Don't Know"}
-          </button>
-        </div>
-
-        <div className="mt-4 text-sm font-bold text-black/60 text-center">
-          {currentIndex + 1} / {vocabularies.length}
-        </div>
       </div>
 
       <div className="ios-card p-5 transition-ios">

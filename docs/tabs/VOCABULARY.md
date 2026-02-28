@@ -3,7 +3,7 @@
 > **Tab**: Vocabulary  
 > **Route**: `/vocabulary`  
 > **Status**: ✅ Implemented  
-> **Last Updated**: 2026-01-31
+> **Last Updated**: 2026-02-28
 
 ## Purpose
 Learn individual Chinese words using spaced repetition with progressive hints.
@@ -66,6 +66,11 @@ Learn individual Chinese words using spaced repetition with progressive hints.
 - **Always visible** (not hidden behind hints)
 - Purple gradient background
 - Shows word in context
+- **Per-sentence TTS button**: Each example has a small Volume2 icon button (w-7 h-7, rounded-lg) on the left
+  - Normal state: `bg-purple-200 text-purple-700`
+  - Playing state: `bg-purple-400 text-white`
+  - Tap to play that single sentence; tap again while playing to stop
+  - Enables repeated listening for individual sentences
 
 ### 3. Action Buttons
 **I Know Button**:
@@ -157,13 +162,22 @@ interface LearningProgress {
    - Status may regress
 
 ### TTS Playback
-Uses Web Speech API:
+
+**Bulk TTS** (on I Know / Don't Know):
 ```typescript
 await speakChinese(characters);
-if (example) {
-  await speakChinese(example);
+if (examples) {
+  for (const example of examples) {
+    await speakChinese(example);
+  }
 }
 ```
+
+**Per-sentence TTS** (individual example buttons):
+- Each example sentence has a dedicated speaker button
+- Plays only that one sentence via `speakChinese()`
+- Tapping while playing calls `stopSpeaking()` and cancels
+- State tracked via `playingSentenceIdx` (keyed by `ex-{idx}` or `sim-{wordIdx}-{exIdx}`)
 
 ## Spaced Repetition
 
@@ -231,6 +245,27 @@ Text: white font-bold
 Shape: rounded-xl
 Shadow: shadow-md
 Active: scale-95
+```
+
+### Per-sentence TTS Button (Examples)
+```css
+Size: w-7 h-7 (28px)
+Shape: rounded-lg
+Icon: Volume2, w-3.5 h-3.5, strokeWidth-2.5
+Normal: bg-purple-200 text-purple-700
+Playing: bg-purple-400 text-white
+Active: scale-90
+Layout: flex-shrink-0, mt-0.5 (aligned to first line)
+```
+
+### Per-sentence TTS Button (Similar Words)
+```css
+Size: w-7 h-7 (28px)
+Shape: rounded-lg
+Icon: Volume2, w-3.5 h-3.5, strokeWidth-2.5
+Normal: bg-orange-200 text-orange-700
+Playing: bg-orange-400 text-white
+Active: scale-90
 ```
 
 ### Action Buttons

@@ -1,7 +1,7 @@
 # 包子 HSK 3 - Design Specification
 
 > **Version**: 1.0.0  
-> **Last Updated**: 2026-01-31  
+> **Last Updated**: 2026-02-28  
 > **Purpose**: This document serves as the single source of truth for all UI/UX specifications and feature requirements for the 包子 HSK 3 application.
 
 ---
@@ -460,13 +460,23 @@ Learn individual Chinese words using spaced repetition with progressive hints.
 
 #### 4. Example Section (Always Visible)
 ```tsx
-{currentVocab.example && (
+{currentVocab.examples && currentVocab.examples.length > 0 && (
   <div className="mt-5 p-5 bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl border border-purple-200/50 shadow-sm">
-    <div className="text-sm font-bold text-purple-900 mb-2">
-      📝 Example:
-    </div>
-    <div className="text-base text-black font-medium">
-      {currentVocab.example}
+    <div className="text-sm font-bold text-purple-900 mb-3">📝 Examples</div>
+    <div className="space-y-3">
+      {currentVocab.examples.map((example, idx) => (
+        <div key={idx} className="flex items-start gap-2">
+          <button /* Per-sentence TTS */
+            className="mt-0.5 w-7 h-7 rounded-lg shrink-0 ..."
+          >
+            <Volume2 className="w-3.5 h-3.5" />
+          </button>
+          <div className="flex-1">
+            <div className="text-base text-black font-medium">{chinese}</div>
+            {korean && <div className="text-sm text-purple-700 mt-1">{korean}</div>}
+          </div>
+        </div>
+      ))}
     </div>
   </div>
 )}
@@ -476,7 +486,10 @@ Learn individual Chinese words using spaced repetition with progressive hints.
 - Always visible (not hidden behind hints)
 - Purple gradient background
 - Border and shadow for depth
-- Example text in Chinese characters
+- **Per-sentence TTS**: Each example has a small speaker button (w-7 h-7) on the left
+  - Normal: `bg-purple-200 text-purple-700`
+  - Playing: `bg-purple-400 text-white`
+  - Tap to play individual sentence; tap again to stop
 
 #### 5. Action Buttons
 
@@ -816,6 +829,20 @@ Same as Vocabulary tab, but without isProcessing state:
 </div>
 ```
 
+#### 7. Example Story Section
+
+**Divider**: Horizontal line with label "예문으로 읽기"
+
+**Bulk TTS Button** ("듣기"): Plays all example sentences concatenated
+
+**Korean Toggle** ("한국어 보기"): Toggles Korean translations for all examples
+
+**Per-sentence TTS**: Each example sentence has a small speaker button (w-7 h-7) on the left
+- Normal: `bg-gray-200 text-gray-500`
+- Playing: `bg-blue-400 text-white`
+- Tap to play that single sentence; tap again to stop
+- Tracked via `playingSentenceIdx` state (keyed by `story-{idx}`)
+
 ### Behavior Flow
 
 #### When User Clicks Word Info Button:
@@ -824,10 +851,16 @@ Same as Vocabulary tab, but without isProcessing state:
 3. Track hint usage in progress
 4. Tooltip remains visible until user clicks elsewhere
 
-#### When User Clicks TTS Button:
+#### When User Clicks TTS Button (Main Sentence):
 1. Set isPlaying = true
 2. Play sentence TTS (await)
 3. Set isPlaying = false
+
+#### When User Clicks Per-sentence TTS Button (Story):
+1. If already playing, call `stopSpeaking()` and reset
+2. Set `playingSentenceIdx` to the sentence key
+3. Play that single sentence's Chinese text (await)
+4. Reset `playingSentenceIdx` to null
 
 #### When User Clicks "I Know":
 1. Update progress with spaced repetition algorithm
@@ -835,6 +868,7 @@ Same as Vocabulary tab, but without isProcessing state:
 3. Move to next sentence
 4. Hide translation section (showAnswer = false)
 5. Clear clickedWords Set
+6. Reset Korean toggle to OFF
 
 #### When User Clicks "Don't Know":
 1. Show translation and grammar (showAnswer = true)
@@ -856,6 +890,9 @@ currentProgress: LearningProgress | null
 showAnswer: boolean
 vocabMap: Record<string, Vocabulary>
 isPlaying: boolean
+isPlayingExamples: boolean
+showKorean: boolean
+playingSentenceIdx: string | null
 clickedWords: Set<string>
 ```
 
@@ -1752,6 +1789,13 @@ interface WritingTopic {
 ---
 
 ## Version History
+
+### v1.1.0 (2026-02-28)
+- Added per-sentence TTS buttons to Vocabulary examples section
+- Added per-sentence TTS buttons to Vocabulary similar words examples
+- Added per-sentence TTS buttons to Sentences example story section
+- Updated state management docs to include `playingSentenceIdx`
+- Verified mobile (iPhone 375x812) and desktop compatibility
 
 ### v1.0.0 (2026-01-31)
 - Initial specification document
