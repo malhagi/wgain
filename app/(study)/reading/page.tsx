@@ -63,7 +63,14 @@ export default function ReadingPage() {
     setIsPlaying(true);
     try {
       const rate = slow ?? (phase === 'listening') ? LISTENING_TTS_RATE : NORMAL_TTS_RATE;
-      await speakChinese(currentReading.content, { rate });
+      // Split into sentences and play each one sequentially to avoid TTS cutoff
+      const sentences = currentReading.content.split(/(?<=[。！？])/);
+      for (const sentence of sentences) {
+        const trimmed = sentence.trim();
+        if (trimmed) {
+          await speakChinese(trimmed, { rate });
+        }
+      }
     } finally {
       setIsPlaying(false);
       setHasListened(true);

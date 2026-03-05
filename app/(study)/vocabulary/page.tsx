@@ -8,7 +8,7 @@ import { createLearningQueue } from '@/lib/learning/learningQueue';
 import { updateProgressOnCorrect, updateProgressOnIncorrect } from '@/lib/learning/spacedRepetition';
 import ProgressiveHint from '@/components/study/ProgressiveHint';
 import type { Vocabulary, LearningProgress, HintStage, UserProgress } from '@/types';
-import { CheckCircle2, XCircle, Volume2 } from 'lucide-react';
+import { CheckCircle2, XCircle, Volume2, SkipForward } from 'lucide-react';
 import { speakChinese, stopSpeaking } from '@/lib/tts/chineseTTS';
 
 function getRandomIndex(length: number, excludeIndex: number): number {
@@ -44,18 +44,21 @@ export default function VocabularyPage() {
       setProgress(userProgress);
 
       const queue = createLearningQueue(userProgress.vocabulary);
-      if (queue.length > 0) {
-        const firstItem = queue[0];
-        const vocab = shuffledVocab.find((v) => v.id === firstItem.itemId);
-        if (vocab) {
-          const vocabProgress = getOrCreateProgress(userProgress, vocab.id, 'vocabulary');
-          setCurrentProgress(vocabProgress);
-          setCurrentIndex(shuffledVocab.findIndex((v) => v.id === vocab.id));
+      if (shuffledVocab.length > 0) {
+        let startIndex: number;
+        if (queue.length > 0) {
+          // Pick a random item from the queue
+          const randomQueueIdx = Math.floor(Math.random() * queue.length);
+          const firstItem = queue[randomQueueIdx];
+          const foundIdx = shuffledVocab.findIndex((v) => v.id === firstItem.itemId);
+          startIndex = foundIdx >= 0 ? foundIdx : Math.floor(Math.random() * shuffledVocab.length);
+        } else {
+          startIndex = Math.floor(Math.random() * shuffledVocab.length);
         }
-      } else if (shuffledVocab.length > 0) {
-        const vocab = shuffledVocab[0];
+        const vocab = shuffledVocab[startIndex];
         const vocabProgress = getOrCreateProgress(userProgress, vocab.id, 'vocabulary');
         setCurrentProgress(vocabProgress);
+        setCurrentIndex(startIndex);
       }
     }).catch(() => {
       // API load failure handled gracefully
@@ -271,6 +274,23 @@ export default function VocabularyPage() {
             {isProcessing ? 'Playing...' : "Don't Know"}
           </button>
         </div>
+
+        {/* Pass/Skip button */}
+        <button
+          onClick={() => {
+            if (isProcessing || !progress) return;
+            const nextIndex = getRandomIndex(vocabularies.length, currentIndex);
+            setCurrentIndex(nextIndex);
+            const nextVocab = vocabularies[nextIndex];
+            const nextProgress = getOrCreateProgress(progress, nextVocab.id, 'vocabulary');
+            setCurrentProgress(nextProgress);
+          }}
+          disabled={isProcessing}
+          className={`w-full mt-3 bg-gradient-to-br from-gray-400 to-gray-500 text-white py-3 px-6 rounded-2xl font-bold text-base shadow transition-ios flex items-center justify-center gap-2 ${isProcessing ? 'opacity-50 cursor-not-allowed' : 'active:scale-95'}`}
+        >
+          <SkipForward className="w-5 h-5" strokeWidth={2.5} />
+          Skip
+        </button>
 
         <div className="mt-4 text-sm font-bold text-black/60 text-center">
           {currentIndex + 1} / {vocabularies.length}

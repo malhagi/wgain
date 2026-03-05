@@ -74,8 +74,9 @@ export default function SentencesPage() {
 
     setIsPlayingExamples(true);
     try {
-      const fullText = examples.map((ex) => ex.chinese).join(' ');
-      await speakChinese(fullText);
+      for (const ex of examples) {
+        await speakChinese(ex.chinese);
+      }
     } catch (error) {
       console.error('Example TTS error:', error);
     } finally {
